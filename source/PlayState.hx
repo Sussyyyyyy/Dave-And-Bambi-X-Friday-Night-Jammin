@@ -1032,6 +1032,16 @@ class PlayState extends MusicBeatState
 		add(iconP2);
 		reloadHealthBarColors();
 
+		var kadeEngineWatermark:FlxText;
+		kadeEngineWatermark = new FlxText(4, 698);
+		kadeEngineWatermark.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		kadeEngineWatermark.scrollFactor.set();
+		var difficulty = CoolUtil.difficultyString();
+		kadeEngineWatermark.text = curSong + " - " + difficulty + " | Dave Engine (PE 0.5.2h)";
+		kadeEngineWatermark.visible = !ClientPrefs.hideHud;
+		kadeEngineWatermark.cameras = [camHUD];
+		add(kadeEngineWatermark);
+
 		scoreTxt = new FlxText(0, healthBarBG.y + 36, FlxG.width, "", 20);
 		scoreTxt.setFormat(Paths.font("vcr.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		scoreTxt.scrollFactor.set();

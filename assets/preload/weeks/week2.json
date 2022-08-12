@@ -1,0 +1,53 @@
+{
+	"storyName": "Jammer goes to Bambi's Corn Maze",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "bambinormal",
+	"weekBefore": "week1",
+	"startUnlocked": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Stealing-Suspicious",
+			"bambi",
+			[
+				0,
+				255,
+				0
+			]
+		],
+		[
+			"Milho",
+			"bambi",
+			[
+				0,
+				235,
+				0
+			]
+		],
+		[
+			"Long-Showdown",
+			"uhhh",
+			[
+				0,
+				215,
+				0
+			]
+		],
+		[
+			"Pissed",
+			"bambi-angey",
+			[
+				0,
+				115,
+				0
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Week 2"
+}

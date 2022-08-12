@@ -1,0 +1,26 @@
+{
+	"storyName": "dave's Backyard, Again. **WEEK 3 DEMO**",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "daveround2",
+	"weekBefore": "week2",
+	"startUnlocked": false,
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Second-Round",
+			"daventristan",
+			[
+				100,
+				0,
+				200
+			]
+		]
+	],
+	"weekName": "Week 3"
+}

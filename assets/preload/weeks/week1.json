@@ -1,0 +1,44 @@
+{
+	"storyName": "Dave's Backyard, except there's a furry on there",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "dave",
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Groovy-House",
+			"dave",
+			[
+				0,
+				0,
+				255
+			]
+		],
+		[
+			"Insano",
+			"dave",
+			[
+				0,
+				0,
+				155
+			]
+		],
+		[
+			"Tridimensional",
+			"dave-furiosity",
+			[
+				175,
+				0,
+				135
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Week 1"
+}

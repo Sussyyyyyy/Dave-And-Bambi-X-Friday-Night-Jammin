@@ -1,0 +1,26 @@
+{
+	"storyName": "lwyetrhyigewrnuwrgyhwgtruawykkhygsexohbywetrghyogewtrhyhwg",
+	"hideFreeplay": true,
+	"weekBackground": "sex",
+	"weekBefore": "tutorial",
+	"startUnlocked": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Tutorial",
+			"bambi-angey",
+			[
+				0,
+				0,
+				0
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"hiddenUntilUnlocked": true,
+	"weekName": "Tutorial"
+}

@@ -5,6 +5,7 @@ import flixel.graphics.FlxGraphic;
 import Discord.DiscordClient;
 #end
 import Section.SwagSection;
+import Shaders.PulseEffect;
 import Song.SwagSong;
 import WiggleEffect.WiggleEffectType;
 import flixel.FlxBasic;
@@ -153,6 +154,11 @@ class PlayState extends MusicBeatState
 
 	public var engineName:String = "";
 
+	var ohno:FlxSprite;
+
+	public var curbg:FlxSprite;
+	public var screenshader:Shaders.PulseEffect = new PulseEffect();
+
 	public var gfSpeed:Int = 1;
 	public var health:Float = 1;
 	public var combo:Int = 0;
@@ -206,6 +212,8 @@ class PlayState extends MusicBeatState
 	var phillyCityLightsEvent:FlxTypedGroup<BGSprite>;
 	var phillyCityLightsEventTween:FlxTween;
 	var trainSound:FlxSound;
+	
+	var elapsedtime:Float;
 
 	var limoKillingState:Int = 0;
 	var limo:BGSprite;
@@ -376,6 +384,8 @@ class PlayState extends MusicBeatState
 					curStage = 'school';
 				case 'thorns':
 					curStage = 'schoolEvil';
+				case 'dave':
+					curStage = 'dave';
 				default:
 					curStage = 'stage';
 			}
@@ -454,6 +464,77 @@ class PlayState extends MusicBeatState
 					stageCurtains.updateHitbox();
 					add(stageCurtains);
 				}
+			case 'dave':
+				var bg:BGSprite = new BGSprite('dave/sky', -600, -200, 0.2, 0.2);
+				add(bg);
+
+				var hills:BGSprite = new BGSprite('dave/hills', -225, -125, 0.5, 0.5);
+				hills.setGraphicSize(Std.int(hills.width * 1.25));
+				hills.updateHitbox();
+				add(hills);
+
+				var gate:BGSprite = new BGSprite('dave/gate', -226, -125, 0.9, 0.9);
+				gate.setGraphicSize(Std.int(gate.width * 1.2));
+				gate.updateHitbox();
+				add(gate);
+
+				var grass:BGSprite = new BGSprite('dave/grass', -225, -125, 0.9, 0.9);
+				grass.setGraphicSize(Std.int(grass.width * 1.2));
+				grass.updateHitbox();
+				add(grass);
+
+			case 'nightdave':
+				var bg:BGSprite = new BGSprite('dave/sky_night', -600, -200, 0.2, 0.2);
+				add(bg);
+				
+				var hills:BGSprite = new BGSprite('dave/hills', -225, -125, 0.5, 0.5);
+				hills.setGraphicSize(Std.int(hills.width * 1.25));
+				hills.updateHitbox();
+				add(hills);
+				
+				var gate:BGSprite = new BGSprite('dave/gate', -226, -125, 0.9, 0.9);
+				gate.setGraphicSize(Std.int(gate.width * 1.2));
+				gate.updateHitbox();
+				add(gate);
+				
+				var grass:BGSprite = new BGSprite('dave/grass', -225, -125, 0.9, 0.9);
+				grass.setGraphicSize(Std.int(grass.width * 1.2));
+				grass.updateHitbox();
+				add(grass);
+
+				hills.color = 0xFF878787;
+				gate.color = 0xFF878787;
+				grass.color = 0xFF878787;
+			
+			case 'redsky':
+				curStage = 'redsky';
+
+				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('dave/redsky'));
+				bg.active = true;
+
+				add(bg);
+
+				var testshader:Shaders.GlitchEffect = new Shaders.GlitchEffect();
+				testshader.waveAmplitude = 0.1;
+				testshader.waveFrequency = 5;
+				testshader.waveSpeed = 2;
+				bg.shader = testshader.shader;
+				curbg = bg;
+
+			case '3djammin':
+				curStage = '3djammin';
+
+				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic('assets/shared/images/jammer3d.png');
+				bg.active = true;
+
+				add(bg);
+
+				var testshader:Shaders.GlitchEffect = new Shaders.GlitchEffect();
+				testshader.waveAmplitude = 0.1;
+				testshader.waveFrequency = 5;
+				testshader.waveSpeed = 2;
+				bg.shader = testshader.shader;
+				curbg = bg;
 
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
@@ -858,6 +939,11 @@ class PlayState extends MusicBeatState
 			case 'schoolEvil':
 				var evilTrail = new FlxTrail(dad, null, 4, 24, 0.3, 0.069); //nice
 				insert(members.indexOf(dadGroup) - 1, evilTrail);
+
+			case 'nightdave':
+				dad.color = 0xFF878787;
+				boyfriend.color = 0xFF878787;
+				gf.color = 0xFF878787;
 		}
 
 		var file:String = Paths.json(songName + '/dialogue'); //Checks for json/Psych Engine dialogue
@@ -2245,6 +2331,15 @@ class PlayState extends MusicBeatState
 		{
 			iconP1.swapOldIcon();
 		}*/
+		elapsedtime += elapsed;
+		if (curbg != null)
+		{
+			if (curbg.active) // only the furiosity background is active
+			{
+				var shad = cast(curbg.shader, Shaders.GlitchShader);
+				shad.uTime.value[0] += elapsed;
+			}
+		}
 
 		callOnLuas('onUpdate', [elapsed]);
 

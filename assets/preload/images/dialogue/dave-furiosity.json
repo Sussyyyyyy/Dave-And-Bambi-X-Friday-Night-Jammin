@@ -1,0 +1,24 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		0,
+		30
+	],
+	"scale": 1.6,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				-135,
+				-81
+			],
+			"idle_offsets": [
+				-135,
+				-81
+			],
+			"loop_name": "dave furiosity portrait0004",
+			"idle_name": "dave furiosity portrait0004"
+		}
+	],
+	"image": "dave_furiosity"
+}

@@ -49,6 +49,7 @@ import editors.ChartingState;
 import editors.CharacterEditorState;
 import flixel.group.FlxSpriteGroup;
 import flixel.input.keyboard.FlxKey;
+import lime.app.Application;
 import Note.EventNote;
 import openfl.events.KeyboardEvent;
 import flixel.util.FlxSave;
@@ -524,7 +525,7 @@ class PlayState extends MusicBeatState
 			case '3djammin':
 				curStage = '3djammin';
 
-				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic('assets/shared/images/jammer3d.png');
+				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('dave/jammer3d'));
 				bg.active = true;
 
 				add(bg);
@@ -3025,6 +3026,16 @@ class PlayState extends MusicBeatState
 					FlxG.camera.zoom += camZoom;
 					camHUD.zoom += hudZoom;
 				}
+			
+			case 'Game Crash':
+				Sys.exit(0);
+	
+			case 'Game Message':
+				Application.current.window.alert(value2, value1);
+			
+			case 'Game Message with crash':
+				Application.current.window.alert(value2, value1);
+				Sys.exit(0);
 
 			case 'Trigger BG Ghouls':
 				if(curStage == 'schoolEvil' && !ClientPrefs.lowQuality) {

@@ -1,0 +1,24 @@
+{
+	"position": [
+		0,
+		20
+	],
+	"dialogue_pos": "left",
+	"scale": 1.8,
+	"image": "unfairnessPortrait",
+	"animations": [
+		{
+			"idle_offsets": [
+				-135,
+				-81
+			],
+			"loop_offsets": [
+				-135,
+				-81
+			],
+			"anim": "talk",
+			"idle_name": "bambi unfairness portrait0004",
+			"loop_name": "bambi unfairness portrait0004"
+		}
+	]
+}

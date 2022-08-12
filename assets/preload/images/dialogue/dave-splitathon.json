@@ -1,0 +1,24 @@
+{
+	"position": [
+		0,
+		50
+	],
+	"dialogue_pos": "left",
+	"scale": 1.45,
+	"image": "dave_splitathon",
+	"animations": [
+		{
+			"idle_offsets": [
+				-135,
+				-81
+			],
+			"loop_offsets": [
+				-135,
+				-81
+			],
+			"anim": "talk",
+			"idle_name": "dave splitathon portrait0004",
+			"loop_name": "dave splitathon portrait0004"
+		}
+	]
+}

@@ -666,13 +666,13 @@ class ChartingState extends MusicBeatState
 		tab_group_song.add(player2DropDown);
 		tab_group_song.add(player3DropDown);
 		tab_group_song.add(player1DropDown);
-		tab_group_song.add(stageDropDown);
 		tab_group_song.add(showPsychEngineMark);
 		tab_group_song.add(new FlxText(engineNameInputText.x, engineNameInputText.y - 15, 0, 'Engine Name:'));
 		tab_group_song.add(engineNameInputText);
 		tab_group_song.add(screwYouTextInput);
 		tab_group_song.add(addScrewYouTextCheckbox);
 		tab_group_song.add(screwYouLabel);
+		tab_group_song.add(stageDropDown);
 
 		UI_box.addGroup(tab_group_song);
 

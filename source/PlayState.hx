@@ -537,6 +537,116 @@ class PlayState extends MusicBeatState
 				bg.shader = testshader.shader;
 				curbg = bg;
 
+			case 'bambi':
+				{
+					defaultCamZoom = 0.9;
+					curStage = 'bambi';
+		
+					var bg:FlxSprite = new FlxSprite(-700, 0).loadGraphic(Paths.image('dave/sky'));
+					bg.antialiasing = true;
+					bg.scrollFactor.set(0.9, 0.9);
+					bg.active = false;
+		
+					var hills:FlxSprite = new FlxSprite(-250, 200).loadGraphic(Paths.image('dave/orangey hills'));
+					hills.antialiasing = true;
+					hills.scrollFactor.set(0.7, 0.7);
+					hills.active = false;
+		
+					var farm:FlxSprite = new FlxSprite(150, 250).loadGraphic(Paths.image('dave/funfarmhouse'));
+					farm.antialiasing = true;
+					farm.scrollFactor.set(0.9, 0.9);
+					farm.active = false;
+					
+					var foreground:FlxSprite = new FlxSprite(-400, 600).loadGraphic(Paths.image('dave/grass lands'));
+					foreground.antialiasing = true;
+					foreground.scrollFactor.set(1, 1);
+					foreground.active = false;
+					
+					var cornSet:FlxSprite = new FlxSprite(-350, 325).loadGraphic(Paths.image('dave/Cornys'));
+					cornSet.antialiasing = true;
+					cornSet.scrollFactor.set(1, 1);
+					cornSet.active = false;
+					
+					var cornSet2:FlxSprite = new FlxSprite(1050, 325).loadGraphic(Paths.image('dave/Cornys'));
+					cornSet2.antialiasing = true;
+					cornSet2.scrollFactor.set(1, 1);
+					cornSet2.active = false;
+					
+					var fence:FlxSprite = new FlxSprite(-350, 450).loadGraphic(Paths.image('dave/crazy fences'));
+					fence.antialiasing = true;
+					fence.scrollFactor.set(0.98, 0.98);
+					fence.active = false;
+		
+					var sign:FlxSprite = new FlxSprite(0, 500).loadGraphic(Paths.image('dave/sign'));
+					sign.antialiasing = true;
+					sign.scrollFactor.set(1, 1);
+					sign.active = false;
+		
+					add(bg);
+					add(hills);
+					add(farm);
+					add(foreground);
+					add(cornSet);
+					add(cornSet2);
+					add(fence);
+					add(sign);
+				}
+
+				case 'nightbambi':
+				{
+					defaultCamZoom = 0.9;
+					curStage = 'nightbambi';
+			
+					var bg:FlxSprite = new FlxSprite(-700, 0).loadGraphic(Paths.image('dave/sky_night'));
+					bg.antialiasing = true;
+					bg.scrollFactor.set(0.9, 0.9);
+					bg.active = false;
+			
+					var hills:FlxSprite = new FlxSprite(-250, 200).loadGraphic(Paths.image('dave/orangey hills'));
+					hills.antialiasing = true;
+					hills.scrollFactor.set(0.7, 0.7);
+					hills.active = false;
+			
+					var farm:FlxSprite = new FlxSprite(150, 250).loadGraphic(Paths.image('dave/funfarmhouse'));
+					farm.antialiasing = true;
+					farm.scrollFactor.set(0.9, 0.9);
+					farm.active = false;
+					
+					var foreground:FlxSprite = new FlxSprite(-400, 600).loadGraphic(Paths.image('dave/grass lands'));
+					foreground.antialiasing = true;
+					foreground.scrollFactor.set(1, 1);
+					foreground.active = false;
+					
+					var cornSet:FlxSprite = new FlxSprite(-350, 325).loadGraphic(Paths.image('dave/Cornys'));
+					cornSet.antialiasing = true;
+					cornSet.scrollFactor.set(1, 1);
+					cornSet.active = false;
+					
+					var cornSet2:FlxSprite = new FlxSprite(1050, 325).loadGraphic(Paths.image('dave/Cornys'));
+					cornSet2.antialiasing = true;
+					cornSet2.scrollFactor.set(1, 1);
+					cornSet2.active = false;
+					
+					var fence:FlxSprite = new FlxSprite(-350, 450).loadGraphic(Paths.image('dave/crazy fences'));
+					fence.antialiasing = true;
+					fence.scrollFactor.set(0.98, 0.98);
+					fence.active = false;
+			
+					var sign:FlxSprite = new FlxSprite(0, 500).loadGraphic(Paths.image('dave/sign'));
+					sign.antialiasing = true;
+					sign.scrollFactor.set(1, 1);
+					sign.active = false;
+			
+					add(bg);
+					add(hills);
+					add(farm);
+					add(foreground);
+					add(cornSet);
+					add(cornSet2);
+					add(fence);
+					add(sign);
+				}
+
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
 					halloweenBG = new BGSprite('halloween_bg', -200, -100, ['halloweem bg0', 'halloweem bg lightning strike']);
@@ -941,7 +1051,7 @@ class PlayState extends MusicBeatState
 				var evilTrail = new FlxTrail(dad, null, 4, 24, 0.3, 0.069); //nice
 				insert(members.indexOf(dadGroup) - 1, evilTrail);
 
-			case 'nightdave':
+			case 'nightdave' | 'nightbambi':
 				dad.color = 0xFF878787;
 				boyfriend.color = 0xFF878787;
 				gf.color = 0xFF878787;

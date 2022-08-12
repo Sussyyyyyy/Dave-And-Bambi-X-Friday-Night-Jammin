@@ -1,0 +1,164 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer-scared",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer-scared",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Where am I?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "dave-bambiweek",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "You are in my backyard, you know."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer-scared",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Oh."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "dave",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Anyway, are you ok?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "dave-bambiweek",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "also what even are you"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Yes, I'm ok."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Also, I'm kind of a furry-looking thing called a Kaiju."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "dave-bambiweek",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "no shit you're godzilla's son"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "shut up"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "dave",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Anyway, what brings you here to my backyard?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer-scared",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I don't even know how I got here in the first place."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer-scared",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I just fell unconscious and got randomly teleported here."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "dave",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Well that's weird."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "dave",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Also."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "dave",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I just noticed you have a mic in your hand."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Yes, I do, why do you ask?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "dave",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Wanna have a rap battle?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Sure, why not?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "What could possibly go wrong?"
+		}
+	]
+}

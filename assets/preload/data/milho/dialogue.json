@@ -1,0 +1,220 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "bambi",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "alright I did your funny rap battle"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "bambi",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "now get out"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "bambi",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "cause I ain't giving you corn"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Uh, no?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I'm not leaving."
+		},
+		{
+			"sound": "",
+			"speed": 0.5,
+			"portrait": "bambi-maze",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "bro"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "bambi-maze",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I'm literally giving you a chance to leave me alone"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "bambi-maze",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "and you won't even take it?"
+		},
+		{
+			"sound": "",
+			"speed": 0.3,
+			"portrait": "bambi",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "what a pu-"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer-scared",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "LANGUAGE"
+		},
+		{
+			"sound": "",
+			"speed": 0.5,
+			"portrait": "bambi",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "..."
+		},
+		{
+			"sound": "",
+			"speed": 0.5,
+			"portrait": "bambi-corn-theft",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "..."
+		},
+		{
+			"sound": "",
+			"speed": 0.005,
+			"portrait": "bambi-corn-theft",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUS-"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "jammer-scared",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "OH My GOD DO YOU WANT THE DAMN REASON OF WHY I'M NOT LEAVING?????"
+		},
+		{
+			"sound": "",
+			"speed": 0.25,
+			"portrait": "bambi",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "go on\\nsay it"
+		},
+		{
+			"sound": "",
+			"speed": 0.25,
+			"portrait": "bambi",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "you have no balls to say why"
+		},
+		{
+			"sound": "",
+			"speed": 0.02,
+			"portrait": "jammer-scared",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "DAVE."
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "jammer-scared",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "DAVE SENT ME HERE AS AN APOLOGY FOR ALMOST TURNING EVERYONE 3D."
+		},
+		{
+			"sound": "",
+			"speed": 0.15,
+			"portrait": "bambi-maze",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "oh"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "bambi",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I'm not believing you"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer-scared",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "why do you hate me that much"
+		},
+		{
+			"sound": "",
+			"speed": 0.005,
+			"portrait": "bambi-corn-theft",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "yes"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "bambi",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "now leave"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "no"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "bambi-maze",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "if I rap battle you again then will you leave for good?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Probably."
+		},
+		{
+			"sound": "",
+			"speed": 0.5,
+			"portrait": "bambi",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "good"
+		}
+	]
+}

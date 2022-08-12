@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				20,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "balls down"
+		},
+		{
+			"offsets": [
+				20,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "balls left"
+		},
+		{
+			"offsets": [
+				20,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "balls right"
+		},
+		{
+			"offsets": [
+				20,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "balls up"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				20,
+				0
+			],
+			"anim": "idle",
+			"fps": 14,
+			"name": "balls idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/balls",
+	"position": [
+		-900,
+		-660
+	],
+	"healthicon": "balls",
+	"flip_x": false,
+	"healthbar_colors": [
+		175,
+		120,
+		215
+	],
+	"camera_position": [
+		480,
+		700
+	],
+	"sing_duration": 6.1,
+	"scale": 0.4
+}

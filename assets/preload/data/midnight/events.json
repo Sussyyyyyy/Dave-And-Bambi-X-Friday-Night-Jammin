@@ -1,0 +1,18 @@
+{
+	"song": {
+		"speed": 2.8,
+		"stage": "nightdave",
+		"player1": "jammer-small",
+		"player2": "dave-splitathon",
+		"player3": null,
+		"events": [],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "nogf",
+		"bpm": 100,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "midnight"
+	}
+}

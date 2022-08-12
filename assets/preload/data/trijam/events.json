@@ -1,0 +1,119 @@
+{
+	"song": {
+		"speed": 2.7,
+		"stage": "3djammin",
+		"player1": "bf",
+		"player2": "jammer-small",
+		"player3": null,
+		"events": [
+			[
+				0,
+				[
+					[
+						"noteskinchangeOPPT",
+						"NOTE_assets_3D",
+						""
+					]
+				]
+			],
+			[
+				15,
+				[
+					[
+						"camera bounce",
+						"",
+						""
+					]
+				]
+			],
+			[
+				30,
+				[
+					[
+						"shakey arrows WHAT",
+						"30",
+						"30"
+					]
+				]
+			],
+			[
+				37.5,
+				[
+					[
+						"Flashing Camera",
+						"",
+						""
+					]
+				]
+			],
+			[
+				1920,
+				[
+					[
+						"Image Flash",
+						"ez",
+						"3"
+					]
+				]
+			],
+			[
+				46080,
+				[
+					[
+						"Gain",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				46085,
+				[
+					[
+						"Hide Hud",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				61440,
+				[
+					[
+						"Gain",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				61445,
+				[
+					[
+						"Hide Hud",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				136320,
+				[
+					[
+						"Change Scroll Speed",
+						"4",
+						"2"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 125,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "trijam"
+	}
+}

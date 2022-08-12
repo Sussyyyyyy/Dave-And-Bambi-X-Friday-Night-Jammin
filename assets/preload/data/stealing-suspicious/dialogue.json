@@ -1,0 +1,124 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Guess that farm is located here.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer"
+		},
+		{
+			"expression": "talk",
+			"text": "HEY!",
+			"boxState": "angry",
+			"sound": "",
+			"speed": 0.02,
+			"portrait": "bambi"
+		},
+		{
+			"expression": "talk",
+			"text": "EH",
+			"boxState": "angry",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer-scared"
+		},
+		{
+			"expression": "talk",
+			"text": "WHAT R U DOING ON MY FARM!!!!!!!!!!!!!!!!!!",
+			"boxState": "angry",
+			"sound": "",
+			"speed": 0.02,
+			"portrait": "bambi"
+		},
+		{
+			"expression": "talk",
+			"text": "ALSO WHY DO U REMIND ME OF A FURRY!!!!!!!!\\n!!!!!!!!!!!!!",
+			"boxState": "angry",
+			"sound": "",
+			"speed": 0.02,
+			"portrait": "bambi"
+		},
+		{
+			"expression": "talk",
+			"text": "I swear to damn god if someone calls me a furry again.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer-scared"
+		},
+		{
+			"expression": "talk",
+			"text": "furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry vv",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.00500000000000001,
+			"portrait": "bambi-corn-theft"
+		},
+		{
+			"expression": "talk",
+			"text": "ALRIGHT THAT'S IT.",
+			"boxState": "angry",
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "jammer-scared"
+		},
+		{
+			"expression": "talk",
+			"text": "I DON'T EVEN KNOW WHO YOU ARE AND YOU ALREADY PISSED ME OFF.",
+			"boxState": "angry",
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "jammer-scared"
+		},
+		{
+			"expression": "talk",
+			"text": "good",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.5,
+			"portrait": "bambi-corn-theft"
+		},
+		{
+			"expression": "talk",
+			"text": "YOU KNOW WHAT?",
+			"boxState": "angry",
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "jammer-scared"
+		},
+		{
+			"expression": "talk",
+			"text": "RAP BATTLE",
+			"boxState": "angry",
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "jammer-scared"
+		},
+		{
+			"expression": "talk",
+			"text": "I could easily beat you bozo",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "bambi"
+		},
+		{
+			"expression": "talk",
+			"text": "prove it then",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer"
+		},
+		{
+			"expression": "talk",
+			"text": "good luck then",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.45,
+			"portrait": "bambi"
+		}
+	]
+}

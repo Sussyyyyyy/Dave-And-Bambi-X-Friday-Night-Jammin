@@ -1,0 +1,104 @@
+{
+	"storyName": "No.",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "sex",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"--extra songs--",
+			"nothing",
+			[
+				0,
+				0,
+				0
+			]
+		],
+		[
+			"Cheater-Mayhem",
+			"tru",
+			[
+				60,
+				0,
+				0
+			]
+		],
+		[
+			"Finis-Mundi",
+			"him",
+			[
+				60,
+				0,
+				0
+			]
+		],
+		[
+			"Trijam",
+			"jammer",
+			[
+				0,
+				0,
+				153
+			]
+		],
+		[
+			"Battle-For-Bambi",
+			"bambi",
+			[
+				0,
+				195,
+				0
+			]
+		],
+		[
+			"Midnight",
+			"dave",
+			[
+				0,
+				0,
+				180
+			]
+		],
+		[
+			"--Joke--",
+			"nothing",
+			[
+				0,
+				0,
+				0
+			]
+		],
+		[
+			"Vs-Dave-Easter",
+			"bambi-joke",
+			[
+				0,
+				255,
+				0
+			]
+		],
+		[
+			"Vs-Dave-July",
+			"sexo",
+			[
+				100,
+				255,
+				0
+			]
+		]
+	],
+	"weekCharacters": [
+		"bf",
+		"bf",
+		"bf"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Custom Week"
+}

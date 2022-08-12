@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="sexo.png">
+<SubTexture name="idle0000" x="0" y="0" width="224" height="347" frameX="-57" frameY="-31" frameWidth="358" frameHeight="401" />
+</TextureAtlas>

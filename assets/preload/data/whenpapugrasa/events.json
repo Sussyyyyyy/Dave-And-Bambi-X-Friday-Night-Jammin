@@ -1,0 +1,49 @@
+{
+	"song": {
+		"speed": 2.1,
+		"stage": "elpepeetesech",
+		"player1": "bambi",
+		"player2": "dave",
+		"player3": null,
+		"events": [
+			[
+				8823.52941176471,
+				[
+					[
+						"shakey arrows WHAT",
+						"7685",
+						"687"
+					]
+				]
+			],
+			[
+				9176.47058823529,
+				[
+					[
+						"WindowMove",
+						"23",
+						"1000"
+					]
+				]
+			],
+			[
+				10500,
+				[
+					[
+						"WindowMove",
+						"69",
+						"69"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "redactedplaceholder",
+		"bpm": 170,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "whenpapugrasa"
+	}
+}

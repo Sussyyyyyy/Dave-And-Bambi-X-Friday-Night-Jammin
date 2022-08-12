@@ -1,0 +1,39 @@
+{
+	"song": {
+		"speed": 3,
+		"stage": "nobody",
+		"player1": "jammer",
+		"player2": "nogf",
+		"player3": null,
+		"events": [
+			[
+				2988.50574712644,
+				[
+					[
+						"Change Scroll Speed",
+						"99999",
+						"0"
+					]
+				]
+			],
+			[
+				3678.16091954023,
+				[
+					[
+						"FlipUI",
+						"",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "nogf",
+		"bpm": 339,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "--extra-songs--"
+	}
+}

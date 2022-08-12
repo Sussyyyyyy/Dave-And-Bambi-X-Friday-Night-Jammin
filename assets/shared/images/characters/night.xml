@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="night.png"><SubTexture name="night idle0000" x="0" y="0" width="412" height="814" frameX="0" frameY="0" frameWidth="412" frameHeight="814" />
+<SubTexture name="night left0000" x="412" y="0" width="412" height="814" frameX="0" frameY="0" frameWidth="412" frameHeight="814" />
+<SubTexture name="night down0000" x="0" y="814" width="412" height="814" frameX="0" frameY="0" frameWidth="412" frameHeight="814" />
+<SubTexture name="night up0000" x="412" y="814" width="412" height="814" frameX="0" frameY="0" frameWidth="412" frameHeight="814" />
+<SubTexture name="night right0000" x="0" y="1628" width="412" height="814" frameX="0" frameY="0" frameWidth="412" frameHeight="814" />
+</TextureAtlas>

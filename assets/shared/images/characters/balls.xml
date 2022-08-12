@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="balls.png"><SubTexture name="balls idle0000" x="0" y="0" width="2163" height="2146" frameX="0" frameY="0" frameWidth="2163" frameHeight="2146" />
+<SubTexture name="balls idle0001" x="2163" y="0" width="2163" height="2146" frameX="0" frameY="0" frameWidth="2163" frameHeight="2146" />
+<SubTexture name="balls left0000" x="0" y="2146" width="2163" height="2146" frameX="0" frameY="0" frameWidth="2163" frameHeight="2146" />
+<SubTexture name="balls right0000" x="2163" y="2146" width="2163" height="2146" frameX="0" frameY="0" frameWidth="2163" frameHeight="2146" />
+<SubTexture name="balls up0000" x="0" y="4292" width="2163" height="2146" frameX="0" frameY="0" frameWidth="2163" frameHeight="2146" />
+<SubTexture name="balls down0000" x="2163" y="4292" width="2163" height="2146" frameX="0" frameY="0" frameWidth="2163" frameHeight="2146" />
+</TextureAtlas>

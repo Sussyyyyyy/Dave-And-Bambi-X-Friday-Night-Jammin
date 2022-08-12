@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				6,
+				-92
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "IDLE0"
+		},
+		{
+			"offsets": [
+				60,
+				-100
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "LEFT0"
+		},
+		{
+			"offsets": [
+				2,
+				-99
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "DOWN0"
+		},
+		{
+			"offsets": [
+				-19,
+				-96
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "UP0"
+		},
+		{
+			"offsets": [
+				39,
+				-75
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "RIGHT0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Dave_Furiosity",
+	"position": [
+		150,
+		0
+	],
+	"healthicon": "dave-furiosity",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		162,
+		195
+	],
+	"camera_position": [
+		-170,
+		120
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

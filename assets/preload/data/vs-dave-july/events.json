@@ -1,0 +1,109 @@
+{
+	"song": {
+		"speed": 4.5,
+		"stage": "nobody",
+		"player1": "bf",
+		"player2": "bambi",
+		"player3": null,
+		"events": [
+			[
+				0,
+				[
+					[
+						"Image Flash",
+						"chiste",
+						"3"
+					]
+				]
+			],
+			[
+				5866.66666666667,
+				[
+					[
+						"Change Character",
+						"1",
+						"sexombi"
+					]
+				]
+			],
+			[
+				21600,
+				[
+					[
+						"Gain",
+						"3",
+						""
+					]
+				]
+			],
+			[
+				24066.6666666667,
+				[
+					[
+						"Gain",
+						"3",
+						""
+					]
+				]
+			],
+			[
+				24866.6666666667,
+				[
+					[
+						"Gain",
+						"3",
+						""
+					]
+				]
+			],
+			[
+				29466.6666666667,
+				[
+					[
+						"Gain",
+						"3",
+						""
+					]
+				]
+			],
+			[
+				34808.3333333333,
+				[
+					[
+						"Change Character",
+						"1",
+						"dave"
+					]
+				]
+			],
+			[
+				39413.3333333333,
+				[
+					[
+						"Change Character",
+						"1",
+						"3dbambi"
+					]
+				]
+			],
+			[
+				41153.3333333333,
+				[
+					[
+						"Change Character",
+						"1",
+						"sexombi"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 225,
+		"arrowSkin": null,
+		"needsVoices": false,
+		"song": "vs-dave-july"
+	}
+}

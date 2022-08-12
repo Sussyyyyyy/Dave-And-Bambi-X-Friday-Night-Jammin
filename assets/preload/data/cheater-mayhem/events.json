@@ -1,0 +1,209 @@
+{
+	"song": {
+		"speed": 2.3,
+		"stage": "ohno",
+		"player1": "jammer-medium-scared",
+		"player2": "expunged",
+		"player3": null,
+		"events": [
+			[
+				0,
+				[
+					[
+						"noteskinchangeOPPT",
+						"INVIS_NOTE_assets",
+						""
+					]
+				]
+			],
+			[
+				7.8125,
+				[
+					[
+						"shakey arrows complex",
+						"100",
+						"10"
+					]
+				]
+			],
+			[
+				15.625,
+				[
+					[
+						"Image Flash",
+						"insane",
+						"3"
+					]
+				]
+			],
+			[
+				16000,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				32000,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				48000,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				56000,
+				[
+					[
+						"Gain",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				60000,
+				[
+					[
+						"Gain",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				64000,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				72000,
+				[
+					[
+						"Gain",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				76000,
+				[
+					[
+						"Gain",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				80000,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				96000,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				96015.625,
+				[
+					[
+						"Hide Hud",
+						"vineboom",
+						"1"
+					]
+				]
+			],
+			[
+				100000,
+				[
+					[
+						"BF Fade",
+						"18",
+						"100"
+					]
+				]
+			],
+			[
+				108000,
+				[
+					[
+						"lyrics",
+						"Goodbye, Jammer.",
+						"ff0000, 60"
+					]
+				]
+			],
+			[
+				110000,
+				[
+					[
+						"lyrics",
+						"Hope you live well in heaven.",
+						"ff0000, 60"
+					]
+				]
+			],
+			[
+				112000,
+				[
+					[
+						"lyrics",
+						"",
+						""
+					]
+				]
+			],
+			[
+				112005.208333333,
+				[
+					[
+						"Image Flash",
+						"twoleft",
+						"10"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "nogf",
+		"bpm": 120,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "cheater-mayhem"
+	}
+}

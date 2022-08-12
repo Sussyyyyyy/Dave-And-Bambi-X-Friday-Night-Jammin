@@ -2342,6 +2342,20 @@ class PlayState extends MusicBeatState
 			}
 		}
 
+		if (cpuControlled)
+		{	
+			cpuControlled = false;
+			botplayTxt.visible = true;
+			botplayTxt.text = "I diagnose you with SEVERE skill issue";
+		}
+
+		if (practiceMode)
+		{	
+			practiceMode = false;
+			botplayTxt.visible = true;
+			botplayTxt.text = "I diagnose you with skill issue";
+		}
+
 		callOnLuas('onUpdate', [elapsed]);
 
 		switch (curStage)
@@ -2779,6 +2793,7 @@ class PlayState extends MusicBeatState
 		setOnLuas('cameraY', camFollowPos.y);
 		setOnLuas('botPlay', cpuControlled);
 		callOnLuas('onUpdatePost', [elapsed]);
+
 	}
 
 	function openChartEditor()

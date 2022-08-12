@@ -214,7 +214,11 @@ class ChartingState extends MusicBeatState
 				gfVersion: 'gf',
 				speed: 1,
 				stage: 'stage',
-				validScore: false
+				validScore: false,
+				showPsychEngineMark: true,
+				engineName: '',
+				screwYou: '',
+				addScrewYouText: false
 			};
 			addSection();
 			PlayState.SONG = _song;
@@ -389,7 +393,11 @@ class ChartingState extends MusicBeatState
 	var UI_songTitle:FlxUIInputText;
 	var noteSkinInputText:FlxUIInputText;
 	var noteSplashesInputText:FlxUIInputText;
+	var engineNameInputText:FlxUIInputText;
+	var addScrewYouTextCheckbox:FlxUICheckBox = null;
+	var screwYouTextInput:FlxUIInputText;
 	var stageDropDown:FlxUIDropDownMenuCustom;
+	var screwYouLabel:FlxText;
 	function addSongUI():Void
 	{
 		UI_songTitle = new FlxUIInputText(10, 10, 70, _song.song, 8);
@@ -577,6 +585,42 @@ class ChartingState extends MusicBeatState
 		stageDropDown.selectedLabel = _song.stage;
 		blockPressWhileScrolling.push(stageDropDown);
 
+		var showPsychEngineMark = new FlxUICheckBox(stepperBPM.x + 80, stepperBPM.y, null, null, "Show PE Watermark", 100);
+		showPsychEngineMark.checked = _song.showPsychEngineMark;
+		showPsychEngineMark.callback = function()
+		{
+			_song.showPsychEngineMark = showPsychEngineMark.checked;
+		};
+
+		engineNameInputText = new FlxUIInputText(150, player3DropDown.y, 150, null, 8);
+		engineNameInputText.text = _song.engineName;
+		blockPressWhileTypingOn.push(engineNameInputText);
+
+		addScrewYouTextCheckbox = new FlxUICheckBox(engineNameInputText.x, engineNameInputText.y + 25, null, null, "Add Screw You Text", 100);
+
+		screwYouTextInput = new FlxUIInputText(addScrewYouTextCheckbox.x, addScrewYouTextCheckbox.y + 35, 150, null, 8);
+		if (_song.screwYou == null)
+		{
+			screwYouTextInput.text = 'Screw you!';
+		}
+		else
+		{
+			screwYouTextInput.text = _song.screwYou;
+		}
+		screwYouTextInput.visible = false;
+		blockPressWhileTypingOn.push(screwYouTextInput);
+
+		screwYouLabel = new FlxText(screwYouTextInput.x, screwYouTextInput.y - 15, 0, 'Screw You Text:');
+		screwYouLabel.visible = false;
+
+		addScrewYouTextCheckbox.checked = _song.addScrewYouText;
+		addScrewYouTextCheckbox.callback = function()
+		{
+			screwYouTextInput.visible = addScrewYouTextCheckbox.checked;
+			screwYouLabel.visible = addScrewYouTextCheckbox.checked;
+			_song.addScrewYouText = addScrewYouTextCheckbox.checked;
+		}
+
 		var skin = PlayState.SONG.arrowSkin;
 		if(skin == null) skin = '';
 		noteSkinInputText = new FlxUIInputText(player2DropDown.x, player2DropDown.y + 50, 150, skin, 8);
@@ -620,6 +664,12 @@ class ChartingState extends MusicBeatState
 		tab_group_song.add(player3DropDown);
 		tab_group_song.add(player1DropDown);
 		tab_group_song.add(stageDropDown);
+		tab_group_song.add(showPsychEngineMark);
+		tab_group_song.add(new FlxText(engineNameInputText.x, engineNameInputText.y - 15, 0, 'Engine Name:'));
+		tab_group_song.add(engineNameInputText);
+		tab_group_song.add(screwYouTextInput);
+		tab_group_song.add(addScrewYouTextCheckbox);
+		tab_group_song.add(screwYouLabel);
 
 		UI_box.addGroup(tab_group_song);
 
@@ -1451,6 +1501,17 @@ class ChartingState extends MusicBeatState
 	var colorSine:Float = 0;
 	override function update(elapsed:Float)
 	{
+		if (addScrewYouTextCheckbox.checked)
+		{
+			screwYouLabel.visible = true;
+			screwYouTextInput.visible = true;
+		}
+		else
+		{
+			screwYouLabel.visible = false;
+			screwYouTextInput.visible = false;
+		}
+
 		curStep = recalculateSteps();
 
 		if(FlxG.sound.music.time < 0) {
@@ -1464,7 +1525,8 @@ class ChartingState extends MusicBeatState
 		}
 		Conductor.songPosition = FlxG.sound.music.time;
 		_song.song = UI_songTitle.text;
-
+		_song.engineName = engineNameInputText.text;
+		_song.screwYou = screwYouTextInput.text;
 		strumLine.y = getYfromStrum((Conductor.songPosition - sectionStartTime()) / zoomList[curZoom] % (Conductor.stepCrochet * _song.notes[curSection].lengthInSteps));
 		for (i in 0...8){
 			strumLineNotes.members[i].y = strumLine.y;
@@ -2764,7 +2826,11 @@ class ChartingState extends MusicBeatState
 			player3: null,
 			gfVersion: _song.gfVersion,
 			stage: _song.stage,
-			validScore: false
+			validScore: false,
+			showPsychEngineMark: _song.showPsychEngineMark,
+			engineName: _song.engineName,
+			screwYou: _song.screwYou,
+			addScrewYouText: _song.addScrewYouText
 		};
 		var json = {
 			"song": eventsSong

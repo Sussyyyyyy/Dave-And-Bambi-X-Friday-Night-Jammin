@@ -119,6 +119,8 @@ class PlayState extends MusicBeatState
 	public static var storyPlaylist:Array<String> = [];
 	public static var storyDifficulty:Int = 1;
 
+	public static var thisSongHasScrewYouText:Bool = false;
+
 	public var vocals:FlxSound;
 
 	public var dad:Character = null;
@@ -142,8 +144,14 @@ class PlayState extends MusicBeatState
 	public var playerStrums:FlxTypedGroup<StrumNote>;
 	public var grpNoteSplashes:FlxTypedGroup<NoteSplash>;
 
+	public static var kadeEngineWatermark:FlxText;
+
+	public static var screwYouText:FlxText;
+
 	public var camZooming:Bool = false;
 	private var curSong:String = "";
+
+	public var engineName:String = "";
 
 	public var gfSpeed:Int = 1;
 	public var health:Float = 1;
@@ -1032,15 +1040,52 @@ class PlayState extends MusicBeatState
 		add(iconP2);
 		reloadHealthBarColors();
 
-		var kadeEngineWatermark:FlxText;
-		kadeEngineWatermark = new FlxText(4, 698);
-		kadeEngineWatermark.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		kadeEngineWatermark.scrollFactor.set();
-		var difficulty = CoolUtil.difficultyString();
-		kadeEngineWatermark.text = curSong + " - " + difficulty + " | Dave Engine (PE 0.5.2h)";
-		kadeEngineWatermark.visible = !ClientPrefs.hideHud;
-		kadeEngineWatermark.cameras = [camHUD];
-		add(kadeEngineWatermark);
+		if (thisSongHasScrewYouText)
+		{
+			kadeEngineWatermark = new FlxText(4, 680);
+			kadeEngineWatermark.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+			kadeEngineWatermark.scrollFactor.set();
+			var difficulty = CoolUtil.difficultyString();
+			if (engineName != null || engineName != '')
+			{
+				kadeEngineWatermark.text = curSong + " - " + difficulty + " | " + engineName + (SONG.showPsychEngineMark ? "(PE 0.5.2h)" : "");
+			}
+			else
+			{
+				kadeEngineWatermark.text = curSong + " - " + difficulty + (SONG.showPsychEngineMark ? " (PE 0.5.2h)" : "");
+			}
+			kadeEngineWatermark.text = curSong + " - " + difficulty + " | " + engineName + (SONG.showPsychEngineMark ? "(PE 0.5.2h)" : "");
+			kadeEngineWatermark.visible = !ClientPrefs.hideHud;
+			kadeEngineWatermark.cameras = [camHUD];
+			add(kadeEngineWatermark);
+
+			screwYouText = new FlxText(4, 698);
+			screwYouText.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+			screwYouText.scrollFactor.set();
+			screwYouText.text = SONG.screwYou;
+			screwYouText.visible = !ClientPrefs.hideHud;
+			screwYouText.cameras = [camHUD];
+			add(screwYouText);
+		}
+		else
+		{
+			kadeEngineWatermark = new FlxText(4, 698);
+			kadeEngineWatermark.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+			kadeEngineWatermark.scrollFactor.set();
+			var difficulty = CoolUtil.difficultyString();
+			if (engineName != null || engineName != '')
+			{
+				kadeEngineWatermark.text = curSong + " - " + difficulty + " | " + engineName + (SONG.showPsychEngineMark ? "(PE 0.5.2h)" : "");
+			}
+			else
+			{
+				kadeEngineWatermark.text = curSong + " - " + difficulty + (SONG.showPsychEngineMark ? " (PE 0.5.2h)" : "");
+			}
+			kadeEngineWatermark.text = curSong + " - " + difficulty + " | " + engineName + (SONG.showPsychEngineMark ? "(PE 0.5.2h)" : "");
+			kadeEngineWatermark.visible = !ClientPrefs.hideHud;
+			kadeEngineWatermark.cameras = [camHUD];
+			add(kadeEngineWatermark);
+		}
 
 		scoreTxt = new FlxText(0, healthBarBG.y + 36, FlxG.width, "", 20);
 		scoreTxt.setFormat(Paths.font("vcr.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
@@ -1780,6 +1825,11 @@ class PlayState extends MusicBeatState
 		// FlxG.log.add(ChartParser.parse());
 		songSpeedType = ClientPrefs.getGameplaySetting('scrolltype','multiplicative');
 
+		if (SONG.addScrewYouText)
+		{
+			thisSongHasScrewYouText = true;
+		}
+
 		switch(songSpeedType)
 		{
 			case "multiplicative":
@@ -1792,6 +1842,14 @@ class PlayState extends MusicBeatState
 		Conductor.changeBPM(songData.bpm);
 		
 		curSong = songData.song;
+
+		engineName = songData.engineName;
+
+		if (engineName == null)
+		{
+			trace("oh no, engineName is returning null NOOOO, changing to No Engine");
+			engineName = 'No Engine';
+		}
 
 		if (SONG.needsVoices)
 			vocals = new FlxSound().loadEmbedded(Paths.voices(PlayState.SONG.song));

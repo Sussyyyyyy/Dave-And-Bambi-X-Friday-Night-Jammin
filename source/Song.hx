@@ -19,7 +19,11 @@ typedef SwagSong =
 	var events:Array<Dynamic>;
 	var bpm:Float;
 	var needsVoices:Bool;
+	var showPsychEngineMark:Bool;
+	var engineName:String;
 	var speed:Float;
+	var screwYou:String;
+	var addScrewYouText:Bool;
 
 	var player1:String;
 	var player2:String;
@@ -39,6 +43,10 @@ class Song
 	public var events:Array<Dynamic>;
 	public var bpm:Float;
 	public var needsVoices:Bool = true;
+	public var showPsychEngineMark:Bool = true;
+	public var engineName:String = 'No Engine';
+	public var screwYou:String = 'Screw you!';
+	public var addScrewYouText:Bool = false;
 	public var arrowSkin:String;
 	public var splashSkin:String;
 	public var speed:Float = 1;

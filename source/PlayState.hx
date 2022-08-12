@@ -2342,6 +2342,9 @@ class PlayState extends MusicBeatState
 			}
 		}
 
+		#if debug
+		//do nothing
+		#else
 		if (cpuControlled)
 		{	
 			cpuControlled = false;
@@ -2355,6 +2358,7 @@ class PlayState extends MusicBeatState
 			botplayTxt.visible = true;
 			botplayTxt.text = "I diagnose you with skill issue";
 		}
+		#end
 
 		callOnLuas('onUpdate', [elapsed]);
 

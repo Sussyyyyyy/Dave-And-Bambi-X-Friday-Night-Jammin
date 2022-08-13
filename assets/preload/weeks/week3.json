@@ -1,26 +1,62 @@
 {
-	"storyName": "dave's Backyard, Again. **WEEK 3 DEMO**",
+	"storyName": "Dave's Backyard, Again",
 	"difficulties": "Normal",
 	"hideFreeplay": false,
 	"weekBackground": "daveround2",
 	"weekBefore": "week2",
-	"startUnlocked": false,
+	"startUnlocked": true,
+	"songs": [
+		[
+			"Midnight",
+			"dave",
+			[
+				0,
+				0,
+				200
+			]
+		],
+		[
+			"Second-Round",
+			"daventristan",
+			[
+				60,
+				0,
+				200
+			]
+		],
+		[
+			"Newbie",
+			"tristan",
+			[
+				200,
+				0,
+				0
+			]
+		],
+		[
+			"Takeover",
+			"imsomadbro",
+			[
+				0,
+				100,
+				0
+			]
+		],
+		[
+			"Marathon",
+			"marathon",
+			[
+				255,
+				255,
+				255
+			]
+		]
+	],
 	"hideStoryMode": false,
 	"weekCharacters": [
 		"",
 		"",
 		""
-	],
-	"songs": [
-		[
-			"Second-Round",
-			"daventristan",
-			[
-				100,
-				0,
-				200
-			]
-		]
 	],
 	"weekName": "Week 3"
 }

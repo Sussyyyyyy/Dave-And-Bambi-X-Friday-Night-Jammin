@@ -195,11 +195,25 @@
 						"10"
 					]
 				]
+			],
+			[
+				115125,
+				[
+					[
+						"Game Message with crash",
+						"Nightcrawler, you are next.",
+						"Nightcrawler, you are next."
+					]
+				]
 			]
 		],
 		"notes": [],
 		"splashSkin": "noteSplashes",
+		"showPsychEngineMark": null,
+		"addScrewYouText": true,
 		"validScore": false,
+		"screwYou": "You deserve this as your punishment, Jammer.",
+		"engineName": null,
 		"gfVersion": "nogf",
 		"bpm": 120,
 		"arrowSkin": "",

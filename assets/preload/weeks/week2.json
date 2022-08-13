@@ -4,7 +4,8 @@
 	"hideFreeplay": false,
 	"weekBackground": "bambinormal",
 	"weekBefore": "week1",
-	"startUnlocked": false,
+	"startUnlocked": true,
+	"hideStoryMode": false,
 	"weekCharacters": [
 		"",
 		"",
@@ -48,6 +49,5 @@
 			]
 		]
 	],
-	"hideStoryMode": false,
 	"weekName": "Week 2"
 }

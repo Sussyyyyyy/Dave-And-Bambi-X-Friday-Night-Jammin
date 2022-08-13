@@ -88,7 +88,9 @@ class ChartingState extends MusicBeatState
 		['Change Scroll Speed', "Value 1: Scroll Speed Multiplier (1 is default)\nValue 2: Time it takes to change fully in seconds."],
 		['Game Crash', 'Crashes the game'],
 		['Game Message', 'Shows a pop-up with a custom message\n \nValue 1: Pop-up Window Title\nValue 2: Custom message'],
-		['Game Message with crash', 'Shows a pop-up with a custom message, once you\n accept it, the game should crash\n \nValue 1: Pop-up Window Title\nValue 2: Custom message']
+		['Game Message with crash', 'Shows a pop-up with a custom message, once you\n accept it, the game should crash\n \nValue 1: Pop-up Window Title\nValue 2: Custom message'],
+		['Smooth cam zoom', 'better version of the camarea zoom (exepting the hud)\n\nValue 1:zoom\n\nValue 2: if blank, it will smoothly zoom regularly\n\nif u put a number,it will do an instant zoom'],
+		['WindowMove', 'Like onslaught windows mode ):)\n\nValue 1: x value\nvalue 2: y value'],
 	];
 
 	var _file:FileReference;
@@ -1008,7 +1010,7 @@ class ChartingState extends MusicBeatState
 
 		#if LUA_ALLOWED
 		var eventPushedMap:Map<String, Bool> = new Map<String, Bool>();
-		var directories:Array<String> = [Paths.mods('custom_events/'), Paths.mods(Paths.currentModDirectory + '/custom_events/')];
+		var directories:Array<String> = [('assets/custom_events')];
 		for (i in 0...directories.length) {
 			var directory:String =  directories[i];
 			if(FileSystem.exists(directory)) {

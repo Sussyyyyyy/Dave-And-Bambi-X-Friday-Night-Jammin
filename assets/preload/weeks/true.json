@@ -3,14 +3,18 @@
 	"difficulties": "Normal",
 	"hideFreeplay": false,
 	"weekBackground": "sex",
-	"weekBefore": "tutorial",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
+	"weekBefore": "tutorial",
 	"startUnlocked": true,
-	"hideStoryMode": true,
+	"weekCharacters": [
+		"bf",
+		"bf",
+		"bf"
+	],
 	"songs": [
 		[
 			"--extra songs--",
@@ -92,13 +96,27 @@
 				255,
 				0
 			]
+		],
+		[
+			"--Covers--",
+			"nothing",
+			[
+				0,
+				0,
+				0
+			]
+		],
+		[
+			"Mealie",
+			"bambi",
+			[
+				0,
+				195,
+				0
+			]
 		]
 	],
-	"weekCharacters": [
-		"bf",
-		"bf",
-		"bf"
-	],
-	"hiddenUntilUnlocked": false,
-	"weekName": "Custom Week"
+	"hideStoryMode": true,
+	"weekName": "Custom Week",
+	"hiddenUntilUnlocked": false
 }

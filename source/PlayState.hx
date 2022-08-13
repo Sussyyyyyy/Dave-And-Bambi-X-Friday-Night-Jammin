@@ -636,6 +636,15 @@ class PlayState extends MusicBeatState
 					sign.antialiasing = true;
 					sign.scrollFactor.set(1, 1);
 					sign.active = false;
+
+					bg.color = 0xFF878787;
+					hills.color = 0xFF878787;
+					farm.color = 0xFF878787;
+					foreground.color = 0xFF878787;
+					cornSet.color = 0xFF878787;
+					cornSet2.color = 0xFF878787;
+					fence.color = 0xFF878787;
+					sign.color = 0xFF878787;
 			
 					add(bg);
 					add(hills);
@@ -1055,6 +1064,8 @@ class PlayState extends MusicBeatState
 				dad.color = 0xFF878787;
 				boyfriend.color = 0xFF878787;
 				gf.color = 0xFF878787;
+				boyfriend.scale.set(0.6, 0.6);
+				boyfriend.y = boyfriend.y + 50;
 		}
 
 		var file:String = Paths.json(songName + '/dialogue'); //Checks for json/Psych Engine dialogue

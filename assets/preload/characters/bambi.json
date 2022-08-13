@@ -4,7 +4,7 @@
 			"loop": false,
 			"offsets": [
 				-89,
-				-448
+				-449
 			],
 			"anim": "idle",
 			"fps": 24,
@@ -70,8 +70,8 @@
 		0
 	],
 	"camera_position": [
-		-20,
-		380
+		0,
+		430
 	],
 	"sing_duration": 6.1,
 	"scale": 1

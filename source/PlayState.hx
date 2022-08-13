@@ -133,6 +133,8 @@ class PlayState extends MusicBeatState
 	public var unspawnNotes:Array<Note> = [];
 	public var eventNotes:Array<EventNote> = [];
 
+	var cameraMove:FlxTween;
+
 	private var strumLine:FlxSprite;
 
 	//Handles the new epic mega sexy cam code that i've done
@@ -175,6 +177,18 @@ class PlayState extends MusicBeatState
 	public var goods:Int = 0;
 	public var bads:Int = 0;
 	public var shits:Int = 0;
+
+	var angleshit = 1;
+	var anglevar = 1;
+
+	var turn:FlxTween;
+	var tuin:FlxTween;
+	var tt:FlxTween;
+	var ttrn:FlxTween;
+	var rrr:FlxTween;
+	var rtr:FlxTween;
+	var rir:FlxTween;
+	var ryr:FlxTween;
 	
 	private var generatedMusic:Bool = false;
 	public var endingSong:Bool = false;
@@ -3881,7 +3895,7 @@ class PlayState extends MusicBeatState
 							sortedNotesList.push(daNote);
 							//notesDatas.push(daNote.noteData);
 						}
-						canMiss = true;
+						canMiss = false;
 					}
 				});
 				sortedNotesList.sort((a, b) -> Std.int(a.strumTime - b.strumTime));
@@ -4340,6 +4354,14 @@ class PlayState extends MusicBeatState
 		});
 	}
 
+	function shakescreen()
+	{
+		new FlxTimer().start(0.01, function(tmr:FlxTimer)
+		{
+			Lib.application.window.move(Lib.application.window.x + FlxG.random.int( -10, 10),Lib.application.window.y + FlxG.random.int( -8, 8));
+		}, 50);
+	}
+
 	var trainMoving:Bool = false;
 	var trainFrameTiming:Float = 0;
 
@@ -4520,6 +4542,23 @@ class PlayState extends MusicBeatState
 			return;
 		}
 
+		if (curStep > 1856 && curSong.toLowerCase() == 'mealie')
+		{
+			if (curStep < 2368)
+			{
+				if ((curStep % 4) == 0)
+				{
+					rrr = FlxTween.tween(camHUD, { y: -12 }, Conductor.stepCrochet*0.002, {ease: FlxEase.circOut});
+					rtr = FlxTween.tween(camGame.scroll, { y: 12 }, Conductor.stepCrochet*0.002, {ease: FlxEase.sineIn});
+				}
+				else if ((curStep % 4) == 2)
+				{
+					rir = FlxTween.tween(camHUD, { y: 0 }, Conductor.stepCrochet*0.002, {ease: FlxEase.sineIn});
+					ryr = FlxTween.tween(camGame.scroll, { y: 0 }, Conductor.stepCrochet*0.002, {ease: FlxEase.sineIn});
+				}
+			}
+		}
+
 		lastStepHit = curStep;
 		setOnLuas('curStep', curStep);
 		callOnLuas('onStepHit', []);
@@ -4536,6 +4575,35 @@ class PlayState extends MusicBeatState
 	override function beatHit()
 	{
 		super.beatHit();
+
+		if (curBeat > 464 && curSong.toLowerCase() == 'mealie')
+		{
+			if (curBeat < 592)
+				{
+					FlxG.camera.zoom += 0.04;
+					camHUD.zoom += 0.05;
+					if ((curBeat % 2)== 0)
+					{
+						angleshit = anglevar;
+					}
+					else
+					{
+						angleshit = -1;
+					}
+					camHUD.angle = (angleshit * 3);
+					camGame.angle = (angleshit * 3);
+					turn = FlxTween.tween(camHUD, { angle: angleshit }, Conductor.stepCrochet*0.002, {ease: FlxEase.circOut});
+					tuin = FlxTween.tween(camHUD, { x: -1 * 8 }, Conductor.crochet*0.001, {ease: FlxEase.linear});
+					tt = FlxTween.tween(camGame, { angle: angleshit }, Conductor.stepCrochet*0.002, {ease: FlxEase.circOut});
+					ttrn = FlxTween.tween(camGame, { x: (-1 * 8) }, Conductor.crochet*0.001, {ease: FlxEase.linear});
+				}
+				else
+				{
+					camHUD.angle = 0;
+					camHUD.x = 0;
+					camHUD.x = 0;
+				}
+		}
 
 		if(lastBeatHit >= curBeat) {
 			//trace('BEAT HIT: ' + curBeat + ', LAST HIT: ' + lastBeatHit);
@@ -4573,6 +4641,54 @@ class PlayState extends MusicBeatState
 		{
 			FlxG.camera.zoom += 0.015;
 			camHUD.zoom += 0.03;
+		}
+
+		if (curSong.toLowerCase() == 'mealie'){ //HIGH EFFORT MEALIE EVENTS ! !
+			trace(boyfriend.x);
+			trace(boyfriend.y);
+			switch(curStep)
+			{
+				case 370: //fucking idiot
+					FlxTween.tween(FlxG.camera, {zoom: 1.5}, 1.05, {ease: FlxEase.expoOut,});
+				case 656: //I WILL BLOCK YOU
+					FlxTween.tween(FlxG.camera, {zoom: 1.5}, 1.05, {ease: FlxEase.expoOut,});
+					FlxTween.tween(camHUD, {alpha: 0}, 0.5, {ease: FlxEase.expoOut,});
+				case 672:
+					FlxTween.tween(camHUD, {alpha: 1}, 0.5, {ease: FlxEase.expoOut,});
+				case 500 | 1040: //STOP CALLING ME
+					FlxTween.tween(FlxG.camera, {zoom: 1.5}, 1, {ease: FlxEase.expoOut,});
+				case 729 | 793: //CALLING ME
+					FlxTween.tween(FlxG.camera, {zoom: 1.5}, 0.6, {ease: FlxEase.expoOut,});
+				case 1184: //??
+					FlxTween.tween(FlxG.camera, {zoom: 1.20}, 12, {ease: FlxEase.expoOut,});
+					FlxTween.tween(camHUD, {alpha: 0}, 0.5, {ease: FlxEase.expoOut,});
+				case 1344:
+					FlxTween.tween(camHUD, {alpha: 1}, 0.5, {ease: FlxEase.expoOut,});
+				case 1584: //go to fucking hell
+					FlxTween.tween(FlxG.camera, {zoom: 1.5}, 1.40, {ease: FlxEase.expoOut,});
+				case 1744:
+					FlxTween.tween(FlxG.camera, {zoom: 1.5}, 9.1, {ease: FlxEase.expoOut,});
+				case 1760:
+					FlxTween.tween(camHUD, {alpha: 0}, 0.5, {ease: FlxEase.expoOut,});
+				case 1760 | 1764 | 1820 | 1824 | 2417 | 2421 | 2425 | 2429 | 2433: //shake screen
+					if (FlxG.fullscreen = false)
+					{
+						shakescreen();
+					}
+				case 1856: //sick drop
+					FlxTween.tween(FlxG.camera, {zoom: 0.7}, 33, {ease: FlxEase.expoOut,});
+					FlxTween.tween(camHUD, {alpha: 1}, 0.5, {ease: FlxEase.expoOut,});
+				case 2224:
+					FlxTween.tween(FlxG.camera, {zoom: 1.20}, 1.20, {ease: FlxEase.expoOut,});
+				case 2240:
+					FlxTween.tween(FlxG.camera, {zoom: 0.7}, 11.50, {ease: FlxEase.expoOut,});
+					cameraMove = FlxTween.tween(camHUD, { x: 20 }, 0.5, { type: FlxTween.PINGPONG, ease: FlxEase.quadInOut });
+				case 2368:
+					cameraMove.cancel();
+					FlxTween.tween(camHUD, {alpha: 0}, 2, {ease: FlxEase.expoOut,});
+				case 2416:
+					FlxTween.tween(FlxG.camera, {zoom: 1.20}, 1.66, {ease: FlxEase.expoOut,});
+			}
 		}
 
 		iconP1.scale.set(1.2, 1.2);

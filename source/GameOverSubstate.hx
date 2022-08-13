@@ -47,11 +47,20 @@ class GameOverSubstate extends MusicBeatSubstate
 
 		PlayState.instance.setOnLuas('inGameOver', true);
 
+		if (PlayState.SONG.player1 == 'jammer')
+		{
+			characterName = 'jammer';
+		}
+
 		Conductor.songPosition = 0;
 
 		boyfriend = new Boyfriend(x, y, characterName);
 		boyfriend.x += boyfriend.positionArray[0];
 		boyfriend.y += boyfriend.positionArray[1];
+		if (characterName == 'jammer')
+		{
+			boyfriend.scale.set(0.6, 0.6);
+		}
 		add(boyfriend);
 
 		camFollow = new FlxPoint(boyfriend.getGraphicMidpoint().x, boyfriend.getGraphicMidpoint().y);
@@ -67,9 +76,16 @@ class GameOverSubstate extends MusicBeatSubstate
 
 		var exclude:Array<Int> = [];
 
-		camFollowPos = new FlxObject(0, 0, 1, 1);
-		camFollowPos.setPosition(FlxG.camera.scroll.x + (FlxG.camera.width / 2), FlxG.camera.scroll.y + (FlxG.camera.height / 2));
-		add(camFollowPos);
+		if (characterName == 'jammer')
+		{
+			trace("NO");
+		}
+		else
+		{
+			camFollowPos = new FlxObject(0, 0, 1, 1);
+			camFollowPos.setPosition(FlxG.camera.scroll.x + (FlxG.camera.width / 2), FlxG.camera.scroll.y + (FlxG.camera.height / 2));
+			add(camFollowPos);
+		}
 	}
 
 	var isFollowingAlready:Bool = false;
@@ -80,7 +96,14 @@ class GameOverSubstate extends MusicBeatSubstate
 		PlayState.instance.callOnLuas('onUpdate', [elapsed]);
 		if(updateCamera) {
 			var lerpVal:Float = CoolUtil.boundTo(elapsed * 0.6, 0, 1);
-			camFollowPos.setPosition(FlxMath.lerp(camFollowPos.x, camFollow.x, lerpVal), FlxMath.lerp(camFollowPos.y, camFollow.y, lerpVal));
+			if (characterName == 'jammer')
+			{
+				trace("how about no");
+			}
+			else
+			{
+				camFollowPos.setPosition(FlxMath.lerp(camFollowPos.x, camFollow.x, lerpVal), FlxMath.lerp(camFollowPos.y, camFollow.y, lerpVal));
+			}
 		}
 
 		if (controls.ACCEPT)
@@ -107,7 +130,14 @@ class GameOverSubstate extends MusicBeatSubstate
 		{
 			if(boyfriend.animation.curAnim.curFrame >= 12 && !isFollowingAlready)
 			{
-				FlxG.camera.follow(camFollowPos, LOCKON, 1);
+				if (characterName == 'jammer')
+				{
+					trace("how about no");
+				}
+				else
+				{
+					FlxG.camera.follow(camFollowPos, LOCKON, 1);
+				}
 				updateCamera = true;
 				isFollowingAlready = true;
 			}

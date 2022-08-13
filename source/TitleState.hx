@@ -582,20 +582,10 @@ class TitleState extends MusicBeatState
 			switch (sickBeats)
 			{
 				case 1:
-					#if PSYCH_WATERMARKS
-					createCoolText(['Mod by'], 15);
-					#else
 					createCoolText(['ValenciaBall', 'Valenxyss', 'Furret', 'and a lot of contributors']);
-					#end
 				// credTextShit.visible = true;
 				case 3:
-					#if PSYCH_WATERMARKS
-					addMoreText('ValenciaBall', 15);
-					addMoreText('Valenxyss', 15);
-					addMoreText('AND A LOT MORE', 15);
-					#else
 					addMoreText('present');
-					#end
 				// credTextShit.text += '\npresent...';
 				// credTextShit.addText();
 				case 4:

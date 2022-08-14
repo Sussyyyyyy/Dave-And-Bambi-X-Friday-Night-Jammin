@@ -1,0 +1,84 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "bambi-splitathon",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "look, for the millionth time"
+		},
+		{
+			"sound": "",
+			"speed": 0.4,
+			"portrait": "bambi-splitathon",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Leave"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "jammer",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "No."
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "bambi-splitathon",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "will you leave if we have another rap battle"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Probably."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bambi-splitathon",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "for this I will call someone"
+		},
+		{
+			"sound": "",
+			"speed": 0.00500000000000001,
+			"portrait": "bambi-splitathon",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "DAVEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "dave-bambiweek",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "What do you want, Bambi?"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "bambi-splitathon",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "can you help me get rid of this dude he's literally not leaving even after 2 rap battles with him"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "dave-bambiweek",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Alright fine, but don't expect me to do much."
+		}
+	]
+}

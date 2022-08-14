@@ -1,23 +1,13 @@
 {
 	"song": {
 		"speed": 4,
-		"stage": "bambi",
+		"stage": "nightbambi",
 		"player1": "jammer-medium-scared",
 		"player2": "bambi-angey",
 		"player3": null,
 		"events": [
 			[
 				0,
-				[
-					[
-						"Hide Hud",
-						"1",
-						""
-					]
-				]
-			],
-			[
-				62.5,
 				[
 					[
 						"Image Flash",
@@ -27,7 +17,7 @@
 				]
 			],
 			[
-				4000,
+				2.60416666666667,
 				[
 					[
 						"shakey arrows WHAT",

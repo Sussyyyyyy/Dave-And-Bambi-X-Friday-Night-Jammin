@@ -5,6 +5,11 @@
 	"weekBackground": "daveround2",
 	"weekBefore": "week2",
 	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
 	"songs": [
 		[
 			"Midnight",
@@ -34,29 +39,15 @@
 			]
 		],
 		[
-			"Takeover",
-			"imsomadbro",
-			[
-				0,
-				100,
-				0
-			]
-		],
-		[
 			"Marathon",
 			"marathon",
 			[
-				255,
-				255,
-				255
+				100,
+				100,
+				100
 			]
 		]
 	],
 	"hideStoryMode": false,
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
 	"weekName": "Week 3"
 }

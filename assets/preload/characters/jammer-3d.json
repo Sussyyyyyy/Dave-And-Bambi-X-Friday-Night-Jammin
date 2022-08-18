@@ -1,0 +1,155 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				145,
+				554
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "3D-jammer leftpose",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				378
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "3D-jammer downpose",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-2,
+				511
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "3D-jammer uppose",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				43,
+				453
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "3D-jammer rightpose",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				76,
+				421
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "jammerFuckingDies",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				90,
+				442
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "jammerRetryConfirm",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-11,
+				427
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "jammerRMiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				7,
+				434
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "jammerDMiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				467
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "jammerUMiss",
+			"indices": []
+		},
+		{
+			"offsets": [
+				90,
+				412
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "jammerDeadLoop"
+		},
+		{
+			"offsets": [
+				175,
+				424
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "jammerLMiss"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				44,
+				440
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "3D-jammer idleDance",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/3D-jammer",
+	"position": [
+		0,
+		450
+	],
+	"healthicon": "jammer",
+	"flip_x": false,
+	"healthbar_colors": [
+		98,
+		98,
+		98
+	],
+	"camera_position": [
+		150,
+		-440
+	],
+	"sing_duration": 4,
+	"scale": 1.6
+}

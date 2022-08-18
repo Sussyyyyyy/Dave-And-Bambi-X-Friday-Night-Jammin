@@ -1,43 +1,26 @@
 {
-	"storyName": "MOMMY MUST MURDER",
-	"hideFreeplay": true,
-	"weekBackground": "limo",
+	"storyName": "EXBUNGO SUPREMACY **WEEK 4 DEMO**",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "exbungo",
 	"weekBefore": "week3",
 	"startUnlocked": true,
 	"weekCharacters": [
-		"mom",
-		"bf",
-		"gf"
+		"",
+		"",
+		""
 	],
 	"songs": [
 		[
-			"Satin Panties",
-			"mom",
+			"Kabuki",
+			"exbungo",
 			[
-				252,
-				150,
-				215
-			]
-		],
-		[
-			"High",
-			"mom",
-			[
-				252,
-				150,
-				215
-			]
-		],
-		[
-			"Milf",
-			"mom",
-			[
-				252,
-				150,
-				215
+				95,
+				0,
+				0
 			]
 		]
 	],
-	"hideStoryMode": true,
+	"hideStoryMode": false,
 	"weekName": "Week 4"
 }

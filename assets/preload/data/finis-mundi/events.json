@@ -37,12 +37,12 @@
 				]
 			],
 			[
-				1839.08045977011,
+				2241.37931034483,
 				[
 					[
-						"FlipUI",
-						"",
-						""
+						"ScreenStuff",
+						"180",
+						"10"
 					]
 				]
 			],
@@ -69,7 +69,11 @@
 		],
 		"notes": [],
 		"splashSkin": "noteSplashes",
+		"showPsychEngineMark": null,
+		"addScrewYouText": true,
 		"validScore": false,
+		"screwYou": "... (Song by valenxyss)",
+		"engineName": null,
 		"gfVersion": "nogf",
 		"bpm": 261,
 		"arrowSkin": "",

@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				0,
-				0
+				200
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "Redacted_expunged idle"
+			"fps": 24,
+			"name": "Redacted_expunged idle",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
-				0,
-				0
+				200,
+				200
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "Redacted_expunged left",
-			"indices": []
+			"indices": [],
+			"name": "Redacted_expunged left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
-				0
+				100
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singDOWN",
-			"fps": 24,
-			"name": "Redacted_expunged down",
-			"indices": []
+			"indices": [],
+			"name": "Redacted_expunged down"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				0,
-				0
+				-200,
+				200
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "Redacted_expunged right",
-			"indices": []
+			"indices": [],
+			"name": "Redacted_expunged right"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
-				0
+				300
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "Redacted_expunged up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "Redacted_expunged up"
 		}
 	],
 	"no_antialiasing": false,
@@ -71,7 +71,7 @@
 	],
 	"camera_position": [
 		0,
-		150
+		-120
 	],
 	"sing_duration": 6.1,
 	"scale": 1

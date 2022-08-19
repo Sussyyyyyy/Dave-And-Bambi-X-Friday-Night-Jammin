@@ -1,4 +1,4 @@
-package;
+
 
 #if desktop
 import Discord.DiscordClient;
@@ -35,10 +35,7 @@ class MainMenuState extends MusicBeatState
 	var optionShit:Array<String> = [
 		'story_mode',
 		'freeplay',
-		#if MODS_ALLOWED 'mods', #end
-		#if ACHIEVEMENTS_ALLOWED 'awards', #end
 		'credits',
-		#if !switch 'donate', #end
 		'options'
 	];
 
@@ -46,6 +43,7 @@ class MainMenuState extends MusicBeatState
 	var camFollow:FlxObject;
 	var camFollowPos:FlxObject;
 	var debugKeys:Array<FlxKey>;
+	var char:FlxSprite;
 
 	override function create()
 	{
@@ -107,7 +105,7 @@ class MainMenuState extends MusicBeatState
 		for (i in 0...optionShit.length)
 		{
 			var offset:Float = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-			var menuItem:FlxSprite = new FlxSprite(0, (i * 140)  + offset);
+			var menuItem:FlxSprite = new FlxSprite(20, 20 + (i * 170));
 			menuItem.scale.x = scale;
 			menuItem.scale.y = scale;
 			menuItem.frames = Paths.getSparrowAtlas('mainmenu/menu_' + optionShit[i]);
@@ -115,7 +113,6 @@ class MainMenuState extends MusicBeatState
 			menuItem.animation.addByPrefix('selected', optionShit[i] + " white", 24);
 			menuItem.animation.play('idle');
 			menuItem.ID = i;
-			menuItem.screenCenter(X);
 			menuItems.add(menuItem);
 			var scr:Float = (optionShit.length - 4) * 0.135;
 			if(optionShit.length < 6) scr = 0;
@@ -154,6 +151,222 @@ class MainMenuState extends MusicBeatState
 		#end
 
 		super.create();
+
+		switch (FlxG.random.int(1, 23))
+		{
+
+		   case 1:char = new FlxSprite(820, 170).loadGraphic(Paths.image('mainmenu/3D-jammer'));//put your cords and image here
+		   char.frames = Paths.getSparrowAtlas('mainmenu/3D-jammer');//here put the name of the xml
+		   char.animation.addByPrefix('idleR', '3D-jammer idleDance', 24, true);//on 'idle normal' change it to your xml one
+		   char.animation.play('idleR');//you can rename the anim however you want to
+		   char.scrollFactor.set();
+		   FlxG.sound.play(Paths.sound('appear'), 2);
+		   char.flipX = true;//this is for flipping it to look left instead of right you can make it however you want
+		   char.antialiasing = ClientPrefs.globalAntialiasing;
+		   add(char);
+
+
+		   case 2:char = new FlxSprite(820, 170).loadGraphic(Paths.image('mainmenu/bambi_angryboy'));//put your cords and image here
+		   char.frames = Paths.getSparrowAtlas('mainmenu/bambi_angryboy');//here put the name of the xml
+		   char.animation.addByPrefix('idleR', 'DaveAngry idle dance', 24, true);//on 'idle normal' change it to your xml one
+		   char.animation.play('idleR');//you can rename the anim however you want to
+		   char.scrollFactor.set();
+		   FlxG.sound.play(Paths.sound('appear'), 2);
+		   char.flipX = true;//this is for flipping it to look left instead of right you can make it however you want
+		   char.antialiasing = ClientPrefs.globalAntialiasing;
+		   add(char);
+//lmao
+		   case 3:char = new FlxSprite(820, 170).loadGraphic(Paths.image('mainmenu/bambibuthepullsanallnighter'));//put your cords and image here
+		   char.frames = Paths.getSparrowAtlas('mainmenu/bambibuthepullsanallnighter');//here put the name of the xml
+		   char.animation.addByPrefix('idleR', 'Idle', 24, true);//on 'idle normal' change it to your xml one
+		   char.animation.play('idleR');//you can rename the anim however you want to
+		   char.scrollFactor.set();
+		   FlxG.sound.play(Paths.sound('appear'), 2);
+		   char.flipX = true;//this is for flipping it to look left instead of right you can make it however you want
+		   char.antialiasing = ClientPrefs.globalAntialiasing;
+		   add(char);
+
+		   case 4:char = new FlxSprite(820, 170).loadGraphic(Paths.image('mainmenu/bambimadbuthepullsanallnighter'));//put your cords and image here
+		   char.frames = Paths.getSparrowAtlas('mainmenu/bambimadbuthepullsanallnighter');//here put the name of the xml
+		   char.animation.addByPrefix('idleR', 'idle', 24, true);//on 'idle normal' change it to your xml one
+		   char.animation.play('idleR');//you can rename the anim however you want to
+		   char.scrollFactor.set();
+		   FlxG.sound.play(Paths.sound('appear'), 2);
+		   char.flipX = true;//this is for flipping it to look left instead of right you can make it however you want
+		   char.antialiasing = ClientPrefs.globalAntialiasing;
+		   add(char);
+
+		  // case 5:char = new FlxSprite(820, 170).loadGraphic(Paths.image('mainmenu/bambimaddddd'));//put your cords and image here
+		   //char.frames = Paths.getSparrowAtlas('mainmenu/bambimaddddd');//here put the name of the xml
+		  // char.animation.addByPrefix('idleR', 'idle', 24, true);//on 'idle normal' change it to your xml one
+		  // char.animation.play('idleR');//you can rename the anim however you want to
+		  // char.scrollFactor.set();
+		 //  FlxG.sound.play(Paths.sound('appear'), 2);
+		  // char.flipX = true;//this is for flipping it to look left instead of right you can make it however you want
+		  // char.antialiasing = ClientPrefs.globalAntialiasing;
+		  // add(char);
+
+		   case 6:char = new FlxSprite(820, 170).loadGraphic(Paths.image('mainmenu/bambimaddddd'));//put your cords and image here
+		   char.frames = Paths.getSparrowAtlas('mainmenu/bambimaddddd');//here put the name of the xml
+		   char.animation.addByPrefix('idleR', 'idle', 24, true);//on 'idle normal' change it to your xml one
+		   char.animation.play('idleR');//you can rename the anim however you want to
+		   char.scrollFactor.set();
+		   FlxG.sound.play(Paths.sound('appear'), 2);
+		   char.flipX = true;//this is for flipping it to look left instead of right you can make it however you want
+		   char.antialiasing = ClientPrefs.globalAntialiasing;
+		   add(char);
+	 
+		   case 7:char = new FlxSprite(820, 170).loadGraphic(Paths.image('mainmenu/bambi-old'));//put your cords and image here
+		   char.frames = Paths.getSparrowAtlas('mainmenu/bambi-old');//here put the name of the xml
+		   char.animation.addByPrefix('idleR', 'MARCELLO idle dance', 24, true);//on 'idle normal' change it to your xml one
+		   char.animation.play('idleR');//you can rename the anim however you want to
+		   char.scrollFactor.set();
+		   FlxG.sound.play(Paths.sound('appear'), 2);
+		   char.flipX = true;//this is for flipping it to look left instead of right you can make it however you want
+		   char.antialiasing = ClientPrefs.globalAntialiasing;
+		   add(char);
+
+	 
+		   case 8:char = new FlxSprite(820, 170).loadGraphic(Paths.image('mainmenu/bambi-old'));//put your cords and image here
+		   char.frames = Paths.getSparrowAtlas('mainmenu/bambi-old');//here put the name of the xml
+		   char.animation.addByPrefix('idleR', 'MARCELLO idle dance', 24, true);//on 'idle normal' change it to your xml one
+		   char.animation.play('idleR');//you can rename the anim however you want to
+		   char.scrollFactor.set();
+		   FlxG.sound.play(Paths.sound('appear'), 2);
+		   char.flipX = true;//this is for flipping it to look left instead of right you can make it however you want
+		   char.antialiasing = ClientPrefs.globalAntialiasing;
+		   add(char);
+
+		   case 9:char = new FlxSprite(820, 170).loadGraphic(Paths.image('mainmenu/bambiRemake'));//put your cords and image here
+		   char.frames = Paths.getSparrowAtlas('mainmenu/bambiRemake');//here put the name of the xml
+		   char.animation.addByPrefix('idleR', 'Idle', 24, true);//on 'idle normal' change it to your xml one
+		   char.animation.play('idleR');//you can rename the anim however you want to
+		   char.scrollFactor.set();
+		   FlxG.sound.play(Paths.sound('appear'), 2);
+		   char.flipX = true;//this is for flipping it to look left instead of right you can make it however you want
+		   char.antialiasing = ClientPrefs.globalAntialiasing;
+		   add(char);
+
+		   case 10:char = new FlxSprite(820, 170).loadGraphic(Paths.image('mainmenu/BEVEL'));//put your cords and image here
+		   char.frames = Paths.getSparrowAtlas('mainmenu/BEVEL');//here put the name of the xml
+		   char.animation.addByPrefix('idleR', 'BF idle dance', 24, true);//on 'idle normal' change it to your xml one
+		   char.animation.play('idleR');//you can rename the anim however you want to
+		   char.scrollFactor.set();
+		   FlxG.sound.play(Paths.sound('appear'), 2);
+		   char.flipX = true;//this is for flipping it to look left instead of right you can make it however you want
+		   char.antialiasing = ClientPrefs.globalAntialiasing;
+		   add(char);
+	 
+		   case 11:char = new FlxSprite(820, 170).loadGraphic(Paths.image('mainmenu/dave_angryboy'));//put your cords and image here
+		   char.frames = Paths.getSparrowAtlas('mainmenu/dave_angryboy');//here put the name of the xml
+		   char.animation.addByPrefix('idleR', 'dave_angryboy idle dance', 24, true);//on 'idle normal' change it to your xml one
+		   char.animation.play('idleR');//you can rename the anim however you want to
+		   char.scrollFactor.set();
+		   FlxG.sound.play(Paths.sound('appear'), 2);
+		   char.flipX = true;//this is for flipping it to look left instead of right you can make it however you want
+		   char.antialiasing = ClientPrefs.globalAntialiasing;
+		   add(char);
+	 
+		   case 12:char = new FlxSprite(820, 170).loadGraphic(Paths.image('mainmenu/dave_angryboy'));//put your cords and image here
+		   char.frames = Paths.getSparrowAtlas('mainmenu/dave_angryboy');//here put the name of the xml
+		   char.animation.addByPrefix('idleR', 'dave_angryboy idle dance', 24, true);//on 'idle normal' change it to your xml one
+		   char.animation.play('idleR');//you can rename the anim however you want to
+		   char.scrollFactor.set();
+		   FlxG.sound.play(Paths.sound('appear'), 2);
+		   char.flipX = true;//this is for flipping it to look left instead of right you can make it however you want
+		   char.antialiasing = ClientPrefs.globalAntialiasing;
+		   add(char);
+	 
+		   case 13:char = new FlxSprite(820, 170).loadGraphic(Paths.image('mainmenu/Dave_Furiosity'));//put your cords and image here
+		   char.frames = Paths.getSparrowAtlas('mainmenu/Dave_Furiosity');//here put the name of the xml
+		   char.animation.addByPrefix('idleR', 'IDLE', 24, true);//on 'idle normal' change it to your xml one
+		   char.animation.play('idleR');//you can rename the anim however you want to
+		   char.scrollFactor.set();
+		   FlxG.sound.play(Paths.sound('appear'), 2);
+		   char.flipX = true;//this is for flipping it to look left instead of right you can make it however you want
+		   char.antialiasing = ClientPrefs.globalAntialiasing;
+		   add(char);
+	 
+		   case 14:char = new FlxSprite(820, 170).loadGraphic(Paths.image('mainmenu/davebutatnight'));//put your cords and image here
+		   char.frames = Paths.getSparrowAtlas('mainmenu/davebutatnight');//here put the name of the xml
+		   char.animation.addByPrefix('idleR', 'Nervous', 24, true);//on 'idle normal' change it to your xml one
+		   char.animation.play('idleR');//you can rename the anim however you want to
+		   char.scrollFactor.set();
+		   FlxG.sound.play(Paths.sound('appear'), 2);
+		   char.flipX = true;//this is for flipping it to look left instead of right you can make it however you want
+		   char.antialiasing = ClientPrefs.globalAntialiasing;
+		   add(char);
+		  
+	       case 15:char = new FlxSprite(650, 10).loadGraphic(Paths.image('mainmenu/jammer'));//put your cords and image here
+		   char.frames = Paths.getSparrowAtlas('mainmenu/jammer');//here put the name of the xml
+		   char.animation.addByPrefix('idleR', 'jammerIdle', 24, true);//on 'idle normal' change it to your xml one
+		   char.animation.play('idleR');//you can rename the anim however you want to
+		   char.scrollFactor.set();
+		   FlxG.sound.play(Paths.sound('appear'), 2);
+		   char.flipX = true;//this is for flipping it to look left instead of right you can make it however you want
+		   char.antialiasing = ClientPrefs.globalAntialiasing;
+		   add(char);
+		  
+		   case 16:char = new FlxSprite(820, 170).loadGraphic(Paths.image('mainmenu/jammer-scared'));//put your cords and image here
+		   char.frames = Paths.getSparrowAtlas('mainmenu/jammer-scared');//here put the name of the xml
+		   char.animation.addByPrefix('idleR', 'jammer-Scared Idle', 24, true);//on 'idle normal' change it to your xml one
+		   char.animation.play('idleR');//you can rename the anim however you want to
+		   char.scrollFactor.set();
+		   FlxG.sound.play(Paths.sound('appear'), 2);
+		   char.flipX = true;//this is for flipping it to look left instead of right you can make it however you want
+		   char.antialiasing = ClientPrefs.globalAntialiasing;
+		   add(char);
+
+		   case 17:char = new FlxSprite(820, 170).loadGraphic(Paths.image('mainmenu/nightshades'));//put your cords and image here
+		   char.frames = Paths.getSparrowAtlas('mainmenu/nightshades');//here put the name of the xml
+		   char.animation.addByPrefix('idleR', 'dancing', 24, true);//on 'idle normal' change it to your xml one
+		   char.animation.play('idleR');//you can rename the anim however you want to
+		   char.scrollFactor.set();
+		   FlxG.sound.play(Paths.sound('appear'), 2);
+		   char.flipX = true;//this is for flipping it to look left instead of right you can make it however you want
+		   char.antialiasing = ClientPrefs.globalAntialiasing;
+		   add(char);
+
+		   case 18:char = new FlxSprite(820, 170).loadGraphic(Paths.image('mainmenu/sexo'));//put your cords and image here
+		   char.frames = Paths.getSparrowAtlas('mainmenu/sexo');//here put the name of the xml
+		   char.animation.addByPrefix('idleR', 'idle', 24, true);//on 'idle normal' change it to your xml one
+		   char.animation.play('idleR');//you can rename the anim however you want to
+		   char.scrollFactor.set();
+		   FlxG.sound.play(Paths.sound('appear'), 2);
+		   char.flipX = true;//this is for flipping it to look left instead of right you can make it however you want
+		   char.antialiasing = ClientPrefs.globalAntialiasing;
+		   add(char);
+
+		   case 19:char = new FlxSprite(820, 170).loadGraphic(Paths.image('mainmenu/Splitathon_Bambi'));//put your cords and image here
+		   char.frames = Paths.getSparrowAtlas('mainmenu/Splitathon_Bambi');//here put the name of the xml
+		   char.animation.addByPrefix('idleR', 'Idle', 24, true);//on 'idle normal' change it to your xml one
+		   char.animation.play('idleR');//you can rename the anim however you want to
+		   char.scrollFactor.set();
+		   FlxG.sound.play(Paths.sound('appear'), 2);
+		   char.flipX = true;//this is for flipping it to look left instead of right you can make it however you want
+		   char.antialiasing = ClientPrefs.globalAntialiasing;
+		   add(char);
+
+		   case 20:char = new FlxSprite(820, 170).loadGraphic(Paths.image('mainmenu/true_expunged'));//put your cords and image here
+		   char.frames = Paths.getSparrowAtlas('mainmenu/Idle');//here put the name of the xml
+		   char.animation.addByPrefix('idleR', 'idle', 24, true);//on 'idle normal' change it to your xml one
+		   char.animation.play('idleR');//you can rename the anim however you want to
+		   char.scrollFactor.set();
+		   FlxG.sound.play(Paths.sound('appear'), 2);
+		   char.flipX = true;//this is for flipping it to look left instead of right you can make it however you want
+		   char.antialiasing = ClientPrefs.globalAntialiasing;
+		   add(char);
+
+		   //case 21:
+
+		   //case 22:
+
+		   //case 23:
+
+			
+
+		
+		}
 	}
 
 	#if ACHIEVEMENTS_ALLOWED
@@ -264,7 +477,6 @@ class MainMenuState extends MusicBeatState
 
 		menuItems.forEach(function(spr:FlxSprite)
 		{
-			spr.screenCenter(X);
 		});
 	}
 

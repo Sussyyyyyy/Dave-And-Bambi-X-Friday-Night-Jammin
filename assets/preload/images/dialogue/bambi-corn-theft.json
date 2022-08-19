@@ -1,24 +1,24 @@
 {
-	"dialogue_pos": "left",
 	"position": [
 		-50,
 		70
 	],
+	"dialogue_pos": "left",
 	"scale": 1.25,
+	"image": "bambi_corntheft",
 	"animations": [
 		{
-			"anim": "talk",
-			"loop_offsets": [
-				-135,
-				-81
-			],
 			"idle_offsets": [
 				-135,
 				-81
 			],
-			"loop_name": "bambi corntheft portrait0004",
-			"idle_name": "bambi corntheft portrait0004"
+			"loop_offsets": [
+				-135,
+				-81
+			],
+			"anim": "talk",
+			"idle_name": "bambi corntheft portrait0004",
+			"loop_name": "bambi corntheft portrait0004"
 		}
-	],
-	"image": "bambi_corntheft"
+	]
 }

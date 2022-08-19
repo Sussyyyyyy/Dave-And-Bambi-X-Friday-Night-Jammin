@@ -1,84 +1,92 @@
 {
 	"dialogue": [
 		{
-			"sound": "",
-			"speed": 0.03,
-			"portrait": "bambi-splitathon",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "look, for the millionth time"
-		},
-		{
-			"sound": "",
-			"speed": 0.4,
-			"portrait": "bambi-splitathon",
+			"text": "oh, its returning night right now",
 			"boxState": "normal",
-			"expression": "talk",
-			"text": "Leave"
-		},
-		{
-			"sound": "",
-			"speed": 0.03,
-			"portrait": "jammer",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "No."
-		},
-		{
-			"sound": "",
-			"speed": 0.03,
-			"portrait": "bambi-splitathon",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "will you leave if we have another rap battle"
-		},
-		{
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "jammer",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "Probably."
+			"portrait": "bambi-corn-theft"
 		},
 		{
+			"expression": "talk",
+			"text": "yeah its like 8pm right now",
+			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "bambi-splitathon",
+			"portrait": "jammer"
+		},
+		{
+			"expression": "talk",
+			"text": "yeah, tristan just finishied his homework, this rap battle and i will invite him if he want, hes not sleepy i dont know why",
 			"boxState": "normal",
-			"expression": "talk",
-			"text": "for this I will call someone"
-		},
-		{
-			"sound": "",
-			"speed": 0.00500000000000001,
-			"portrait": "bambi-splitathon",
-			"boxState": "angry",
-			"expression": "talk",
-			"text": "DAVEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE"
-		},
-		{
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "dave-bambiweek",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "What do you want, Bambi?"
+			"portrait": "dave"
 		},
 		{
-			"sound": "",
-			"speed": 0.03,
-			"portrait": "bambi-splitathon",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "can you help me get rid of this dude he's literally not leaving even after 2 rap battles with him"
-		},
-		{
+			"text": "i hope meet him rn",
+			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "dave-bambiweek",
-			"boxState": "normal",
+			"portrait": "jammer"
+		},
+		{
 			"expression": "talk",
-			"text": "Alright fine, but don't expect me to do much."
+			"text": "you will",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "dave-bambiweek"
+		},
+		{
+			"expression": "talk",
+			"text": "hey jammer, how about a final rap battle?",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bambi-corn-theft"
+		},
+		{
+			"expression": "talk",
+			"text": "sure! im returning sleepy so dave if you let me i will sleep like 2 or 3 hours in you house",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer"
+		},
+		{
+			"expression": "talk",
+			"text": "sure!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "dave"
+		},
+		{
+			"expression": "talk",
+			"text": "also, i will put hard in this one!!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bambi"
+		},
+		{
+			"expression": "talk",
+			"text": "prepare yo a-- jammer!!!!!!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bambi"
+		},
+		{
+			"expression": "talk",
+			"text": "what",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer-scared"
 		}
 	]
 }

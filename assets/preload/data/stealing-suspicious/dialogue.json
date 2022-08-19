@@ -2,7 +2,39 @@
 	"dialogue": [
 		{
 			"expression": "talk",
-			"text": "Guess that farm is located here.",
+			"text": "Hmm, so this is where the supposed farm was",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "..."
+		},
+		{
+			"expression": "talk",
+			"text": "WHAT ARE YOU AND WHAT ARE YOU DOING\\nON MY FARM",
+			"boxState": "angry",
+			"sound": "",
+			"speed": 0.01,
+			"portrait": "bambi"
+		},
+		{
+			"expression": "talk",
+			"text": "DAVE BRING ME THE SHOTGUN",
+			"boxState": "angry",
+			"sound": "",
+			"speed": 0.005,
+			"portrait": "bambi"
+		},
+		{
+			"expression": "talk",
+			"text": "what are you and what is wrong with you",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
@@ -10,103 +42,23 @@
 		},
 		{
 			"expression": "talk",
-			"text": "HEY!",
+			"text": "SHUT UP! GO AWAY FROM MY FARM",
 			"boxState": "angry",
 			"sound": "",
-			"speed": 0.02,
+			"speed": 0.01,
 			"portrait": "bambi"
 		},
 		{
 			"expression": "talk",
-			"text": "EH",
+			"text": "I'M SURE YOU WERE TRYING TO STEAL CORN",
 			"boxState": "angry",
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "jammer-scared"
-		},
-		{
-			"expression": "talk",
-			"text": "WHAT R U DOING ON MY FARM!!!!!!!!!!!!!!!!!!",
-			"boxState": "angry",
-			"sound": "",
-			"speed": 0.02,
 			"portrait": "bambi"
 		},
 		{
 			"expression": "talk",
-			"text": "ALSO WHY DO U REMIND ME OF A FURRY!!!!!!!!\\n!!!!!!!!!!!!!",
-			"boxState": "angry",
-			"sound": "",
-			"speed": 0.02,
-			"portrait": "bambi"
-		},
-		{
-			"expression": "talk",
-			"text": "I swear to damn god if someone calls me a furry again.",
-			"boxState": "normal",
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "jammer-scared"
-		},
-		{
-			"expression": "talk",
-			"text": "furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry furry vv",
-			"boxState": "normal",
-			"sound": "",
-			"speed": 0.00500000000000001,
-			"portrait": "bambi-corn-theft"
-		},
-		{
-			"expression": "talk",
-			"text": "ALRIGHT THAT'S IT.",
-			"boxState": "angry",
-			"sound": "",
-			"speed": 0.03,
-			"portrait": "jammer-scared"
-		},
-		{
-			"expression": "talk",
-			"text": "I DON'T EVEN KNOW WHO YOU ARE AND YOU ALREADY PISSED ME OFF.",
-			"boxState": "angry",
-			"sound": "",
-			"speed": 0.03,
-			"portrait": "jammer-scared"
-		},
-		{
-			"expression": "talk",
-			"text": "good",
-			"boxState": "normal",
-			"sound": "",
-			"speed": 0.5,
-			"portrait": "bambi-corn-theft"
-		},
-		{
-			"expression": "talk",
-			"text": "YOU KNOW WHAT?",
-			"boxState": "angry",
-			"sound": "",
-			"speed": 0.03,
-			"portrait": "jammer-scared"
-		},
-		{
-			"expression": "talk",
-			"text": "RAP BATTLE",
-			"boxState": "angry",
-			"sound": "",
-			"speed": 0.03,
-			"portrait": "jammer-scared"
-		},
-		{
-			"expression": "talk",
-			"text": "I could easily beat you bozo",
-			"boxState": "normal",
-			"sound": "",
-			"speed": 0.03,
-			"portrait": "bambi"
-		},
-		{
-			"expression": "talk",
-			"text": "prove it then",
+			"text": "i dont even like corn",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
@@ -114,11 +66,75 @@
 		},
 		{
 			"expression": "talk",
-			"text": "good luck then",
+			"text": "so, you are not trying to steal my corn?",
 			"boxState": "normal",
 			"sound": "",
-			"speed": 0.45,
+			"speed": 0.05,
+			"portrait": "bambi-maze"
+		},
+		{
+			"expression": "talk",
+			"text": "no i wasnt",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer"
+		},
+		{
+			"expression": "talk",
+			"text": "but, youre a furry.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bambi-maze"
+		},
+		{
+			"expression": "talk",
+			"text": "and i,",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bambi-maze"
+		},
+		{
+			"expression": "talk",
+			"text": "AND I HATE FURRIES!!!",
+			"boxState": "angry",
+			"sound": "",
+			"speed": 0.025,
 			"portrait": "bambi"
+		},
+		{
+			"expression": "talk",
+			"text": "but i dont with you because you are not trying\\nto steal corn",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bambi-maze"
+		},
+		{
+			"expression": "talk",
+			"text": "i just found you randomly",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer-scared"
+		},
+		{
+			"expression": "talk",
+			"text": "so, do you want a rap battle?",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bambi-maze"
+		},
+		{
+			"expression": "talk",
+			"text": "sure!, why not?",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer"
 		}
 	]
 }

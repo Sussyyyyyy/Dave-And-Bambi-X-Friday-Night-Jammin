@@ -2,187 +2,11 @@
 	"dialogue": [
 		{
 			"sound": "",
-			"speed": 0.03,
-			"portrait": "bambi",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "alright I did your funny rap battle"
-		},
-		{
-			"sound": "",
-			"speed": 0.03,
-			"portrait": "bambi",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "now get out"
-		},
-		{
-			"sound": "",
-			"speed": 0.03,
-			"portrait": "bambi",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "cause I ain't giving you corn"
-		},
-		{
-			"sound": "",
 			"speed": 0.05,
-			"portrait": "jammer",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "Uh, no?"
-		},
-		{
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "jammer",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "I'm not leaving."
-		},
-		{
-			"sound": "",
-			"speed": 0.5,
-			"portrait": "bambi-maze",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "bro"
-		},
-		{
-			"sound": "",
-			"speed": 0.03,
-			"portrait": "bambi-maze",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "I'm literally giving you a chance to leave me alone"
-		},
-		{
-			"sound": "",
-			"speed": 0.03,
-			"portrait": "bambi-maze",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "and you won't even take it?"
-		},
-		{
-			"sound": "",
-			"speed": 0.3,
-			"portrait": "bambi",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "what a pu-"
-		},
-		{
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "jammer-scared",
-			"boxState": "angry",
-			"expression": "talk",
-			"text": "LANGUAGE"
-		},
-		{
-			"sound": "",
-			"speed": 0.5,
-			"portrait": "bambi",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "..."
-		},
-		{
-			"sound": "",
-			"speed": 0.5,
 			"portrait": "bambi-corn-theft",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "..."
-		},
-		{
-			"sound": "",
-			"speed": 0.005,
-			"portrait": "bambi-corn-theft",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUSSY PUS-"
-		},
-		{
-			"sound": "",
-			"speed": 0.03,
-			"portrait": "jammer-scared",
-			"boxState": "angry",
-			"expression": "talk",
-			"text": "OH My GOD DO YOU WANT THE DAMN REASON OF WHY I'M NOT LEAVING?????"
-		},
-		{
-			"sound": "",
-			"speed": 0.25,
-			"portrait": "bambi",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "go on\\nsay it"
-		},
-		{
-			"sound": "",
-			"speed": 0.25,
-			"portrait": "bambi",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "you have no balls to say why"
-		},
-		{
-			"sound": "",
-			"speed": 0.02,
-			"portrait": "jammer-scared",
-			"boxState": "angry",
-			"expression": "talk",
-			"text": "DAVE."
-		},
-		{
-			"sound": "",
-			"speed": 0.03,
-			"portrait": "jammer-scared",
-			"boxState": "angry",
-			"expression": "talk",
-			"text": "DAVE SENT ME HERE AS AN APOLOGY FOR ALMOST TURNING EVERYONE 3D."
-		},
-		{
-			"sound": "",
-			"speed": 0.15,
-			"portrait": "bambi-maze",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "oh"
-		},
-		{
-			"sound": "",
-			"speed": 0.03,
-			"portrait": "bambi",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "I'm not believing you"
-		},
-		{
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "jammer-scared",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "why do you hate me that much"
-		},
-		{
-			"sound": "",
-			"speed": 0.005,
-			"portrait": "bambi-corn-theft",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "yes"
-		},
-		{
-			"sound": "",
-			"speed": 0.03,
-			"portrait": "bambi",
-			"boxState": "normal",
-			"expression": "confused",
-			"text": "now leave"
+			"text": "you are cool rapping "
 		},
 		{
 			"sound": "",
@@ -190,15 +14,31 @@
 			"portrait": "jammer",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "no"
+			"text": "thanks!"
 		},
 		{
 			"sound": "",
-			"speed": 0.03,
-			"portrait": "bambi-maze",
+			"speed": 0.05,
+			"portrait": "dave",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "if I rap battle you again then will you leave for good?"
+			"text": "bambi! I was looking for you! you are with that godzila thing i see"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bambi",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "ITS NOT GODZILA!!!!1 ITS A FURRY!!!111"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "dave-bambiweek",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "tf is a furry"
 		},
 		{
 			"sound": "",
@@ -206,15 +46,79 @@
 			"portrait": "jammer",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "Probably."
+			"text": "you better dont know"
 		},
 		{
 			"sound": "",
-			"speed": 0.5,
-			"portrait": "bambi",
+			"speed": 0.05,
+			"portrait": "jammer",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "good"
+			"text": "also where the hell is nightshade"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bambi-corn-theft",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "whos nightsade?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "my counterpart, i was with shee tonight, before i got unconscious"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "dave",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "i will itry my best in looking for she"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "dave",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "also, im leaving."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "dave",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "tristan, my son, has too much homework today  "
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "im wondering meeting with you son!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bambi-corn-theft",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "hey! what about other battle?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "sure!"
 		}
 	]
 }

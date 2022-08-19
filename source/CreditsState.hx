@@ -24,7 +24,6 @@ using StringTools;
 class CreditsState extends MusicBeatState
 {
 	var curSelected:Int = -1;
-
 	private var grpOptions:FlxTypedGroup<Alphabet>;
 	private var iconArray:Array<AttachedSprite> = [];
 	private var creditsStuff:Array<Array<String>> = [];
@@ -79,8 +78,18 @@ class CreditsState extends MusicBeatState
 			pushModCreditsToList(folder);
 		}
 		#end
-
+//dcfshgjsadfhgjsdfhjgdsfhjgdsfhjgdfschjgsdfjhgdsahjdsfaasdhjgsadfghjasdfhgjasdhjgasdhgjfsdafhjgdfshgudfshgjcxvhgjzxfcjhgkxcvhkjzdfckjhsdafjkhsdfjkhdsfsdfkjh
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
+			['DNB X FNJ Team and Special Thanks'],
+			["valenxyss",           "valenxyss",        "Main Musician, 3D Sprite Creator and Dev",                      "https://www.youtube.com/channel/UC_Id0DxIQFQLs9v4KNhouHQ",      '444444'],
+			["ValenciaBall",        "oppoballs",         "Charter and Dev",                                               "https://www.youtube.com/channel/UCj5OU8y-QtzWaGxRU55HO3g",      '444444'],
+			["Furret",              "furret",           "Coder and Dev",                                                 "https://www.youtube.com/channel/UCWFMj6wWS1mpa0eahuaq6aw",      '444444'],
+			["Womo",                "womo",             "Musician",                                                      "https://www.youtube.com/c/Womoisreal/videos",                   '444444'],
+			["Bren",                "bren",             "Musician and Friday Night Jammin Creator",                      "https://www.youtube.com/c/Bren67987",                           '444444'],
+			["MoldyGH",             "moldy",            "Dave And Bambi Dev",                                            "https://www.youtube.com/c/MoldyGH",                             '444444'],
+			["MrCornStealer",       "lambi",            "3D Sprite Creator",                                             "https://www.youtube.com/c/MrCornStealer",                       '444444'],
+			["lorenxx10",           "lorenxx",        "Musician",                                                      "https://www.youtube.com/user/vdami74",                          '444444'],
+			["another person",      "another",        "Expunged Icon Creator",                                                                                                          '444444'],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',							'https://twitter.com/Shadow_Mario_',	'444444'],
 			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',						'https://twitter.com/RiverOaken',		'C30085'],

@@ -1,0 +1,73 @@
+{
+	"song": {
+		"speed": 2.3,
+		"stage": "bambi",
+		"player1": "jammer-small",
+		"player2": "bambi",
+		"player3": null,
+		"events": [
+			[
+				0,
+				[
+					[
+						"Hide Hud",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				11586.2068965517,
+				[
+					[
+						"Hide Hud",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				13241.3793103448,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				66206.8965517241,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				119172.413793103,
+				[
+					[
+						"Hide Hud",
+						"1",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"showPsychEngineMark": true,
+		"addScrewYouText": true,
+		"validScore": false,
+		"screwYou": "Song by valenxyss",
+		"engineName": "Bambi Engine ",
+		"gfVersion": "nogf",
+		"bpm": 145,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "milho"
+	}
+}

@@ -1,15 +1,40 @@
 {
 	"song": {
-		"speed": 2.8,
+		"speed": 1.5,
 		"stage": "nightdave",
 		"player1": "jammer-small",
 		"player2": "dave-splitathon",
 		"player3": null,
-		"events": [],
+		"events": [
+			[
+				0,
+				[
+					[
+						"Image Flash",
+						"ez",
+						"3"
+					]
+				]
+			],
+			[
+				220800,
+				[
+					[
+						"Hide Hud",
+						"1",
+						""
+					]
+				]
+			]
+		],
 		"notes": [],
 		"splashSkin": "noteSplashes",
+		"showPsychEngineMark": true,
+		"addScrewYouText": true,
 		"validScore": false,
-		"gfVersion": "nogf",
+		"screwYou": "Song by Lorenxx10, This will be a Week 3 song later on.",
+		"engineName": "Dave Engine ",
+		"gfVersion": "nightshades-small",
 		"bpm": 100,
 		"arrowSkin": "",
 		"needsVoices": true,

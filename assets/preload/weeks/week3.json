@@ -1,10 +1,11 @@
 {
 	"storyName": "Dave's Backyard, Again",
 	"difficulties": "Normal",
-	"hideFreeplay": false,
+	"hideFreeplay": true,
 	"weekBackground": "daveround2",
 	"weekBefore": "week2",
 	"startUnlocked": true,
+	"hideStoryMode": true,
 	"weekCharacters": [
 		"",
 		"",
@@ -48,6 +49,5 @@
 			]
 		]
 	],
-	"hideStoryMode": false,
 	"weekName": "Week 3"
 }

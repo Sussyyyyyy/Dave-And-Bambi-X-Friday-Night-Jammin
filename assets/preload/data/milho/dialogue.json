@@ -6,7 +6,7 @@
 			"portrait": "bambi-corn-theft",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "you are cool rapping "
+			"text": "you are good at rapping "
 		},
 		{
 			"sound": "",
@@ -46,7 +46,7 @@
 			"portrait": "jammer",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "you better dont know"
+			"text": "you better not know"
 		},
 		{
 			"sound": "",
@@ -62,7 +62,7 @@
 			"portrait": "bambi-corn-theft",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "whos nightsade?"
+			"text": "whos nightshade?"
 		},
 		{
 			"sound": "",
@@ -70,7 +70,7 @@
 			"portrait": "jammer",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "my counterpart, i was with shee tonight, before i got unconscious"
+			"text": "my counterpart, i was with him tonight, before i got unconscious"
 		},
 		{
 			"sound": "",
@@ -78,7 +78,7 @@
 			"portrait": "dave",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "i will itry my best in looking for she"
+			"text": "i will try my best in looking for him"
 		},
 		{
 			"sound": "",
@@ -102,7 +102,7 @@
 			"portrait": "jammer",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "im wondering meeting with you son!"
+			"text": "I hope I can meet your son!"
 		},
 		{
 			"sound": "",
@@ -110,7 +110,7 @@
 			"portrait": "bambi-corn-theft",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "hey! what about other battle?"
+			"text": "hey! what about our rap battle?"
 		},
 		{
 			"sound": "",
@@ -118,7 +118,7 @@
 			"portrait": "jammer",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "sure!"
+			"text": "oh let's continue"
 		}
 	]
 }

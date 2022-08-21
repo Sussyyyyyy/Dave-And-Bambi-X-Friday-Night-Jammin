@@ -536,6 +536,21 @@ class PlayState extends MusicBeatState
 				bg.shader = testshader.shader;
 				curbg = bg;
 
+			case 'tridimensionalv1':
+				curStage = 'tridimensionalv1';
+
+				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('shart'));
+				bg.active = true;
+
+				add(bg);
+
+				var testshader:Shaders.GlitchEffect = new Shaders.GlitchEffect();
+				testshader.waveAmplitude = 0.1;
+				testshader.waveFrequency = 5;
+				testshader.waveSpeed = 2;
+				bg.shader = testshader.shader;
+				curbg = bg;
+
 			case '3djammin':
 				curStage = '3djammin';
 

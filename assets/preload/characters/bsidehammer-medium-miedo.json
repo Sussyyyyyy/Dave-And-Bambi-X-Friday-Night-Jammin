@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				4,
+				300
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Jammer-Scared idle"
+		},
+		{
+			"offsets": [
+				85,
+				300
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Jammer-Scared left"
+		},
+		{
+			"offsets": [
+				-10,
+				300
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Jammer-Scared down"
+		},
+		{
+			"offsets": [
+				-16,
+				300
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Jammer-Scared up"
+		},
+		{
+			"offsets": [
+				-34,
+				300
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Jammer-Scared right"
+		},
+		{
+			"offsets": [
+				-15,
+				300
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "Jammer-Scared right"
+		},
+		{
+			"offsets": [
+				-2,
+				300
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "Jammer-Scared down"
+		},
+		{
+			"offsets": [
+				-6,
+				300
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "Jammer-Scared up"
+		},
+		{
+			"offsets": [
+				75,
+				300
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "Jammer-Scared left"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bsidehammerscared",
+	"position": [
+		20,
+		310
+	],
+	"healthicon": "jammer",
+	"flip_x": true,
+	"healthbar_colors": [
+		98,
+		98,
+		98
+	],
+	"camera_position": [
+		200,
+		-200
+	],
+	"sing_duration": 4,
+	"scale": 0.7
+}

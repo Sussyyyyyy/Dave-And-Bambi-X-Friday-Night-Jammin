@@ -2,7 +2,7 @@
 	"dialogue": [
 		{
 			"expression": "talk",
-			"text": "oh, its returning night right now",
+			"text": "oh, its night time",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
@@ -18,7 +18,7 @@
 		},
 		{
 			"expression": "talk",
-			"text": "yeah, tristan just finishied his homework, this rap battle and i will invite him if he want, hes not sleepy i dont know why",
+			"text": "Hi, I'm back, Tristan just finishied his homework, after this rap battle I will invite him if he wants, hes not sleepy i dont know why",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
@@ -26,7 +26,7 @@
 		},
 		{
 			"expression": "talk",
-			"text": "i hope meet him rn",
+			"text": "I hope I can meet him rn",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
@@ -34,7 +34,7 @@
 		},
 		{
 			"expression": "talk",
-			"text": "you will",
+			"text": "you will meet him",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
@@ -50,7 +50,7 @@
 		},
 		{
 			"expression": "talk",
-			"text": "sure! im returning sleepy so dave if you let me i will sleep like 2 or 3 hours in you house",
+			"text": "sure! im sleepy rn, also dave i will sleep like 2 or 3 hours in your house if you let me",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
@@ -66,7 +66,7 @@
 		},
 		{
 			"expression": "talk",
-			"text": "also, i will put hard in this one!!",
+			"text": "forgot to mention, i wont go easy on this one!!",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
@@ -74,7 +74,7 @@
 		},
 		{
 			"expression": "talk",
-			"text": "prepare yo a-- jammer!!!!!!",
+			"text": "prepare yo ass jammer!!!!!!",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
@@ -82,7 +82,7 @@
 		},
 		{
 			"expression": "talk",
-			"text": "what",
+			"text": "wha-",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,

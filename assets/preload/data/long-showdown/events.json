@@ -11,8 +11,18 @@
 				[
 					[
 						"Image Flash",
-						"insane",
+						"hard",
 						"3"
+					]
+				]
+			],
+			[
+				3.125,
+				[
+					[
+						"shakey arrows WHAT",
+						"10",
+						"20"
 					]
 				]
 			],
@@ -433,7 +443,7 @@
 		"addScrewYouText": true,
 		"validScore": false,
 		"screwYou": "Song by valenxyss",
-		"engineName": "Bambi Engine  ",
+		"engineName": "Bambi Engine ",
 		"gfVersion": "nogf",
 		"bpm": 200,
 		"arrowSkin": "",

@@ -1,0 +1,33 @@
+{
+	"song": {
+		"speed": 2.9,
+		"stage": "bambi",
+		"player1": "jammer-small",
+		"player2": "bambi",
+		"player3": null,
+		"events": [
+			[
+				0,
+				[
+					[
+						"Image Flash",
+						"ez",
+						"3"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"showPsychEngineMark": true,
+		"addScrewYouText": true,
+		"validScore": false,
+		"screwYou": "Song by Womo",
+		"engineName": "Bambi Engine ",
+		"gfVersion": "nogf",
+		"bpm": 115,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "stealing-suspicious"
+	}
+}

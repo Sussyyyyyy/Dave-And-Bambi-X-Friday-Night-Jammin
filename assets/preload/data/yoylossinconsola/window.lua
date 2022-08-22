@@ -15,5 +15,5 @@ function onMoveCamera(focus)
 	elseif focus == 'dad' then
 		setProperty('camFollowPos.y',getProperty('camFollowPos.y') + (math.sin(currentBeat) * 0.6))
 	end
-	setPropertyFromClass("openfl.Lib", "application.window.title", "STUMBLE FUNKIN SONG 1 YO Y LOS SIN CONSOLA HARDEST SONG")
+	setPropertyFromClass("openfl.Lib", "application.window.title", "STUMBLE FUNKIN SONG 1 POTOTRIPAS HARDEST SONG")
 end

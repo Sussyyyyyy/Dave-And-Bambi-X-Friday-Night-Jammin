@@ -550,7 +550,7 @@ class PlayState extends MusicBeatState
 				testshader.waveSpeed = 2;
 				bg.shader = testshader.shader;
 				curbg = bg;
-
+	
 			case '3djammin':
 				curStage = '3djammin';
 

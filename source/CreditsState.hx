@@ -88,7 +88,7 @@ class CreditsState extends MusicBeatState
 			["Bren",                "bren",             "Musician and Friday Night Jammin Creator",                      "https://www.youtube.com/c/Bren67987",                           '444444'],
 			["MrCornStealer",       "lambi",            "3D Sprite Creator",                                             "https://www.youtube.com/c/MrCornStealer",                       '444444'],
 			["lorenxx10",           "lorenxx",        "Musician",                                          "https://www.youtube.com/user/vdami74",                          '444444'],
-			["another person",      "another",        "True Expunged Icon Creator",                                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",                                          '444444'],
+			["another person",      "another",        "True Expunged Icon Creator",                                    "https://www.youtube.com/watch?v=xvFZjo5PgG0",                                          '444444'],
 			['Special Thanks'],
 			["MoldyGH",             "moldy",            "Dave And Bambi Owner",                                            "https://www.youtube.com/c/MoldyGH",                             '444444'],
 			["ChillSpace",             "chill",            "Creator of the Chromatic used in Stealing Suspicious",                         "https://twitter.com/ChillSpaceMusic?t=tzQqFGEHymbiA9KXme1ZpA&s=09",                             '444444'],

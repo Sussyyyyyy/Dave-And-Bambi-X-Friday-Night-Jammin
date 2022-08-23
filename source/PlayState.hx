@@ -123,6 +123,8 @@ class PlayState extends MusicBeatState
 
 	public static var thisSongHasScrewYouText:Bool = false;
 
+	var mustHitSect1on:Bool;
+
 	public var vocals:FlxSound;
 
 	public var dad:Character = null;
@@ -132,6 +134,14 @@ class PlayState extends MusicBeatState
 	public var notes:FlxTypedGroup<Note>;
 	public var unspawnNotes:Array<Note> = [];
 	public var eventNotes:Array<EventNote> = [];
+
+	var xx:Int = 520;
+	var yy:Int = 600;
+	var xx2:Int = 820;
+	var yy2:Int = 600;
+	var ofs:Int = 20;
+	var del:Int = 0;
+	var del2:Int = 0;
 
 	var cameraMove:FlxTween;
 
@@ -300,6 +310,7 @@ class PlayState extends MusicBeatState
 	
 	// Less laggy controls
 	private var keysArray:Array<Dynamic>;
+		
 
 	override public function create()
 	{
@@ -1246,7 +1257,7 @@ class PlayState extends MusicBeatState
 		moveCameraSection(0);
 
 		healthBarBG = new AttachedSprite('healthBar');
-		healthBarBG.y = FlxG.height * 0.89;
+		healthBarBG.y = (FlxG.height * 0.89) + (-20);
 		healthBarBG.screenCenter(X);
 		healthBarBG.scrollFactor.set();
 		healthBarBG.visible = !ClientPrefs.hideHud;
@@ -2478,6 +2489,26 @@ class PlayState extends MusicBeatState
 
 	override public function update(elapsed:Float)
 	{
+		if (FlxG.keys.justPressed.SEVEN)
+		{
+			if(curSong.toLowerCase() == 'cheater-mayhem')
+			{
+				PlayState.SONG = Song.loadFromJson("finis-mundi", "finis-mundi"); //el que haya pulsado 7 es gay
+				FlxG.switchState(new PlayState());
+				trace("pero vamos a ver puto subnormal de mierda, si ya te hemos mandado a esta canción por intentar entrar al chart editor pq vuelves a pulsar el 7 pedazo de gilipollas? de verdad no entiendo pq hay gente que tiene la mente muy estúpida como para hacer esto, nah es bromi tqm uwu");
+			}
+			else if (curSong.toLowerCase() == 'finis-mundi')
+			{
+				trace("ya está bien no?");
+			}
+			else
+			{
+				PlayState.SONG = Song.loadFromJson("cheater-mayhem", "cheater-mayhem"); //does the same fucking thing
+				FlxG.switchState(new PlayState());
+				trace("pastacat48");
+			}
+		}
+
 		/*if (FlxG.keys.justPressed.NINE)
 		{
 			iconP1.swapOldIcon();
@@ -2678,22 +2709,28 @@ class PlayState extends MusicBeatState
 				#end
 			}
 		}
-
+		#if !(debug)
 		if (FlxG.keys.anyJustPressed(debugKeysChart) && !endingSong && !inCutscene)
+		{
+			trace("no <3");
+		}
+		#else
+		if (FlxG.keys.justPressed.SIX)
 		{
 			openChartEditor();
 		}
+		#end
 
 		// FlxG.watch.addQuick('VOL', vocals.amplitudeLeft);
 		// FlxG.watch.addQuick('VOLRight', vocals.amplitudeRight);
 
-		var mult:Float = FlxMath.lerp(1, iconP1.scale.x, CoolUtil.boundTo(1 - (elapsed * 9), 0, 1));
+		/*var mult:Float = FlxMath.lerp(1, iconP1.scale.x, CoolUtil.boundTo(1 - (elapsed * 9), 0, 1));
 		iconP1.scale.set(mult, mult);
 		iconP1.updateHitbox();
 
 		var mult:Float = FlxMath.lerp(1, iconP2.scale.x, CoolUtil.boundTo(1 - (elapsed * 9), 0, 1));
 		iconP2.scale.set(mult, mult);
-		iconP2.updateHitbox();
+		iconP2.updateHitbox();*/
 
 		var iconOffset:Int = 26;
 
@@ -4591,6 +4628,29 @@ class PlayState extends MusicBeatState
 	{
 		super.beatHit();
 
+		//health icon bounce but epic
+		if (curBeat % gfSpeed == 0) {
+			curBeat % (gfSpeed * 2) == 0 ? {
+				iconP1.scale.set(1.1, 0.8);
+				iconP2.scale.set(1.1, 1.3);
+
+				FlxTween.angle(iconP1, -15, 0, Conductor.crochet / 1300 * gfSpeed, {ease: FlxEase.quadOut});
+				FlxTween.angle(iconP2, 15, 0, Conductor.crochet / 1300 * gfSpeed, {ease: FlxEase.quadOut});
+			} : {
+				iconP1.scale.set(1.1, 1.3);
+				iconP2.scale.set(1.1, 0.8);
+
+				FlxTween.angle(iconP2, -15, 0, Conductor.crochet / 1300 * gfSpeed, {ease: FlxEase.quadOut});
+				FlxTween.angle(iconP1, 15, 0, Conductor.crochet / 1300 * gfSpeed, {ease: FlxEase.quadOut});
+			}
+
+			FlxTween.tween(iconP1, {'scale.x': 1, 'scale.y': 1}, Conductor.crochet / 1250 * gfSpeed, {ease: FlxEase.quadOut});
+			FlxTween.tween(iconP2, {'scale.x': 1, 'scale.y': 1}, Conductor.crochet / 1250 * gfSpeed, {ease: FlxEase.quadOut});
+
+			iconP1.updateHitbox();
+			iconP2.updateHitbox();
+		}
+
 		if (curBeat > 464 && curSong.toLowerCase() == 'mealie')
 		{
 			if (curBeat < 592)
@@ -4647,6 +4707,8 @@ class PlayState extends MusicBeatState
 			// Conductor.changeBPM(SONG.bpm);
 		}
 		// FlxG.log.add('change bpm' + SONG.notes[Std.int(curStep / 16)].changeBPM);
+
+		mustHitSect1on = SONG.notes[Math.floor(curStep / 16)].mustHitSection;
 
 		if (generatedMusic && PlayState.SONG.notes[Std.int(curStep / 16)] != null && !endingSong && !isCameraOnForcedPos)
 		{

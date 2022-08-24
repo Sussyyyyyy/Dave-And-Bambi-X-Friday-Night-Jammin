@@ -616,26 +616,54 @@ class TitleState extends MusicBeatState
 				case 10:
 					addMoreText(curWacky[1]);
 				// credTextShit.text += '\nlmao'
-                case 11:
-	                createCoolText(["we changed to source code"]);
-				case 12:	
-					addMoreText(["because source code is cool"]); text:String;
-				case 13:
-					createCoolText(["join ur discord"]);
-				case 14:	
-					addMoreText(["my balls stuck in a door"]); text:String
-				case 15:
+				case 11:
 					deleteCoolText();
-				case 16:
-					addMoreText('Dave and Bambi');
-				// credTextShit.visible = true;
+                case 12:
+	                createCoolText(["we changed to source code"], -40);
+				
+				case 13:	
+					addMoreText("because source code is cool", -40);
+				case 14:
+					deleteCoolText();
+				case 15:
+					createCoolText(["join ur discord"], -40);
+				case 16:	
+					addMoreText("my balls stuck in a door", -40);     
 				case 17:
+					deleteCoolText();
+				case 18:
+					createCoolText(["this is a cool text"], -40);
+				case 19:
+					addMoreText("createcooltext moment", -40);
+				case 20:
+					deleteCoolText();
+				case 21:
+                    createCoolText(["play monarchy deku and bombi mod"], -40);
+				case 22:
+					addMoreText("or i will kill innocent pepole", -40); //yeah i will
+				case 23:
+					deleteCoolText();
+				case 24:
+					createCoolText(["i have no text ideas"], -40); //asdasdfsafdedg
+				case 25:
+					addMoreText("adkjsasd", -40);
+				case 26:
+					deleteCoolText();
+				case 27:
+					createCoolText(["please be the final text"], -40);
+				case 28:
+					addMoreText("no its not", -40);
+				case 29:
+					deleteCoolText();
+				case 30:
+					createCoolText(['Dave and Bambi']);
+				// credTextShit.visible = true;
+				case 31:
 					addMoreText('X');
 				// credTextShit.text += '\nNight';
-				case 18:
+				case 32:
 					addMoreText('Friday Night Jammin'); // credTextShit.text += '\nFunkin';
-
-				case 19:
+				case 33:
 					skipIntro();
 			}
 		}

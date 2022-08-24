@@ -632,38 +632,33 @@ class TitleState extends MusicBeatState
 				case 17:
 					deleteCoolText();
 				case 18:
-					createCoolText(["this is a cool text"], -40);
+                    createCoolText(["i love manny edition"], -40);
 				case 19:
-					addMoreText("createcooltext moment", -40);
+					addMoreText("do you", -40); //yeah i will
 				case 20:
 					deleteCoolText();
 				case 21:
-                    createCoolText(["play monarchy deku and bombi mod"], -40);
+					createCoolText(["i have no text ideas"], -40); //asdasdfsafdedg
 				case 22:
-					addMoreText("or i will kill innocent pepole", -40); //yeah i will
+					addMoreText("adkjsasd", -40);
 				case 23:
 					deleteCoolText();
 				case 24:
-					createCoolText(["i have no text ideas"], -40); //asdasdfsafdedg
+					createCoolText(["please be the final text"], -40);
 				case 25:
-					addMoreText("adkjsasd", -40);
+					addMoreText("no its not", -40);
 				case 26:
 					deleteCoolText();
 				case 27:
-					createCoolText(["please be the final text"], -40);
-				case 28:
-					addMoreText("no its not", -40);
-				case 29:
-					deleteCoolText();
-				case 30:
 					createCoolText(['Dave and Bambi']);
 				// credTextShit.visible = true;
-				case 31:
+				case 28:
 					addMoreText('X');
 				// credTextShit.text += '\nNight';
-				case 32:
+				case 29:
 					addMoreText('Friday Night Jammin'); // credTextShit.text += '\nFunkin';
-				case 33:
+	            //ASDSADFSDF		
+				case 30:
 					skipIntro();
 			}
 		}

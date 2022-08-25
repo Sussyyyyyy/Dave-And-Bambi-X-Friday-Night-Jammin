@@ -2489,24 +2489,11 @@ class PlayState extends MusicBeatState
 
 	override public function update(elapsed:Float)
 	{
-		if (FlxG.keys.justPressed.SEVEN)
-		{
-			if(curSong.toLowerCase() == 'cheater-mayhem')
-			{
-				PlayState.SONG = Song.loadFromJson("finis-mundi", "finis-mundi"); //el que haya pulsado 7 es gay
+	
+		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() != 'cheater-mayhem') && (curSong.toLowerCase() != 'finis-mundi')) {
+			PlayState.SONG = Song.loadFromJson("cheater-mayhem", "cheater-mayhem"); //does the same fucking thing
 				FlxG.switchState(new PlayState());
-				trace("pero vamos a ver puto subnormal de mierda, si ya te hemos mandado a esta canción por intentar entrar al chart editor pq vuelves a pulsar el 7 pedazo de gilipollas? de verdad no entiendo pq hay gente que tiene la mente muy estúpida como para hacer esto, nah es bromi tqm uwu");
-			}
-			else if (curSong.toLowerCase() == 'finis-mundi')
-			{
-				trace("ya está bien no?");
-			}
-			else
-			{
-				PlayState.SONG = Song.loadFromJson("cheater-mayhem", "cheater-mayhem"); //does the same fucking thing
-				FlxG.switchState(new PlayState());
-				trace("pastacat48");
-			}
+				trace("bruh");
 		}
 
 		/*if (FlxG.keys.justPressed.NINE)

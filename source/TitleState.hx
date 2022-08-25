@@ -626,7 +626,7 @@ class TitleState extends MusicBeatState
 				case 14:
 					deleteCoolText();
 				case 15:
-					createCoolText(["join ur discord"], -40);
+					createCoolText(["join our discord"], -40);
 				case 16:	
 					addMoreText("my balls stuck in a door", -40);     
 				case 17:
@@ -634,19 +634,19 @@ class TitleState extends MusicBeatState
 				case 18:
                     createCoolText(["i love manny edition"], -40);
 				case 19:
-					addMoreText("do you", -40); //yeah i will
+					addMoreText("and deku and bombi", -40); //sanity loss, unsetting adoration and shaped chaos best songs
 				case 20:
 					deleteCoolText();
 				case 21:
-					createCoolText(["i have no text ideas"], -40); //asdasdfsafdedg
+					createCoolText(["beat cheater mayhem"], -40); //asdasdfsafdedg
 				case 22:
-					addMoreText("adkjsasd", -40);
+					addMoreText("i dare you", -40);
 				case 23:
 					deleteCoolText();
 				case 24:
-					createCoolText(["please be the final text"], -40);
+					createCoolText(["the jammer"], -40);
 				case 25:
-					addMoreText("no its not", -40);
+					addMoreText("the j", -40);
 				case 26:
 					deleteCoolText();
 				case 27:

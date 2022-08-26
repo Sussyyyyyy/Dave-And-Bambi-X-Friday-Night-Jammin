@@ -195,16 +195,6 @@
 						"10"
 					]
 				]
-			],
-			[
-				115125,
-				[
-					[
-						"Game Message with crash",
-						"Nightcrawler, you are next.",
-						"Nightcrawler, you are next."
-					]
-				]
 			]
 		],
 		"notes": [],
@@ -212,8 +202,8 @@
 		"showPsychEngineMark": null,
 		"addScrewYouText": true,
 		"validScore": false,
-		"screwYou": "You deserve this as your punishment, Jammer.",
-		"engineName": null,
+		"screwYou": "This is your punishment, JAMMER. (Song by valenxyss)",
+		"engineName": "Cheater Engine ",
 		"gfVersion": "nogf",
 		"bpm": 120,
 		"arrowSkin": "",

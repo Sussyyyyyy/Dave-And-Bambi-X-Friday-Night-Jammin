@@ -577,6 +577,21 @@ class PlayState extends MusicBeatState
 				bg.shader = testshader.shader;
 				curbg = bg;
 
+			case 'unfair':
+				curStage = 'unfair';
+
+				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('scarybg'));
+				bg.active = true;
+
+				add(bg);
+	
+				var testshader:Shaders.GlitchEffect = new Shaders.GlitchEffect();
+				testshader.waveAmplitude = 0.1;
+				testshader.waveFrequency = 5;
+				testshader.waveSpeed = 2;
+				bg.shader = testshader.shader;
+				curbg = bg;
+	
 			case 'bambi':
 				{
 					defaultCamZoom = 0.9;

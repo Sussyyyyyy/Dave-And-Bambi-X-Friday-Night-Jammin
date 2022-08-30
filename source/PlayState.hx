@@ -123,8 +123,6 @@ class PlayState extends MusicBeatState
 
 	public static var thisSongHasScrewYouText:Bool = false;
 
-	var mustHitSect1on:Bool;
-
 	public var vocals:FlxSound;
 
 	public var dad:Character = null;
@@ -1832,6 +1830,8 @@ class PlayState extends MusicBeatState
 			callOnLuas('onStartCountdown', []);
 			return;
 		}
+
+		trace(timeTxt);
 
 		inCutscene = false;
 		var ret:Dynamic = callOnLuas('onStartCountdown', []);
@@ -4709,8 +4709,6 @@ class PlayState extends MusicBeatState
 			// Conductor.changeBPM(SONG.bpm);
 		}
 		// FlxG.log.add('change bpm' + SONG.notes[Std.int(curStep / 16)].changeBPM);
-
-		mustHitSect1on = SONG.notes[Math.floor(curStep / 16)].mustHitSection;
 
 		if (generatedMusic && PlayState.SONG.notes[Std.int(curStep / 16)] != null && !endingSong && !isCameraOnForcedPos)
 		{

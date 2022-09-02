@@ -44,6 +44,24 @@
 			]
 		],
 		[
+			"Perma-Ban",
+			"redacted",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"Recolored",
+			"no-icon",
+			[
+				180,
+				180,
+				0
+			]
+		],
+		[
 			"Trijam",
 			"jammer",
 			[
@@ -81,11 +99,11 @@
 		],
 		[
 			"Tridimensional-V2-B-Side",
-			"old3ddavebside",
+			"bside3ddave",
 			[
+				128,
 				0,
-				0,
-				153
+				128
 			]
 		],
 		[
@@ -135,7 +153,7 @@
 		],
 		[
 			"Tridimensional-V1-D-Side",
-			"old3ddavebside",
+			"old3ddavedside",
 			[
 				69,
 				42,

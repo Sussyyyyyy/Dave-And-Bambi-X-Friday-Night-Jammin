@@ -5,6 +5,11 @@
 	"weekBackground": "daveround2",
 	"weekBefore": "week2",
 	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
 	"songs": [
 		[
 			"Midnight",
@@ -34,6 +39,15 @@
 			]
 		],
 		[
+			"Unsurprising",
+			"bambi",
+			[
+				0,
+				180,
+				0
+			]
+		],
+		[
 			"Marathon",
 			"marathon",
 			[
@@ -44,10 +58,5 @@
 		]
 	],
 	"hideStoryMode": false,
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
 	"weekName": "Week 3"
 }

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Jammer-Scared.png"><SubTexture name="Jammer-Scared idle0000" x="0" y="0" width="701" height="915" frameX="0" frameY="0" frameWidth="701" frameHeight="915" />
+<SubTexture name="Jammer-Scared idle0001" x="701" y="0" width="701" height="915" frameX="0" frameY="0" frameWidth="701" frameHeight="915" />
+<SubTexture name="Jammer-Scared up0000" x="1402" y="0" width="614" height="899" frameX="0" frameY="0" frameWidth="614" frameHeight="899" />
+<SubTexture name="Jammer-Scared up0001" x="0" y="915" width="614" height="899" frameX="0" frameY="0" frameWidth="614" frameHeight="899" />
+<SubTexture name="Jammer-Scared right0000" x="614" y="915" width="626" height="878" frameX="0" frameY="0" frameWidth="626" frameHeight="878" />
+<SubTexture name="Jammer-Scared right0001" x="1240" y="915" width="626" height="878" frameX="0" frameY="0" frameWidth="626" frameHeight="878" />
+<SubTexture name="Jammer-Scared left0000" x="0" y="1814" width="612" height="852" frameX="0" frameY="0" frameWidth="612" frameHeight="852" />
+<SubTexture name="Jammer-Scared down0000" x="612" y="1814" width="709" height="885" frameX="0" frameY="0" frameWidth="709" frameHeight="885" />
+<SubTexture name="Jammer-Scared down0001" x="1321" y="1814" width="709" height="885" frameX="0" frameY="0" frameWidth="709" frameHeight="885" />
+</TextureAtlas>

@@ -44,17 +44,44 @@
 			]
 		],
 		[
-			"Midnight",
-			"dave",
+			"Trijam",
+			"jammer",
 			[
 				0,
 				0,
-				255
+				153
 			]
 		],
 		[
-			"Trijam",
+			"Hablise",
 			"jammer",
+			[
+				0,
+				0,
+				153
+			]
+		],
+		[
+			"introvert",
+			"kaiju",
+			[
+				0,
+				0,
+				153
+			]
+		],
+		[
+			"hilarious-testing",
+			"balls",
+			[
+				0,
+				0,
+				153
+			]
+		],
+		[
+			"Tridimensional-V2-B-Side",
+			"old3ddavebside",
 			[
 				0,
 				0,
@@ -89,7 +116,25 @@
 			]
 		],
 		[
+			"vs-dave-easter-3",
+			"sexo",
+			[
+				0,
+				0,
+				153
+			]
+		],
+		[
 			"Tridimensional-V1-B-Side",
+			"old3ddavebside",
+			[
+				69,
+				42,
+				137
+			]
+		],
+		[
+			"Tridimensional-V1-D-Side",
 			"old3ddavebside",
 			[
 				69,
@@ -121,6 +166,15 @@
 			[
 				255,
 				0,
+				0
+			]
+		],
+		[
+			"ready-loud",
+			"sexo",
+			[
+				0,
+				195,
 				0
 			]
 		]

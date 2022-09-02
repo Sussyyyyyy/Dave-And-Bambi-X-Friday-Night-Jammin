@@ -1,43 +1,52 @@
 {
-	"storyName": "RED SNOW",
-	"hideFreeplay": true,
-	"weekBackground": "christmas",
+	"storyName": "intruder",
+	"hideFreeplay": false,
+	"weekBackground": "expunged",
 	"weekBefore": "week4",
 	"startUnlocked": true,
 	"weekCharacters": [
-		"parents-christmas",
-		"bf",
-		"gf"
+		"",
+		"",
+		""
 	],
 	"songs": [
 		[
-			"Cocoa",
-			"parents",
+			"gatetrader",
+			"3d",
 			[
-				160,
-				209,
-				255
+				55,
+				149,
+				15
 			]
 		],
 		[
-			"Eggnog",
-			"parents",
+			"injury",
+			"3d",
 			[
-				160,
-				209,
-				255
+				60,
+				153,
+				13
 			]
 		],
 		[
-			"Winter Horrorland",
-			"monster",
+			"resistant",
+			"unfairbambi",
 			[
-				160,
-				209,
-				255
+				180,
+				0,
+				0
+			]
+		],
+		[
+			"harmon",
+			"tru",
+			[
+				153,
+				1,
+				2
 			]
 		]
 	],
-	"hideStoryMode": true,
+	"hideStoryMode": false,
 	"weekName": "Week 5"
 }

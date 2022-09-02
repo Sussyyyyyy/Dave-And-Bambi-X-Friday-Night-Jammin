@@ -1,11 +1,10 @@
 {
-	"storyName": "EXBUNGO SUPREMACY **WEEK 4 DEMO**",
+	"storyName": "EXBUNGO SUPREMACY",
 	"difficulties": "Normal",
-	"hideFreeplay": true,
+	"hideFreeplay": false,
 	"weekBackground": "exbungo",
 	"weekBefore": "week3",
 	"startUnlocked": true,
-	"hideStoryMode": true,
 	"weekCharacters": [
 		"",
 		"",
@@ -20,7 +19,26 @@
 				0,
 				0
 			]
+		],
+		[
+			"Habunda",
+			"exbungo",
+			[
+				80,
+				0,
+				0
+			]
+		],
+		[
+			"sternocleido",
+			"exbungo",
+			[
+				80,
+				0,
+				0
+			]
 		]
 	],
+	"hideStoryMode": false,
 	"weekName": "Week 4"
 }

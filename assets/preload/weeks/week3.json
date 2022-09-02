@@ -1,16 +1,10 @@
 {
 	"storyName": "Dave's Backyard, Again",
 	"difficulties": "Normal",
-	"hideFreeplay": true,
+	"hideFreeplay": false,
 	"weekBackground": "daveround2",
 	"weekBefore": "week2",
 	"startUnlocked": true,
-	"hideStoryMode": true,
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
 	"songs": [
 		[
 			"Midnight",
@@ -48,6 +42,12 @@
 				100
 			]
 		]
+	],
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
 	],
 	"weekName": "Week 3"
 }

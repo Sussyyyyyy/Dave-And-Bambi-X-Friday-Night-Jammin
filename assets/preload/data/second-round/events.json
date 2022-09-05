@@ -1,33 +1,23 @@
 {
 	"song": {
-		"speed": 3.5,
-		"stage": "nightbambi",
+		"speed": 3.4,
+		"stage": "nightdave",
 		"player1": "jammer-small",
-		"player2": "bambi-splitathon",
+		"player2": "tristan",
 		"player3": null,
 		"events": [
 			[
-				0,
+				21818.1818181818,
 				[
 					[
 						"Image Flash",
-						"hard",
-						"3"
+						"vineboom",
+						"0.2"
 					]
 				]
 			],
 			[
-				3.125,
-				[
-					[
-						"shakey arrows WHAT",
-						"10",
-						"20"
-					]
-				]
-			],
-			[
-				177600,
+				21823.8636363637,
 				[
 					[
 						"Change Character",
@@ -37,7 +27,7 @@
 				]
 			],
 			[
-				177603.125,
+				30545.4545454546,
 				[
 					[
 						"Image Flash",
@@ -47,37 +37,47 @@
 				]
 			],
 			[
-				182400,
+				30553.9772727273,
+				[
+					[
+						"Change Character",
+						"0",
+						"bf"
+					]
+				]
+			],
+			[
+				34909.0909090909,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				34917.6136363637,
 				[
 					[
 						"Change Character",
 						"1",
-						"bambi-splitathon"
+						"tristan"
 					]
 				]
 			],
 			[
-				182403.125,
-				[
-					[
-						"Image Flash",
-						"vineboom",
-						"0.2"
-					]
-				]
-			],
-			[
-				196800,
+				34926.1363636364,
 				[
 					[
 						"Change Character",
-						"1",
-						"dave-splitathon"
+						"0",
+						"jammer-small"
 					]
 				]
 			],
 			[
-				196803.125,
+				39272.7272727273,
 				[
 					[
 						"Image Flash",
@@ -87,27 +87,7 @@
 				]
 			],
 			[
-				198000,
-				[
-					[
-						"Change Character",
-						"1",
-						"bambi-splitathon"
-					]
-				]
-			],
-			[
-				198003.125,
-				[
-					[
-						"Image Flash",
-						"vineboom",
-						"0.2"
-					]
-				]
-			],
-			[
-				199200,
+				39281.25,
 				[
 					[
 						"Change Character",
@@ -117,7 +97,7 @@
 				]
 			],
 			[
-				199203.125,
+				48000,
 				[
 					[
 						"Image Flash",
@@ -127,37 +107,47 @@
 				]
 			],
 			[
-				200400,
+				48008.5227272727,
+				[
+					[
+						"Change Character",
+						"0",
+						"bf"
+					]
+				]
+			],
+			[
+				52363.6363636363,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				52372.1590909091,
 				[
 					[
 						"Change Character",
 						"1",
-						"bambi-splitathon"
+						"tristan"
 					]
 				]
 			],
 			[
-				200403.125,
-				[
-					[
-						"Image Flash",
-						"vineboom",
-						"0.2"
-					]
-				]
-			],
-			[
-				206400,
+				52380.6818181818,
 				[
 					[
 						"Change Character",
-						"1",
-						"dave-splitathon"
+						"0",
+						"jammer-small"
 					]
 				]
 			],
 			[
-				206403.125,
+				56727.2727272727,
 				[
 					[
 						"Image Flash",
@@ -167,27 +157,7 @@
 				]
 			],
 			[
-				207600,
-				[
-					[
-						"Change Character",
-						"1",
-						"bambi-splitathon"
-					]
-				]
-			],
-			[
-				207603.125,
-				[
-					[
-						"Image Flash",
-						"vineboom",
-						"0.2"
-					]
-				]
-			],
-			[
-				208800,
+				56732.9545454546,
 				[
 					[
 						"Change Character",
@@ -197,7 +167,7 @@
 				]
 			],
 			[
-				208803.125,
+				65454.5454545455,
 				[
 					[
 						"Image Flash",
@@ -207,37 +177,47 @@
 				]
 			],
 			[
-				210000,
+				65463.0681818182,
+				[
+					[
+						"Change Character",
+						"0",
+						"bf"
+					]
+				]
+			],
+			[
+				69818.1818181818,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				69826.7045454546,
 				[
 					[
 						"Change Character",
 						"1",
-						"bambi-splitathon"
+						"tristan"
 					]
 				]
 			],
 			[
-				210003.125,
-				[
-					[
-						"Image Flash",
-						"vineboom",
-						"0.2"
-					]
-				]
-			],
-			[
-				216000,
+				69835.2272727273,
 				[
 					[
 						"Change Character",
-						"1",
-						"dave-splitathon"
+						"0",
+						"jammer-small"
 					]
 				]
 			],
 			[
-				216003.125,
+				74181.8181818182,
 				[
 					[
 						"Image Flash",
@@ -247,27 +227,7 @@
 				]
 			],
 			[
-				220800,
-				[
-					[
-						"Change Character",
-						"1",
-						"bambi-splitathon"
-					]
-				]
-			],
-			[
-				220803.125,
-				[
-					[
-						"Image Flash",
-						"vineboom",
-						"0.2"
-					]
-				]
-			],
-			[
-				235200,
+				74190.3409090909,
 				[
 					[
 						"Change Character",
@@ -277,7 +237,7 @@
 				]
 			],
 			[
-				235203.125,
+				82909.0909090909,
 				[
 					[
 						"Image Flash",
@@ -287,37 +247,47 @@
 				]
 			],
 			[
-				236400,
+				82917.6136363636,
+				[
+					[
+						"Change Character",
+						"0",
+						"bf"
+					]
+				]
+			],
+			[
+				87272.7272727272,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				87281.25,
 				[
 					[
 						"Change Character",
 						"1",
-						"bambi-splitathon"
+						"tristan"
 					]
 				]
 			],
 			[
-				236403.125,
-				[
-					[
-						"Image Flash",
-						"vineboom",
-						"0.2"
-					]
-				]
-			],
-			[
-				237600,
+				87289.7727272727,
 				[
 					[
 						"Change Character",
-						"1",
-						"dave-splitathon"
+						"0",
+						"jammer-small"
 					]
 				]
 			],
 			[
-				237603.125,
+				91636.3636363636,
 				[
 					[
 						"Image Flash",
@@ -327,27 +297,7 @@
 				]
 			],
 			[
-				238800,
-				[
-					[
-						"Change Character",
-						"1",
-						"bambi-splitathon"
-					]
-				]
-			],
-			[
-				238803.125,
-				[
-					[
-						"Image Flash",
-						"vineboom",
-						"0.2"
-					]
-				]
-			],
-			[
-				244800,
+				91644.8863636363,
 				[
 					[
 						"Change Character",
@@ -357,7 +307,7 @@
 				]
 			],
 			[
-				244803.125,
+				100363.636363636,
 				[
 					[
 						"Image Flash",
@@ -367,17 +317,37 @@
 				]
 			],
 			[
-				246000,
+				100372.159090909,
+				[
+					[
+						"Change Character",
+						"0",
+						"bf"
+					]
+				]
+			],
+			[
+				104727.272727273,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				104735.795454545,
 				[
 					[
 						"Change Character",
 						"1",
-						"bambi-splitathon"
+						"tristan"
 					]
 				]
 			],
 			[
-				246003.125,
+				109090.909090909,
 				[
 					[
 						"Image Flash",
@@ -387,7 +357,7 @@
 				]
 			],
 			[
-				247200,
+				109099.431818182,
 				[
 					[
 						"Change Character",
@@ -397,7 +367,17 @@
 				]
 			],
 			[
-				247203.125,
+				109107.954545454,
+				[
+					[
+						"Change Character",
+						"0",
+						"jammer-small"
+					]
+				]
+			],
+			[
+				113454.545454545,
 				[
 					[
 						"Image Flash",
@@ -407,17 +387,17 @@
 				]
 			],
 			[
-				248400,
+				113463.068181818,
 				[
 					[
 						"Change Character",
 						"1",
-						"bambi-angey"
+						"tristan"
 					]
 				]
 			],
 			[
-				248403.125,
+				117818.181818182,
 				[
 					[
 						"Image Flash",
@@ -427,12 +407,22 @@
 				]
 			],
 			[
-				312000,
+				117826.704545455,
 				[
 					[
-						"Image Flash",
-						"vineboom2",
-						"5"
+						"Change Character",
+						"1",
+						"dave-splitathon"
+					]
+				]
+			],
+			[
+				117835.227272727,
+				[
+					[
+						"Change Character",
+						"0",
+						"bf"
 					]
 				]
 			]
@@ -443,11 +433,11 @@
 		"addScrewYouText": true,
 		"validScore": false,
 		"screwYou": "Song by valenxyss",
-		"engineName": "Bambi Engine ",
-		"gfVersion": "nogf",
-		"bpm": 200,
+		"engineName": "Dave and Tristan Engine ",
+		"gfVersion": "nightshades-small",
+		"bpm": 220,
 		"arrowSkin": "",
 		"needsVoices": true,
-		"song": "long-showdown"
+		"song": "second-round"
 	}
 }

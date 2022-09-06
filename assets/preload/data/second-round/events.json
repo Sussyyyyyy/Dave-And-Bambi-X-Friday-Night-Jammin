@@ -7,6 +7,36 @@
 		"player3": null,
 		"events": [
 			[
+				0,
+				[
+					[
+						"lyrics",
+						"get ready for a lot of flashbangs",
+						"ffffff, 24"
+					]
+				]
+			],
+			[
+				2.84090909090909,
+				[
+					[
+						"Image Flash",
+						"hard",
+						"3"
+					]
+				]
+			],
+			[
+				4363.63636363636,
+				[
+					[
+						"lyrics",
+						"",
+						""
+					]
+				]
+			],
+			[
 				21818.1818181818,
 				[
 					[
@@ -423,6 +453,626 @@
 						"Change Character",
 						"0",
 						"bf"
+					]
+				]
+			],
+			[
+				130431.818181818,
+				[
+					[
+						"Image Flash",
+						"vineboom2",
+						"0.5"
+					]
+				]
+			],
+			[
+				130500,
+				[
+					[
+						"Change Character",
+						"1",
+						"tristan"
+					]
+				]
+			],
+			[
+				130568.181818182,
+				[
+					[
+						"Change Character",
+						"0",
+						"jammer-small"
+					]
+				]
+			],
+			[
+				130909.090909091,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				135272.727272727,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				135278.409090909,
+				[
+					[
+						"Change Character",
+						"1",
+						"dave-splitathon"
+					]
+				]
+			],
+			[
+				144000,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				144008.522727273,
+				[
+					[
+						"Change Character",
+						"0",
+						"bf"
+					]
+				]
+			],
+			[
+				148363.636363636,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				148372.159090909,
+				[
+					[
+						"Change Character",
+						"1",
+						"tristan"
+					]
+				]
+			],
+			[
+				148380.681818182,
+				[
+					[
+						"Change Character",
+						"0",
+						"jammer-small"
+					]
+				]
+			],
+			[
+				152727.272727273,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				152735.795454545,
+				[
+					[
+						"Change Character",
+						"1",
+						"dave-splitathon"
+					]
+				]
+			],
+			[
+				161454.545454545,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				161463.068181818,
+				[
+					[
+						"Change Character",
+						"0",
+						"bf"
+					]
+				]
+			],
+			[
+				165818.181818182,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				165826.704545455,
+				[
+					[
+						"Change Character",
+						"1",
+						"tristan"
+					]
+				]
+			],
+			[
+				165835.227272727,
+				[
+					[
+						"Change Character",
+						"0",
+						"jammer-small"
+					]
+				]
+			],
+			[
+				170181.818181818,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				170187.5,
+				[
+					[
+						"Change Character",
+						"1",
+						"dave-splitathon"
+					]
+				]
+			],
+			[
+				178909.090909091,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				178917.613636364,
+				[
+					[
+						"Change Character",
+						"0",
+						"bf"
+					]
+				]
+			],
+			[
+				183272.727272727,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				183281.25,
+				[
+					[
+						"Change Character",
+						"1",
+						"tristan"
+					]
+				]
+			],
+			[
+				183289.772727273,
+				[
+					[
+						"Change Character",
+						"0",
+						"jammer-small"
+					]
+				]
+			],
+			[
+				187636.363636364,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				187644.886363636,
+				[
+					[
+						"Change Character",
+						"1",
+						"dave-splitathon"
+					]
+				]
+			],
+			[
+				196363.636363636,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				196372.159090909,
+				[
+					[
+						"Change Character",
+						"0",
+						"bf"
+					]
+				]
+			],
+			[
+				200727.272727273,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				200735.795454545,
+				[
+					[
+						"Change Character",
+						"1",
+						"tristan"
+					]
+				]
+			],
+			[
+				200744.318181818,
+				[
+					[
+						"Change Character",
+						"0",
+						"jammer-small"
+					]
+				]
+			],
+			[
+				205090.909090909,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				205099.431818182,
+				[
+					[
+						"Change Character",
+						"1",
+						"dave-splitathon"
+					]
+				]
+			],
+			[
+				213818.181818181,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				213826.704545454,
+				[
+					[
+						"Change Character",
+						"0",
+						"bf"
+					]
+				]
+			],
+			[
+				218181.818181818,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				218190.34090909,
+				[
+					[
+						"Change Character",
+						"1",
+						"tristan"
+					]
+				]
+			],
+			[
+				222545.454545454,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				222553.977272727,
+				[
+					[
+						"Change Character",
+						"1",
+						"dave-splitathon"
+					]
+				]
+			],
+			[
+				222562.499999999,
+				[
+					[
+						"Change Character",
+						"0",
+						"jammer-small"
+					]
+				]
+			],
+			[
+				226909.09090909,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				226917.613636363,
+				[
+					[
+						"Change Character",
+						"1",
+						"tristan"
+					]
+				]
+			],
+			[
+				231272.727272727,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				231281.25,
+				[
+					[
+						"Change Character",
+						"1",
+						"dave-splitathon"
+					]
+				]
+			],
+			[
+				231289.772727272,
+				[
+					[
+						"Change Character",
+						"0",
+						"bf"
+					]
+				]
+			],
+			[
+				235636.363636363,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				235644.886363636,
+				[
+					[
+						"Change Character",
+						"1",
+						"tristan"
+					]
+				]
+			],
+			[
+				235653.409090909,
+				[
+					[
+						"Change Character",
+						"0",
+						"jammer-small"
+					]
+				]
+			],
+			[
+				240000,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				240005.681818182,
+				[
+					[
+						"Change Character",
+						"1",
+						"dave-splitathon"
+					]
+				]
+			],
+			[
+				248727.272727273,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				248735.795454545,
+				[
+					[
+						"Change Character",
+						"0",
+						"bf"
+					]
+				]
+			],
+			[
+				253090.909090909,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				253099.431818181,
+				[
+					[
+						"Change Character",
+						"1",
+						"tristan"
+					]
+				]
+			],
+			[
+				253107.954545454,
+				[
+					[
+						"Change Character",
+						"0",
+						"jammer-small"
+					]
+				]
+			],
+			[
+				257454.545454545,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				257463.068181818,
+				[
+					[
+						"Change Character",
+						"1",
+						"dave-splitathon"
+					]
+				]
+			],
+			[
+				266181.818181818,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				266190.34090909,
+				[
+					[
+						"Change Character",
+						"0",
+						"bf"
+					]
+				]
+			],
+			[
+				270545.454545454,
+				[
+					[
+						"Hide Hud",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				280363.636363636,
+				[
+					[
+						"Image Flash",
+						"vineboom2",
+						"9"
 					]
 				]
 			]

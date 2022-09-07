@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="quantum_motherfucker.png">
+<SubTexture name="quantum_motherfucker idle0000" x="2142" y="2020" width="540" height="503" frameX="-358" frameY="-454" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="quantum_motherfucker idle0001" x="2142" y="2020" width="540" height="503" frameX="-358" frameY="-454" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="quantum_motherfucker idle0002" x="2239" y="0" width="468" height="576" frameX="-405" frameY="-381" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="quantum_motherfucker idle0003" x="2239" y="0" width="468" height="576" frameX="-405" frameY="-381" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="quantum_motherfucker idle0004" x="1237" y="0" width="462" height="611" frameX="-399" frameY="-345" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="quantum_motherfucker idle0005" x="1237" y="0" width="462" height="611" frameX="-399" frameY="-345" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="quantum_motherfucker left0000" x="1699" y="0" width="540" height="592" frameX="-205" frameY="-384" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="quantum_motherfucker left0001" x="905" y="822" width="508" height="596" frameX="-241" frameY="-380" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="quantum_motherfucker left0002" x="0" y="1432" width="486" height="588" frameX="-269" frameY="-388" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="quantum_motherfucker left0003" x="440" y="822" width="465" height="599" frameX="-296" frameY="-377" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="quantum_motherfucker down0000" x="1641" y="2020" width="501" height="518" frameX="-380" frameY="-427" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="quantum_motherfucker down0001" x="1153" y="2020" width="488" height="536" frameX="-386" frameY="-409" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="quantum_motherfucker down0002" x="0" y="2020" width="478" height="571" frameX="-397" frameY="-386" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="quantum_motherfucker down0003" x="1699" y="592" width="472" height="590" frameX="-405" frameY="-367" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="quantum_motherfucker right0000" x="478" y="2020" width="675" height="566" frameX="-387" frameY="-385" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="quantum_motherfucker right0001" x="1031" y="1432" width="595" height="578" frameX="-387" frameY="-373" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="quantum_motherfucker right0002" x="486" y="1432" width="545" height="581" frameX="-379" frameY="-369" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="quantum_motherfucker right0003" x="1626" y="1432" width="519" height="578" frameX="-375" frameY="-372" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="quantum_motherfucker up0000" x="0" y="0" width="400" height="822" frameX="-338" frameY="-136" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="quantum_motherfucker up0001" x="400" y="0" width="405" height="748" frameX="-349" frameY="-210" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="quantum_motherfucker up0002" x="805" y="0" width="432" height="659" frameX="-330" frameY="-299" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="quantum_motherfucker up0003" x="0" y="822" width="440" height="610" frameX="-328" frameY="-347" frameWidth="1280" frameHeight="1280" />
+</TextureAtlas>

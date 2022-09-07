@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				200,
+				100
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "quantum_motherfucker idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				206,
+				100
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "quantum_motherfucker left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				204,
+				107
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "quantum_motherfucker down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				200,
+				100
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "quantum_motherfucker up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				200,
+				100
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "quantum_motherfucker right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/quantum_motherfucker",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "quantumer",
+	"flip_x": false,
+	"healthbar_colors": [
+		100,
+		0,
+		255
+	],
+	"camera_position": [
+		10,
+		300
+	],
+	"sing_duration": 6.1,
+	"scale": 0.5
+}

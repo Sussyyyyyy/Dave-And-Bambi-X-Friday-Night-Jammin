@@ -86,6 +86,8 @@ class FreeplayState extends MusicBeatState
 	var intendedScore:Int = 0;
 	var intendedRating:Float = 0;
 
+	public static var category:String = 'Main Weeks'; //this was so fucking unnecessary
+
 	private var grpSongs:FlxTypedGroup<Alphabet>;
 	private var curPlaying:Bool = false;
 
@@ -109,29 +111,10 @@ class FreeplayState extends MusicBeatState
 		DiscordClient.changePresence("In the Menus", null);
 		#end
 
-		for (i in 0...WeekData.weeksList.length) {
-			if(weekIsLocked(WeekData.weeksList[i])) continue;
-
-			var leWeek:WeekData = WeekData.weeksLoaded.get(WeekData.weeksList[i]);
-			var leSongs:Array<String> = [];
-			var leChars:Array<String> = [];
-
-			for (j in 0...leWeek.songs.length)
-			{
-				leSongs.push(leWeek.songs[j][0]);
-				leChars.push(leWeek.songs[j][1]);
-			}
-
-			WeekData.setDirectoryFromWeek(leWeek);
-			for (song in leWeek.songs)
-			{
-				var colors:Array<Int> = song[2];
-				if(colors == null || colors.length < 3)
-				{
-					colors = [146, 113, 253];
-				}
-				addSong(song[0], i, song[1], FlxColor.fromRGB(colors[0], colors[1], colors[2]));
-			}
+		if (category == '' || category == null)
+		{
+			trace("tengo sida");
+			LoadingState.loadAndSwitchState(new FreeplayCategorySelector());
 		}
 		WeekData.loadTheFirstEnabledMod();
 
@@ -153,6 +136,78 @@ class FreeplayState extends MusicBeatState
 
 		grpSongs = new FlxTypedGroup<Alphabet>();
 		add(grpSongs);
+		category = FlxG.save.data.freeplayCategory;
+
+		if (category == 'Main Weeks')
+		{
+			addSong('Groovy-House', 0, 'dave', FlxColor.fromRGB(0, 0, 255));
+			addSong('Insano', 0, 'dave', FlxColor.fromRGB(0, 0, 255));
+			addSong('Tridimensional', 0, 'dave-furiosity', FlxColor.fromRGB(175, 0, 135));
+			addSong('Stealing-Suspicious', 1, 'bambi', FlxColor.fromRGB(0, 255, 0));
+			addSong('Milho', 1, 'bambi', FlxColor.fromRGB(0, 235, 0));
+			addSong('Long-Showdown', 1, 'uhhh', FlxColor.fromRGB(0, 215, 0));
+			addSong('Midnight', 2, 'dave', FlxColor.fromRGB(0, 0, 200));
+			addSong('Second-Round', 2, 'daventristan', FlxColor.fromRGB(0, 0, 200));
+			addSong('Newbie', 2, 'tristan', FlxColor.fromRGB(200, 0, 0));
+			addSong('Unsurprising', 2, 'daventristan', FlxColor.fromRGB(0, 180, 0));
+			addSong('Marathon', 2, 'marathon', FlxColor.fromRGB(100, 100, 100));
+			addSong('Kabuki', 3, 'exbungo', FlxColor.fromRGB(95, 0, 0));
+			addSong('Habunda', 3, 'exbungo', FlxColor.fromRGB(80, 0, 0));
+			addSong('sternocleido', 3, 'exbungo', FlxColor.fromRGB(80, 0, 0));
+			addSong('gatetrader', 4, '3d', FlxColor.fromRGB(100, 100, 100));
+			addSong('injury', 4, '3d', FlxColor.fromRGB(95, 0, 0));
+			addSong('resistant', 4, 'unfairbambi', FlxColor.fromRGB(80, 0, 0));
+			addSong('harmon', 4, 'tru', FlxColor.fromRGB(80, 0, 0));
+		}
+
+		if (category == 'Extras')
+		{
+			if (FlxG.save.data.cheaterMayhemFound)
+			{
+				addSong('Cheater-Mayhem', 0, 'tru', FlxColor.fromRGB(60, 0, 0));
+			}
+			addSong('Finis-Mundi', 0, 'him', FlxColor.fromRGB(60, 0, 0));
+			if (FlxG.save.data.permaBanFound)
+			{
+				addSong('Perma-Ban', 0, 'dave', FlxColor.fromRGB(255, 255, 255));
+			}
+			addSong('Recolored', 0, 'placeholder4recolored', FlxColor.fromRGB(180, 180, 0));
+			addSong('Trijam', 0, 'jammer', FlxColor.fromRGB(0, 0, 153));
+			addSong('Hablise', 0, 'jammer', FlxColor.fromRGB(0, 0, 153));
+			addSong('introvert', 0, 'kaiju', FlxColor.fromRGB(0, 0, 153));
+			addSong('hilarious-testing', 0, 'balls', FlxColor.fromRGB(0, 0, 153));
+			addSong('Tridimensional-V2-B-Side', 0, 'bside3ddave', FlxColor.fromRGB(128, 0, 128));
+		}
+
+		if (category == 'Joke')
+		{
+			addSong('Vs-Dave-Easter', 0, 'bambi-joke', FlxColor.fromRGB(0, 255, 0));
+			addSong('Vs-Dave-July', 0, 'sexo', FlxColor.fromRGB(100, 255, 0));
+			addSong('Vs-Dave-easter-3', 0, 'sexo', FlxColor.fromRGB(0, 0, 153));
+			addSong('Tridimensional-V1-B-Side', 0, 'old3ddavebside', FlxColor.fromRGB(69, 42, 137));
+			addSong('Tridimensional-V1-D-Side', 0, 'old3ddavedside', FlxColor.fromRGB(69, 42, 137));
+		}
+
+		if (category == 'Covers')
+		{
+			addSong('Mealie', 0, 'bambi', FlxColor.fromRGB(0, 195, 0));
+			addSong('Monarchy', 0, 'unfairbambi', FlxColor.fromRGB(255, 0, 0));
+			addSong('Ready-Loud', 0, 'sexo', FlxColor.fromRGB(0, 195, 0));
+		}
+
+		if (category == 'Secret')
+		{
+			trace("tengo sida");
+			LoadingState.loadAndSwitchState(new MainMenuState());
+		}
+
+		if (category == 'OC')
+		{
+			trace("tengo sida");
+			LoadingState.loadAndSwitchState(new MainMenuState());
+		}
+
+		FlxG.save.data.freeplayCatagory == null;
 
 		for (i in 0...songs.length)
 		{
@@ -259,6 +314,7 @@ class FreeplayState extends MusicBeatState
 
 	public function addSong(songName:String, weekNum:Int, songCharacter:String, color:Int)
 	{
+		trace(color);
 		songs.push(new SongMetadata(songName, weekNum, songCharacter, color));
 	}
 

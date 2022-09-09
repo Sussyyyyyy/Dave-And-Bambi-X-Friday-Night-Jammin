@@ -1824,12 +1824,149 @@ class PlayState extends MusicBeatState
 	public var countdownGo:FlxSprite;
 	public static var startOnTime:Float = 0;
 
+	function showSongDetails():Void
+	{
+		var BLACK = flixel.util.FlxColor.BLACK;
+		var WHITE = flixel.util.FlxColor.WHITE;
+		var blackThingLol = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, BLACK);
+    	blackThingLol.scale.set(0.4, 0.4);
+    	blackThingLol.x = -900; //goes from -900 to -385
+    	blackThingLol.y = -200;
+    	add(blackThingLol);
+    	blackThingLol.cameras = [camHUD];
+    	var songText = new FlxText();
+    	songText.x = -129; //goes from -129 to -10
+    	songText.y = 30;
+    	songText.scrollFactor.set();
+    	songText.text = "Song:";
+    	songText.setFormat(Paths.font("vcr.ttf"), 48, WHITE);
+    	songText.cameras = [camHUD];
+    	add(songText);
+    	var daRealSongName = new FlxText();
+    	daRealSongName.x = -997; //goes from -197 to -10
+    	daRealSongName.y = 90;
+    	daRealSongName.scrollFactor.set();
+    	daRealSongName.text = curSong;
+    	daRealSongName.setFormat(Paths.font("vcr.ttf"), 48, WHITE);
+    	daRealSongName.cameras = [camHUD];
+    	add(daRealSongName);
+    	var songCreator = new FlxText();
+    	songCreator.x = -900;
+    	songCreator.y = 150;
+		var s:String = '';
+		switch(curSong)
+		{
+			case 'groovy-house':
+			s = 'valenxyss';
+			case 'insano':
+			s = 'valenxyss';
+			case 'tridimensional':
+			s = 'valenxyss';
+			case 'stealing-suspicious':
+			s = 'Womo';
+			case 'milho':
+			s = 'valenxyss';
+			case 'long-showdown':
+			s = 'valenxyss';
+			case 'midnight':
+			s = 'LORENXX-10';
+			case 'second-round':
+			s = 'valenxyss';
+			case 'newbie':
+			s = 'valenxyss';
+			case 'unsurprising':
+			s = 'Womo';
+			case 'marathon':
+			s = 'Bren & Womo';
+			case 'kabuki':
+			s = 'Womo';
+			case 'habunda':
+			s = 'valenxyss';
+			case 'sternocleido':
+			s = '?';
+			case 'gatetrader':
+			s = 'valenxyss';
+			case 'injury':
+			s = 'valenxyss';
+			case 'resistant':
+			s = 'valenxyss';
+			case 'harmon':
+			s = 'valenxyss';
+			case 'cheater-mayhem':
+			s = 'valenxyss';
+			case 'finis-mundi':
+			s = 'valenxyss';
+			case 'perma-ban':
+			s = '?';
+			case 'recolored':
+			s = 'Womo';
+			case 'trijam':
+			s = 'Womo';
+			case 'hablise':
+			s = 'valenxyss';
+			case 'introvert':
+			s = 'valenxyss';
+			case 'hilarious-testing':
+			s = 'valenxyss';
+			case 'tridimensional-v2-b-side':
+			s = 'valenxyss';
+			case 'vs-dave-easter':
+			s = 'ValenciaBall';
+			case 'vs-dave-july':
+			s = 'ValenciaBall';
+			case 'vs-dave-easter-3':
+			s = 'valenxyss';
+			case 'tridimensional-v1-b-side':
+			s = 'Womo';
+			case 'tridimensional-v1-d-side':
+			s = 'Womo';
+			case 'mealie':
+			s = 'Alexander Cooper 19';
+			case 'monarchy':
+			s = 'LORENXX-10';
+			case 'ready-loud':
+			s = 'MoldyGH';
+		}
+    	songCreator.text = "By: " + s;
+    	songCreator.scrollFactor.set();
+    	songCreator.size = 32;
+    	songCreator.setFormat(Paths.font("vcr.ttf"), 32, WHITE);
+    	songCreator.cameras = [camHUD];
+    	songCreator.visible = true; //set it to true if you want to make visible the creator of the song
+    	add(songCreator);
+    	var whiteShit = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, WHITE);
+    	whiteShit.scale.set(0.01, 0.4);
+    	whiteShit.x = -647; //goes from -647 to -135
+    	whiteShit.y = -200;
+    	add(whiteShit);
+    	whiteShit.cameras = [camHUD];
+    	var daTimer = new FlxTimer().start(0.5, function(tmr)
+    	{
+    	    FlxTween.tween(blackThingLol, {x: -385}, 1, {ease: FlxEase.expoOut,});
+    	    FlxTween.tween(songText, {x: 10}, 1, {ease: FlxEase.expoOut,});
+    	    FlxTween.tween(daRealSongName, {x: 10}, 1, {ease: FlxEase.expoOut,});
+    	    FlxTween.tween(songCreator, {x: 10}, 1, {ease: FlxEase.expoOut,});
+    	    FlxTween.tween(whiteShit, {x: -135}, 1, {ease: FlxEase.expoOut,});
+    	    var daSecondTimer = new FlxTimer().start(2, function(tmr)
+    	    {
+    	        FlxTween.tween(blackThingLol, {x: -900}, 1, {ease: FlxEase.expoOut,});
+    	        FlxTween.tween(songText, {x: -129}, 1, {ease: FlxEase.expoOut,});
+    	        FlxTween.tween(daRealSongName, {x: -997}, 1, {ease: FlxEase.expoOut,});
+    	        FlxTween.tween(songCreator, {x: -900}, 1, {ease: FlxEase.expoOut,});
+    	        FlxTween.tween(whiteShit, {x: -647}, 1, {ease: FlxEase.expoOut,});
+    	    });
+    	});
+	}
+
 	public function startCountdown():Void
 	{
 		if(startedCountdown) {
 			callOnLuas('onStartCountdown', []);
 			return;
 		}
+
+		trace("me pican las bolas");
+		showSongDetails();
 
 		trace(timeTxt);
 

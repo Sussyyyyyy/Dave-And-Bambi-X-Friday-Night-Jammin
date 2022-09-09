@@ -1894,7 +1894,7 @@ class PlayState extends MusicBeatState
 			s = 'valenxyss';
 			case 'cheater-mayhem':
 			s = 'valenxyss';
-			case 'finis-mundi':
+			case 'probabilities':
 			s = 'valenxyss';
 			case 'perma-ban':
 			s = '?';
@@ -2642,7 +2642,7 @@ class PlayState extends MusicBeatState
 	override public function update(elapsed:Float)
 	{
 	
-		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() != 'cheater-mayhem') && (curSong.toLowerCase() != 'finis-mundi')) {
+		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() != 'cheater-mayhem') && (curSong.toLowerCase() != 'probabilities' && (curSong.toLowerCase() != 'perma-ban'))) {
 			PlayState.SONG = Song.loadFromJson("cheater-mayhem", "cheater-mayhem"); //does the same fucking thing
 				FlxG.switchState(new PlayState());
 				trace("bruh");

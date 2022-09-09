@@ -163,15 +163,7 @@ class FreeplayState extends MusicBeatState
 		if (category == 'Extras')
 		{
 			if (FlxG.save.data.cheaterMayhemFound)
-			{
-				addSong('Cheater-Mayhem', 0, 'tru', FlxColor.fromRGB(60, 0, 0));
-			}
-			addSong('Finis-Mundi', 0, 'him', FlxColor.fromRGB(60, 0, 0));
-			if (FlxG.save.data.permaBanFound)
-			{
-				addSong('Perma-Ban', 0, 'dave', FlxColor.fromRGB(255, 255, 255));
-			}
-			addSong('Recolored', 0, 'placeholder4recolored', FlxColor.fromRGB(180, 180, 0));
+			
 			addSong('Trijam', 0, 'jammer', FlxColor.fromRGB(0, 0, 153));
 			addSong('Hablise', 0, 'jammer', FlxColor.fromRGB(0, 0, 153));
 			addSong('introvert', 0, 'kaiju', FlxColor.fromRGB(0, 0, 153));
@@ -197,14 +189,21 @@ class FreeplayState extends MusicBeatState
 
 		if (category == 'Secret')
 		{
-			trace("tengo sida");
-			LoadingState.loadAndSwitchState(new MainMenuState());
+			{
+				addSong('Cheater-Mayhem', 0, 'tru', FlxColor.fromRGB(60, 0, 0));
+			}
+			addSong('probabilities', 0, 'theoretical', FlxColor.fromRGB(128, 0, 128));
+			if (FlxG.save.data.permaBanFound)
+			{
+				addSong('Perma-Ban', 0, 'redacted', FlxColor.fromRGB(255, 255, 255));
+			}
 		}
 
 		if (category == 'OC')
 		{
-			trace("tengo sida");
-			LoadingState.loadAndSwitchState(new MainMenuState());
+			addSong('Recolored', 0, 'placeholder4recolored', FlxColor.fromRGB(180, 180, 0));
+			addSong('cyanophobia', 0, 'blandury', FlxColor.fromRGB(0, 0, 255));
+
 		}
 
 		FlxG.save.data.freeplayCatagory == null;

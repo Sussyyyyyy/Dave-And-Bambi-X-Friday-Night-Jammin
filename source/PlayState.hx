@@ -1926,6 +1926,12 @@ class PlayState extends MusicBeatState
 			s = 'LORENXX-10';
 			case 'ready-loud':
 			s = 'MoldyGH';
+			case 'recolored':
+			s = 'Womo';
+			case 'cyanophobia':
+			s = '?';
+			case 'ballception':
+			s = 'valenxyss';
 		}
     	songCreator.text = "By: " + s;
     	songCreator.scrollFactor.set();

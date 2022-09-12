@@ -41,7 +41,63 @@
 //THIS IS UNUSED!
 //THIS IS UNUSED!
 //THIS IS UNUSED!
-
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//THIS IS UNUSED!
+//I CRAVE CHEDDAR!
 
 package;
 
@@ -149,7 +205,7 @@ class FreeplayState extends MusicBeatState
 			addSong('Midnight', 2, 'dave', FlxColor.fromRGB(0, 0, 200));
 			addSong('Second-Round', 2, 'daventristan', FlxColor.fromRGB(0, 0, 200));
 			addSong('Newbie', 2, 'tristan', FlxColor.fromRGB(200, 0, 0));
-			addSong('Unsurprising', 2, 'daventristan', FlxColor.fromRGB(0, 180, 0));
+			addSong('Unsurprising', 2, 'bambi', FlxColor.fromRGB(0, 180, 0));
 			addSong('Marathon', 2, 'marathon', FlxColor.fromRGB(100, 100, 100));
 			addSong('Kabuki', 3, 'exbungo', FlxColor.fromRGB(95, 0, 0));
 			addSong('Habunda', 3, 'exbungo', FlxColor.fromRGB(80, 0, 0));
@@ -161,14 +217,13 @@ class FreeplayState extends MusicBeatState
 		}
 
 		if (category == 'Extras')
-		{
-			if (FlxG.save.data.cheaterMayhemFound)
-			
+		{			
 			addSong('Trijam', 0, 'jammer', FlxColor.fromRGB(0, 0, 153));
 			addSong('Hablise', 0, 'jammer', FlxColor.fromRGB(0, 0, 153));
 			addSong('introvert', 0, 'kaiju', FlxColor.fromRGB(0, 0, 153));
 			addSong('hilarious-testing', 0, 'balls', FlxColor.fromRGB(0, 0, 153));
 			addSong('Tridimensional-V2-B-Side', 0, 'bside3ddave', FlxColor.fromRGB(128, 0, 128));
+			addSong('Undaunted-Precaution', 0, 'undaunted', FlxColor.fromRGB(255, 255, 0));
 		}
 
 		if (category == 'Joke')
@@ -189,21 +244,21 @@ class FreeplayState extends MusicBeatState
 
 		if (category == 'Secret')
 		{
-			{
+			if (FlxG.save.data.cheaterMayhemFound) {
 				addSong('Cheater-Mayhem', 0, 'tru', FlxColor.fromRGB(60, 0, 0));
 			}
 			addSong('probabilities', 0, 'theoretical', FlxColor.fromRGB(128, 0, 128));
-			if (FlxG.save.data.permaBanFound)
-			{
+			if (FlxG.save.data.permaBanFound) {
 				addSong('Perma-Ban', 0, 'redacted', FlxColor.fromRGB(255, 255, 255));
 			}
+			addSong('spacial', 0, 'spaci', FlxColor.fromRGB(60, 60, 60));
 		}
 
 		if (category == 'OC')
 		{
 			addSong('Recolored', 0, 'placeholder4recolored', FlxColor.fromRGB(180, 180, 0));
 			addSong('cyanophobia', 0, 'blandury', FlxColor.fromRGB(0, 0, 255));
-
+			addSong('ballception', 0, 'elbolas', FlxColor.fromRGB(255, 165, 0));
 		}
 
 		FlxG.save.data.freeplayCatagory == null;

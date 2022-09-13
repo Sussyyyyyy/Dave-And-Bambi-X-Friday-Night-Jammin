@@ -245,7 +245,7 @@ class FreeplayState extends MusicBeatState
 		if (category == 'Secret')
 		{
 			if (FlxG.save.data.cheaterMayhemFound) {
-				addSong('Cheater-Mayhem', 0, 'tru', FlxColor.fromRGB(60, 0, 0));
+				addSong('Cheater-Mayhem', 0, 'expungedlol', FlxColor.fromRGB(60, 0, 0));
 			}
 			addSong('probabilities', 0, 'theoretical', FlxColor.fromRGB(128, 0, 128));
 			if (FlxG.save.data.permaBanFound) {

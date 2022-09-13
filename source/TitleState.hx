@@ -619,22 +619,25 @@ class TitleState extends MusicBeatState
 				case 11:
 					deleteCoolText();
                 case 12:
-	                createCoolText(["we changed to source code"], -40);
-				
+	                createCoolText(["v2 is finally here"], -40);
 				case 13:	
-					addMoreText("because source code is cool", -40);
+					addMoreText("oh my god", -40);
 				case 14:
 					deleteCoolText();
 				case 15:
 					createCoolText(["join our discord"], -40);
 				case 16:	
-					addMoreText("my balls stuck in a door", -40);     
+					addMoreText("please", -40);     
 				case 17:
 					deleteCoolText();
 				case 18:
                     createCoolText(["i love manny edition"], -40);
+					addMoreText("deku and bombi", -40); //sanity loss, unsetting adoration and shaped chaos best songs
+					addMoreText("quartz edition", -40);
+					addMoreText("and bambisona mayhem", -40);
 				case 19:
-					addMoreText("and deku and bombi", -40); //sanity loss, unsetting adoration and shaped chaos best songs
+					addMoreText("dont ask why we love", -40);
+					addMoreText("a lot of mods", -40);
 				case 20:
 					deleteCoolText();
 				case 21:
@@ -644,19 +647,20 @@ class TitleState extends MusicBeatState
 				case 23:
 					deleteCoolText();
 				case 24:
-					createCoolText(["the jammer"], -40);
+					createCoolText(["jammer is better"], -40);
+					addMoreText("than nightcrawler", -40);
 				case 25:
-					addMoreText("the j", -40);
+					addMoreText("fight me", -40);
 				case 26:
 					deleteCoolText();
 				case 27:
 					createCoolText(['Dave and Bambi']);
 				// credTextShit.visible = true;
 				case 28:
-					addMoreText('X');
+					addMoreText('X Friday Night Jammin');
 				// credTextShit.text += '\nNight';
 				case 29:
-					addMoreText('Friday Night Jammin'); // credTextShit.text += '\nFunkin';
+					addMoreText('V2'); // credTextShit.text += '\nFunkin';
 	            //ASDSADFSDF		
 				case 30:
 					skipIntro();

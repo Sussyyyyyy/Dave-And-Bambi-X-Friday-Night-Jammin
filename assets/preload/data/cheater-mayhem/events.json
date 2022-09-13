@@ -1,9 +1,9 @@
 {
 	"song": {
-		"speed": 2.3,
-		"stage": "ohno",
+		"speed": 3.2,
+		"stage": "expungedhell",
 		"player1": "jammer-medium-scared",
-		"player2": "expunged",
+		"player2": "expunged_new",
 		"player3": null,
 		"events": [
 			[
@@ -202,7 +202,7 @@
 		"showPsychEngineMark": null,
 		"addScrewYouText": true,
 		"validScore": false,
-		"screwYou": "This is your punishment, JAMMER. (Song by valenxyss)",
+		"screwYou": "This is your punishment, JAMMER. (Sprites by MrCornStealer, also check out Quartz Edition!)",
 		"engineName": "Cheater Engine ",
 		"gfVersion": "nogf",
 		"bpm": 120,

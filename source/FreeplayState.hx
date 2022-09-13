@@ -213,7 +213,7 @@ class FreeplayState extends MusicBeatState
 			addSong('gatetrader', 4, '3d', FlxColor.fromRGB(100, 100, 100));
 			addSong('injury', 4, '3d', FlxColor.fromRGB(95, 0, 0));
 			addSong('resistant', 4, 'unfairbambi', FlxColor.fromRGB(80, 0, 0));
-			addSong('harmon', 4, 'tru', FlxColor.fromRGB(80, 0, 0));
+			addSong('harmon', 4, 'expungedlol', FlxColor.fromRGB(80, 0, 0));
 		}
 
 		if (category == 'Extras')

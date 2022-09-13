@@ -592,19 +592,19 @@ class PlayState extends MusicBeatState
 
 			case 'expungedhell':
 				curStage = 'expungedhell';
-
+	
 				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('welcometohellpartner'));
 				bg.active = true;
-
-				add(bg);
 	
+				add(bg);
+		
 				var testshader:Shaders.GlitchEffect = new Shaders.GlitchEffect();
 				testshader.waveAmplitude = 0.1;
 				testshader.waveFrequency = 5;
 				testshader.waveSpeed = 2;
 				bg.shader = testshader.shader;
 				curbg = bg;
-
+	
 			case 'theoretical':
 				curStage = 'theoretical';
 	

@@ -49,7 +49,8 @@ class FreeplayCategorySelector extends MusicBeatState
     function changeCategory(direction:String)
     {
         if (direction == 'left')
-        {
+        {   
+            moving = true;
             showItems('hide');
             FlxTween.tween(category, {x: -600}, 0.6, {ease: FlxEase.expoInOut});
             var daTimer = new FlxTimer().start(0.6, function(tmr)
@@ -79,7 +80,7 @@ class FreeplayCategorySelector extends MusicBeatState
                     currentCategory = 'Secret';
                 }
                 remove(category);
-                category = new FlxSprite(1000, category.y); //ok so, x parameter is set to 1000, flxtween changes it to 325 ! !
+                category = new FlxSprite(2000, category.y); //ok so, x parameter is set to 2000, flxtween changes it to 325 ! !
                 switch(currentCategory)
                 {
                     case 'Main Weeks':
@@ -101,10 +102,12 @@ class FreeplayCategorySelector extends MusicBeatState
                 add(category);
                 FlxTween.tween(category, {x: 325}, 0.6, {ease: FlxEase.expoInOut});
                 showItems('show');
+                moving = false;
             });
         }
         else if (direction == 'right')
         {
+            moving = true;
             showItems('hide');
             FlxTween.tween(category, {x: 1200}, 0.6, {ease: FlxEase.expoInOut});
             var daTimer = new FlxTimer().start(0.6, function(tmr)
@@ -156,11 +159,17 @@ class FreeplayCategorySelector extends MusicBeatState
                 add(category);
                 FlxTween.tween(category, {x: 325}, 0.6, {ease: FlxEase.expoInOut});
                 showItems('show');
+                moving = false;
             });
         }
     }
     override public function create()
     {
+        if (Main.freeplaything != '')
+        {
+            Main.freeplaything = '';
+        }
+        moving = true;
         FlxG.mouse.visible = true;
         bg = new FlxSprite(0, 0);
         bg.loadGraphic(Paths.image('menuDesat'));
@@ -214,6 +223,10 @@ class FreeplayCategorySelector extends MusicBeatState
         {
             showItems('show');
         });
+        var daTimer = new FlxTimer().start(0.6, function(tmr)
+        {
+            moving = false;
+        });
     }
 
     override public function update(elapsed:Float)
@@ -226,64 +239,73 @@ class FreeplayCategorySelector extends MusicBeatState
 
         selectedCategory.text = "Selected category: " + currentCategory;
         
-        if (controls.UI_LEFT_P)
+        if (!moving)
         {
-            changeCategory('left');
-        }
-        
-        if (controls.UI_RIGHT_P)
-        {
-            changeCategory('right');
+            if (controls.UI_LEFT_P)
+            {
+                changeCategory('left');
+            }
+            
+            if (controls.UI_RIGHT_P)
+            {
+                changeCategory('right');
+            }
         }
 
-        if (controls.ACCEPT)
+        if (!moving)
         {
-            FlxG.save.data.freeplayCategory = currentCategory;
-            trace(FlxG.save.data.freeplayCategory);
-            LoadingState.loadAndSwitchState(new FreeplayState());
+            if (controls.ACCEPT)
+            {
+                Main.freeplaything = currentCategory;
+                trace(FlxG.save.data.freeplayCategory);
+                LoadingState.loadAndSwitchState(new FreeplayState());
+            }
         }
 
         if (showed)
         {
-            if (FlxG.mouse.overlaps(leftArrow))
+            if (!moving)
             {
-                leftArrow.color = FlxColor.WHITE;
-                if (FlxG.mouse.justPressed)
+                if (FlxG.mouse.overlaps(leftArrow))
                 {
-                    trace("pressed");
-                    changeCategory('left');
+                    leftArrow.color = FlxColor.WHITE;
+                    if (FlxG.mouse.justPressed)
+                    {
+                        trace("pressed");
+                        changeCategory('left');
+                    }
                 }
-            }
-            else
-            {
-                leftArrow.color = FlxColor.GRAY;
-            }
-
-            if (FlxG.mouse.overlaps(goBack))
-            {
-                goBack.color = FlxColor.WHITE;
-                if (FlxG.mouse.justPressed)
+                else
                 {
-                    LoadingState.loadAndSwitchState(new MainMenuState());
+                    leftArrow.color = FlxColor.GRAY;
                 }
-            }
-            else
-            {
-                goBack.color = FlxColor.GRAY;
-            }
-
-            if (FlxG.mouse.overlaps(rightArrow))
-            {
-                rightArrow.color = FlxColor.WHITE;
-                if (FlxG.mouse.justPressed)
+        
+                if (FlxG.mouse.overlaps(goBack))
                 {
-                    trace("pressed");
-                    changeCategory('right');
+                    goBack.color = FlxColor.WHITE;
+                    if (FlxG.mouse.justPressed)
+                    {
+                        LoadingState.loadAndSwitchState(new MainMenuState());
+                    }
                 }
-            }
-            else
-            {
-                rightArrow.color = FlxColor.GRAY;
+                else
+                {
+                    goBack.color = FlxColor.GRAY;
+                }
+        
+                if (FlxG.mouse.overlaps(rightArrow))
+                {
+                    rightArrow.color = FlxColor.WHITE;
+                    if (FlxG.mouse.justPressed)
+                    {
+                        trace("pressed");
+                        changeCategory('right');
+                    }
+                }
+                else
+                {
+                    rightArrow.color = FlxColor.GRAY;
+                }
             }
         }
     }

@@ -192,7 +192,7 @@ class FreeplayState extends MusicBeatState
 
 		grpSongs = new FlxTypedGroup<Alphabet>();
 		add(grpSongs);
-		category = FlxG.save.data.freeplayCategory;
+		category = Main.freeplaything;
 
 		if (category == 'Main Weeks')
 		{
@@ -261,7 +261,7 @@ class FreeplayState extends MusicBeatState
 			addSong('ballception', 0, 'elbolas', FlxColor.fromRGB(255, 165, 0));
 		}
 
-		FlxG.save.data.freeplayCatagory == null;
+		Main.freeplaything == '';
 
 		for (i in 0...songs.length)
 		{

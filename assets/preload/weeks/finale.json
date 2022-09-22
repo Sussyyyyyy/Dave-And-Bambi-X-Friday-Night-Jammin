@@ -1,0 +1,39 @@
+{
+	"storyName": "the end.",
+	"hideFreeplay": true,
+	"weekBackground": "finale",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "week6",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"final-push",
+			"everyone",
+			[
+				0,
+				0,
+				0
+			]
+		],
+		[
+			"reconciliaton",
+			"kaiju",
+			[
+				0,
+				0,
+				190
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Week 7"
+}

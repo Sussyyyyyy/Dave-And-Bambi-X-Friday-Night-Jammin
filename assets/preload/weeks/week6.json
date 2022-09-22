@@ -1,43 +1,43 @@
 {
-	"storyName": "hating simulator ft. moawling",
+	"storyName": "bambi purgatory referencia omg",
 	"hideFreeplay": true,
-	"weekBackground": "school",
+	"weekBackground": "minion",
 	"weekBefore": "week5",
 	"startUnlocked": true,
 	"weekCharacters": [
-		"senpai",
-		"bf",
-		"gf"
+		"",
+		"",
+		""
 	],
 	"songs": [
 		[
-			"Senpai",
-			"senpai-pixel",
+			"minion",
+			"minion",
 			[
-				255,
 				120,
-				191
+				0,
+				120
 			]
 		],
 		[
-			"Roses",
-			"senpai-pixel",
+			"multiple",
+			"minion",
 			[
-				255,
-				120,
-				191
+				100,
+				0,
+				100
 			]
 		],
 		[
-			"Thorns",
-			"spirit-pixel",
+			"chaotic",
+			"minion",
 			[
-				255,
-				120,
-				191
+				80,
+				0,
+				80
 			]
 		]
 	],
-	"hideStoryMode": true,
+	"hideStoryMode": false,
 	"weekName": "Week 6"
 }

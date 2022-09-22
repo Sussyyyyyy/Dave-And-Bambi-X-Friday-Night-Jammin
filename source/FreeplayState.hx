@@ -214,6 +214,11 @@ class FreeplayState extends MusicBeatState
 			addSong('injury', 4, '3d', FlxColor.fromRGB(95, 0, 0));
 			addSong('resistant', 4, 'unfairbambi', FlxColor.fromRGB(80, 0, 0));
 			addSong('harmon', 4, 'expungedlol', FlxColor.fromRGB(80, 0, 0));
+			addSong('minion', 4, 'minion', FlxColor.fromRGB(120, 0, 120));
+			addSong('multiple', 4, 'minion', FlxColor.fromRGB(100, 0, 100));
+			addSong('chaotic', 4, 'minion', FlxColor.fromRGB(80, 0, 80));
+			addSong('final-push', 4, 'everyone', FlxColor.fromRGB(0, 0, 0));
+			addSong('reconciliation', 4, 'kaiju', FlxColor.fromRGB(0, 0, 190));
 		}
 
 		if (category == 'Extras')
@@ -348,10 +353,10 @@ class FreeplayState extends MusicBeatState
 		add(textBG);
 
 		#if PRELOAD_ALL
-		var leText:String = "Press SPACE to listen to the Song / Press CTRL to open the Gameplay Changers Menu / Press RESET to Reset your Score and Accuracy.";
+		var leText:String = "Press SPACE to listen to the Song / Press CTRL to enable noob mode / Press RESET to Reset your Score and Accuracy.";
 		var size:Int = 16;
 		#else
-		var leText:String = "Press CTRL to open the Gameplay Changers Menu / Press RESET to Reset your Score and Accuracy.";
+		var leText:String = "Press CTRL to enable noob mode / Press RESET to Reset your Score and Accuracy.";
 		var size:Int = 18;
 		#end
 		var text:FlxText = new FlxText(textBG.x, textBG.y + 4, FlxG.width, leText, size);

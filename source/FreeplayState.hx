@@ -246,6 +246,8 @@ class FreeplayState extends MusicBeatState
 			addSong('Mealie', 0, 'bambi', FlxColor.fromRGB(0, 195, 0));
 			addSong('Monarchy', 0, 'unfairbambi', FlxColor.fromRGB(255, 0, 0));
 			addSong('Ready-Loud', 0, 'sexo', FlxColor.fromRGB(0, 195, 0));
+			addSong('Ingratiating', 0, 'ingratiating', FlxColor.fromRGB(128, 255, 128));
+			addSong('Omission', 0, 'dan', FlxColor.fromRGB(0, 0, 0));
 		}
 
 		if (category == 'Secret')

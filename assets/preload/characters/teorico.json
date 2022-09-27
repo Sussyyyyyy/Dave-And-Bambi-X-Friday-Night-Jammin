@@ -3,64 +3,64 @@
 		{
 			"loop": false,
 			"offsets": [
-				-200,
+				0,
 				0
 			],
 			"anim": "idle",
 			"fps": 24,
-			"name": "theoretical idle",
+			"name": "theoretical-expunged new idle",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-200,
-				0
-			],
-			"anim": "singLEFT",
-			"fps": 24,
-			"name": "theoretical left",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-200,
-				0
-			],
-			"anim": "singDOWN",
-			"fps": 24,
-			"name": "theoretical down",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-200,
+				0,
 				0
 			],
 			"anim": "singUP",
 			"fps": 24,
-			"name": "theoretical up",
+			"name": "theoretical-expunged new up",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-200,
+				0,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "theoretical-expunged new left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
 				0
 			],
 			"anim": "singRIGHT",
 			"fps": 24,
-			"name": "theoretical right",
+			"name": "theoretical-expunged new right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "theoretical-expunged new down",
 			"indices": []
 		}
 	],
-	"no_antialiasing": true,
-	"image": "characters/theoretical",
+	"no_antialiasing": false,
+	"image": "characters/theoretical_new",
 	"position": [
-		-390,
-		-50
+		0,
+		0
 	],
 	"healthicon": "theoretical",
 	"flip_x": false,
@@ -70,9 +70,9 @@
 		215
 	],
 	"camera_position": [
-		-100,
-		-100
+		0,
+		0
 	],
 	"sing_duration": 6.1,
-	"scale": 1.5
+	"scale": 1.4
 }

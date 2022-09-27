@@ -1922,12 +1922,26 @@ class PlayState extends MusicBeatState
 			s = 'valenxyss';
 			case 'harmon':
 			s = 'valenxyss';
+			case 'minion':
+			s = 'valenxyss';
+			case 'multiple':
+			s = 'valenxyss';
+			case 'chaotic':
+			s = 'valenxyss';
+			case 'final-push':
+			s = 'a lot of people';
+			case 'reconciliation':
+			s = 'valenxyss';
 			case 'cheater-mayhem':
 			s = 'valenxyss';
 			case 'probabilities':
 			s = 'valenxyss';
 			case 'perma-ban':
 			s = '?';
+			case 'spacial':
+			s = '?';
+			case 'undeserved':
+			s = '...';
 			case 'recolored':
 			s = 'Womo';
 			case 'trijam':
@@ -1940,6 +1954,8 @@ class PlayState extends MusicBeatState
 			s = 'valenxyss';
 			case 'tridimensional-v2-b-side':
 			s = 'valenxyss';
+			case 'undaunted-precaution':
+			s = 'valenxyss';
 			case 'vs-dave-easter':
 			s = 'ValenciaBall';
 			case 'vs-dave-july':
@@ -1951,7 +1967,7 @@ class PlayState extends MusicBeatState
 			case 'tridimensional-v1-d-side':
 			s = 'Womo';
 			case 'mealie':
-			s = 'Alexander Cooper 19';
+			s = 'AlexanderCooper19';
 			case 'monarchy':
 			s = 'LORENXX-10';
 			case 'ready-loud':
@@ -1960,7 +1976,11 @@ class PlayState extends MusicBeatState
 			s = 'Womo';
 			case 'cyanophobia':
 			s = '?';
-			case 'ballception':
+			case 'mustardware':
+			s = 'valenxyss';
+			case 'sleepy':
+			s = 'valenxyss';
+			case 'epicness':
 			s = 'valenxyss';
 		}
     	songCreator.text = "By: " + s;

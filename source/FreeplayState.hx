@@ -227,6 +227,7 @@ class FreeplayState extends MusicBeatState
 			addSong('Hablise', 0, 'jammer', FlxColor.fromRGB(0, 0, 153));
 			addSong('introvert', 0, 'kaiju', FlxColor.fromRGB(0, 0, 153));
 			addSong('hilarious-testing', 0, 'balls', FlxColor.fromRGB(0, 0, 153));
+			addSong('opposed', 0, 'opposition', FlxColor.fromRGB(180, 180, 180));
 			addSong('Tridimensional-V2-B-Side', 0, 'bside3ddave', FlxColor.fromRGB(128, 0, 128));
 			addSong('Undaunted-Precaution', 0, 'undaunted', FlxColor.fromRGB(255, 255, 0));
 		}
@@ -257,14 +258,16 @@ class FreeplayState extends MusicBeatState
 				addSong('Perma-Ban', 0, 'redacted', FlxColor.fromRGB(255, 255, 255));
 			}
 			addSong('spacial', 0, 'spaci', FlxColor.fromRGB(60, 60, 60));
+			addSong('undeserved', 0, 'why', FlxColor.fromRGB(0, 0, 0));
 		}
 
 		if (category == 'OC')
 		{
-			addSong('Recolored', 0, 'placeholder4recolored', FlxColor.fromRGB(180, 180, 0));
+			addSong('Recolored', 0, 'quantumer', FlxColor.fromRGB(140, 0, 140));
 			addSong('cyanophobia', 0, 'blandury', FlxColor.fromRGB(0, 0, 255));
 			addSong('mustardware', 0, 'mustardware', FlxColor.fromRGB(255, 82, 127));
 			addSong('sleepy', 0, 'hrambi', FlxColor.fromRGB(139, 69, 19));
+			addSong('epicness', 0, 'epibambi', FlxColor.fromRGB(139, 69, 19));
 		}
 
 		Main.freeplaything == '';
@@ -532,7 +535,7 @@ class FreeplayState extends MusicBeatState
 			PlayState.isStoryMode = false;
 			PlayState.storyDifficulty = curDifficulty;
 
-			trace('CURRENT WEEK: ' + WeekData.getWeekFileName());
+			trace('bros playing week ' + WeekData.getWeekFileName() + ':skull:');
 			if(colorTween != null) {
 				colorTween.cancel();
 			}

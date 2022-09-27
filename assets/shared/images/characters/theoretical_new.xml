@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="theoretical-expunged new.png">
+<SubTexture name="theoretical-expunged new idle0000" x="503" y="583" width="543" height="575" frameX="-124" frameY="-68" frameWidth="749" frameHeight="719" />
+<SubTexture name="theoretical-expunged new idle0001" x="1517" y="0" width="546" height="573" frameX="-121" frameY="-68" frameWidth="749" frameHeight="719" />
+<SubTexture name="theoretical-expunged new idle0002" x="548" y="1163" width="547" height="572" frameX="-120" frameY="-68" frameWidth="749" frameHeight="719" />
+<SubTexture name="theoretical-expunged new idle0003" x="0" y="1163" width="548" height="573" frameX="-119" frameY="-68" frameWidth="749" frameHeight="719" />
+<SubTexture name="theoretical-expunged new idle0004" x="0" y="1163" width="548" height="573" frameX="-119" frameY="-68" frameWidth="749" frameHeight="719" />
+<SubTexture name="theoretical-expunged new idle0005" x="0" y="1163" width="548" height="573" frameX="-119" frameY="-68" frameWidth="749" frameHeight="719" />
+<SubTexture name="theoretical-expunged new up0000" x="0" y="0" width="511" height="583" frameX="-156" frameY="-66" frameWidth="749" frameHeight="719" />
+<SubTexture name="theoretical-expunged new up0001" x="1015" y="0" width="502" height="581" frameX="-165" frameY="-68" frameWidth="749" frameHeight="719" />
+<SubTexture name="theoretical-expunged new up0002" x="0" y="583" width="503" height="580" frameX="-164" frameY="-68" frameWidth="749" frameHeight="719" />
+<SubTexture name="theoretical-expunged new up0003" x="511" y="0" width="504" height="582" frameX="-163" frameY="-68" frameWidth="749" frameHeight="719" />
+<SubTexture name="theoretical-expunged new left0000" x="1206" y="1736" width="642" height="522" frameX="-25" frameY="-68" frameWidth="749" frameHeight="719" />
+<SubTexture name="theoretical-expunged new left0001" x="594" y="1736" width="612" height="531" frameX="-55" frameY="-68" frameWidth="749" frameHeight="719" />
+<SubTexture name="theoretical-expunged new left0002" x="0" y="1736" width="594" height="535" frameX="-73" frameY="-68" frameWidth="749" frameHeight="719" />
+<SubTexture name="theoretical-expunged new left0003" x="2063" y="0" width="589" height="539" frameX="-78" frameY="-68" frameWidth="749" frameHeight="719" />
+<SubTexture name="theoretical-expunged new right0000" x="1561" y="1163" width="462" height="544" frameX="-205" frameY="-68" frameWidth="749" frameHeight="719" />
+<SubTexture name="theoretical-expunged new right0001" x="1095" y="1163" width="466" height="549" frameX="-201" frameY="-68" frameWidth="749" frameHeight="719" />
+<SubTexture name="theoretical-expunged new right0002" x="1046" y="583" width="460" height="553" frameX="-207" frameY="-68" frameWidth="749" frameHeight="719" />
+<SubTexture name="theoretical-expunged new right0003" x="1517" y="573" width="462" height="558" frameX="-205" frameY="-68" frameWidth="749" frameHeight="719" />
+<SubTexture name="theoretical-expunged new down0000" x="2652" y="0" width="547" height="519" frameX="-120" frameY="-68" frameWidth="749" frameHeight="719" />
+<SubTexture name="theoretical-expunged new down0001" x="1848" y="1736" width="546" height="520" frameX="-121" frameY="-68" frameWidth="749" frameHeight="719" />
+<SubTexture name="theoretical-expunged new down0002" x="2063" y="539" width="539" height="527" frameX="-128" frameY="-68" frameWidth="749" frameHeight="719" />
+<SubTexture name="theoretical-expunged new down0003" x="2063" y="1066" width="538" height="527" frameX="-129" frameY="-68" frameWidth="749" frameHeight="719" />
+</TextureAtlas>

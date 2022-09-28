@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="opposition-expunged new.png">
+<SubTexture name="opposition-expunged new idle0000" x="823" y="0" width="562" height="472" frameX="-9" frameY="-60" frameWidth="653" frameHeight="609" />
+<SubTexture name="opposition-expunged new idle0001" x="826" y="495" width="511" height="445" frameX="-29" frameY="-88" frameWidth="653" frameHeight="609" />
+<SubTexture name="opposition-expunged new idle0002" x="1385" y="0" width="418" height="438" frameX="-109" frameY="-98" frameWidth="653" frameHeight="609" />
+<SubTexture name="opposition-expunged new idle0003" x="0" y="958" width="419" height="438" frameX="-127" frameY="-96" frameWidth="653" frameHeight="609" />
+<SubTexture name="opposition-expunged new idle0004" x="419" y="958" width="419" height="433" frameX="-127" frameY="-97" frameWidth="653" frameHeight="609" />
+<SubTexture name="opposition-expunged new idle0005" x="419" y="958" width="419" height="433" frameX="-127" frameY="-97" frameWidth="653" frameHeight="609" />
+<SubTexture name="opposition-expunged new idle0006" x="419" y="958" width="419" height="433" frameX="-127" frameY="-97" frameWidth="653" frameHeight="609" />
+<SubTexture name="opposition-expunged new idle0007" x="419" y="958" width="419" height="433" frameX="-127" frameY="-97" frameWidth="653" frameHeight="609" />
+<SubTexture name="opposition-expunged new idle0008" x="419" y="958" width="419" height="433" frameX="-127" frameY="-97" frameWidth="653" frameHeight="609" />
+<SubTexture name="opposition-expunged new idle0009" x="419" y="958" width="419" height="433" frameX="-127" frameY="-97" frameWidth="653" frameHeight="609" />
+<SubTexture name="opposition-expunged new idle0010" x="419" y="958" width="419" height="433" frameX="-127" frameY="-97" frameWidth="653" frameHeight="609" />
+<SubTexture name="opposition-expunged new idle0011" x="419" y="958" width="419" height="433" frameX="-127" frameY="-97" frameWidth="653" frameHeight="609" />
+<SubTexture name="opposition-expunged new down0000" x="1093" y="1396" width="500" height="359" frameX="-95" frameY="-148" frameWidth="653" frameHeight="609" />
+<SubTexture name="opposition-expunged new down0001" x="596" y="1396" width="497" height="361" frameX="-95" frameY="-146" frameWidth="653" frameHeight="609" />
+<SubTexture name="opposition-expunged new left0000" x="0" y="495" width="414" height="463" frameX="-79" frameY="-90" frameWidth="653" frameHeight="609" />
+<SubTexture name="opposition-expunged new left0001" x="414" y="495" width="412" height="461" frameX="-88" frameY="-90" frameWidth="653" frameHeight="609" />
+<SubTexture name="opposition-expunged new up0000" x="0" y="0" width="413" height="495" frameX="-97" frameY="-57" frameWidth="653" frameHeight="609" />
+<SubTexture name="opposition-expunged new up0001" x="413" y="0" width="410" height="489" frameX="-98" frameY="-64" frameWidth="653" frameHeight="609" />
+<SubTexture name="opposition-expunged new right0000" x="838" y="958" width="587" height="388" frameX="-40" frameY="-99" frameWidth="653" frameHeight="609" />
+<SubTexture name="opposition-expunged new right0001" x="0" y="1396" width="596" height="388" frameX="-34" frameY="-97" frameWidth="653" frameHeight="609" />
+</TextureAtlas>

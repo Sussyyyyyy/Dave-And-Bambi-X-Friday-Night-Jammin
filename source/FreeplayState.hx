@@ -227,7 +227,7 @@ class FreeplayState extends MusicBeatState
 			addSong('Hablise', 0, 'jammer', FlxColor.fromRGB(0, 0, 153));
 			addSong('introvert', 0, 'kaiju', FlxColor.fromRGB(0, 0, 153));
 			addSong('hilarious-testing', 0, 'balls', FlxColor.fromRGB(0, 0, 153));
-			addSong('opposed', 0, 'opposition', FlxColor.fromRGB(180, 180, 180));
+			addSong('opposed', 0, 'oppoexpunged', FlxColor.fromRGB(180, 180, 180));
 			addSong('Tridimensional-V2-B-Side', 0, 'bside3ddave', FlxColor.fromRGB(128, 0, 128));
 			addSong('Undaunted-Precaution', 0, 'undaunted', FlxColor.fromRGB(255, 255, 0));
 		}

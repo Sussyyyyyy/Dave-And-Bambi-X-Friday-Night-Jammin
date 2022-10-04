@@ -1,14 +1,58 @@
 {
 	"animations": [
 		{
+			"offsets": [
+				0,
+				200
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
 			"loop": false,
 			"offsets": [
 				0,
 				200
 			],
-			"anim": "idle",
+			"anim": "singLEFT",
 			"fps": 24,
-			"name": "idle",
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				200
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				200
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				200
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
 			"indices": []
 		},
 		{
@@ -18,86 +62,42 @@
 			],
 			"loop": false,
 			"fps": 24,
-			"anim": "singLEFT",
-			"indices": [],
-			"name": "left"
-		},
-		{
-			"offsets": [
-				0,
-				200
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singDOWN",
-			"indices": [],
-			"name": "down"
-		},
-		{
-			"offsets": [
-				0,
-				200
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singUP",
-			"indices": [],
-			"name": "up"
-		},
-		{
-			"offsets": [
-				0,
-				200
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singRIGHT",
-			"indices": [],
-			"name": "right"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				200
-			],
 			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "INHALE"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				200
+			],
+			"anim": "singDOWN-alt",
 			"fps": 24,
 			"name": "INHALE",
 			"indices": []
 		},
 		{
-			"offsets": [
-				0,
-				200
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "singDOWN-alt",
 			"loop": false,
-			"name": "INHALE"
-		},
-		{
 			"offsets": [
 				0,
 				200
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singUP-alt",
-			"loop": false,
-			"name": "INHALE"
+			"fps": 24,
+			"name": "INHALE",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				200
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singRIGHT-alt",
-			"loop": false,
-			"name": "INHALE"
+			"fps": 24,
+			"name": "INHALE",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -114,9 +114,9 @@
 		255
 	],
 	"camera_position": [
-		-370,
-		-390
+		-4200,
+		-6000
 	],
 	"sing_duration": 6.1,
-	"scale": 1.5
+	"scale": 9.99999999999998
 }

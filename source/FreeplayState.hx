@@ -142,7 +142,7 @@ class FreeplayState extends MusicBeatState
 	var intendedScore:Int = 0;
 	var intendedRating:Float = 0;
 
-	public static var category:String = 'Main Weeks'; //this was so fucking unnecessary
+	public static var category:String = 'actual weeks'; //this was so fucking unnecessary
 
 	private var grpSongs:FlxTypedGroup<Alphabet>;
 	private var curPlaying:Bool = false;
@@ -164,7 +164,7 @@ class FreeplayState extends MusicBeatState
 
 		#if desktop
 		// Updating Discord Rich Presence
-		DiscordClient.changePresence("In the Menus", null);
+		DiscordClient.changePresence("Menu Moment", null);
 		#end
 
 		if (category == '' || category == null)
@@ -227,7 +227,9 @@ class FreeplayState extends MusicBeatState
 			addSong('Hablise', 0, 'jammer', FlxColor.fromRGB(0, 0, 153));
 			addSong('introvert', 0, 'kaiju', FlxColor.fromRGB(0, 0, 153));
 			addSong('hilarious-testing', 0, 'balls', FlxColor.fromRGB(0, 0, 153));
+			addSong('Pissed', 0, 'imsomadbro', FlxColor.fromRGB(0, 160, 0));
 			addSong('opposed', 0, 'oppoexpunged', FlxColor.fromRGB(180, 180, 180));
+			addSong('diamond-armor', 0, 'diamond', FlxColor.fromRGB(0, 255, 255));
 			addSong('Tridimensional-V2-B-Side', 0, 'bside3ddave', FlxColor.fromRGB(128, 0, 128));
 			addSong('Undaunted-Precaution', 0, 'undaunted', FlxColor.fromRGB(255, 255, 0));
 		}
@@ -252,13 +254,9 @@ class FreeplayState extends MusicBeatState
 
 		if (category == 'Secret')
 		{
-			if (FlxG.save.data.cheaterMayhemFound) {
-				addSong('Cheater-Mayhem', 0, 'expungedlol', FlxColor.fromRGB(60, 0, 0));
-			}
+			addSong('Cheater-Mayhem', 0, 'expungedlol', FlxColor.fromRGB(60, 0, 0));
 			addSong('probabilities', 0, 'theoretical', FlxColor.fromRGB(128, 0, 128));
-			if (FlxG.save.data.permaBanFound) {
-				addSong('Perma-Ban', 0, 'redacted', FlxColor.fromRGB(255, 255, 255));
-			}
+			addSong('Perma-Ban', 0, 'redacted', FlxColor.fromRGB(255, 255, 255));
 			addSong('spacial', 0, 'spaci', FlxColor.fromRGB(60, 60, 60));
 			addSong('undeserved', 0, 'why', FlxColor.fromRGB(0, 0, 0));
 		}

@@ -375,11 +375,11 @@ class PlayState extends MusicBeatState
 		// String that contains the mode defined here so it isn't necessary to call changePresence for each mode
 		if (isStoryMode)
 		{
-			detailsText = "Story time:" + WeekData.getCurrentWeek().weekName;
+			detailsText = "Erase una vez... " + WeekData.getCurrentWeek().weekName;
 		}
 		else
 		{
-			detailsText = "MMMMMMMMM SONGS";
+			detailsText = "freetoplay";
 		}
 
 		// String for when the game is paused
@@ -548,11 +548,26 @@ class PlayState extends MusicBeatState
 			case 'cheater':
 				curStage = 'cheater';
 	
-				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('dave/cheater'));
+				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('cheater'));
 				bg.active = true;
 	
 				add(bg);
 	
+				var testshader:Shaders.GlitchEffect = new Shaders.GlitchEffect();
+				testshader.waveAmplitude = 0.1;
+				testshader.waveFrequency = 5;
+				testshader.waveSpeed = 2;
+				bg.shader = testshader.shader;
+				curbg = bg;
+
+			case 'j1407b':
+				curStage = 'j1407b';
+		
+				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('j1407b'));
+				bg.active = true;
+		
+				add(bg);
+		
 				var testshader:Shaders.GlitchEffect = new Shaders.GlitchEffect();
 				testshader.waveAmplitude = 0.1;
 				testshader.waveFrequency = 5;

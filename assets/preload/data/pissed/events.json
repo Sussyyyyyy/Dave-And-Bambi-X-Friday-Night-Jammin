@@ -1,0 +1,293 @@
+{
+	"song": {
+		"speed": 4,
+		"stage": "bambi",
+		"player1": "jammer-medium-scared",
+		"player2": "bambi-angey-new",
+		"player3": null,
+		"events": [
+			[
+				0,
+				[
+					[
+						"Hide Hud",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				62.5,
+				[
+					[
+						"Image Flash",
+						"insane",
+						"3"
+					]
+				]
+			],
+			[
+				4000,
+				[
+					[
+						"shakey arrows WHAT",
+						"85",
+						"50"
+					]
+				]
+			],
+			[
+				12000,
+				[
+					[
+						"Hide Hud",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				16000,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				48000,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				48003.90625,
+				[
+					[
+						"lyrics",
+						"average bambi fantrack",
+						""
+					]
+				]
+			],
+			[
+				56000,
+				[
+					[
+						"Gain",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				60000,
+				[
+					[
+						"Gain",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				72000,
+				[
+					[
+						"Gain",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				76000,
+				[
+					[
+						"Gain",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				80000,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				80003.90625,
+				[
+					[
+						"lyrics",
+						"",
+						""
+					]
+				]
+			],
+			[
+				88000,
+				[
+					[
+						"Gain",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				96000,
+				[
+					[
+						"Gain",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				112000,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				120000,
+				[
+					[
+						"Gain",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				124000,
+				[
+					[
+						"Gain",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				136000,
+				[
+					[
+						"Gain",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				140000,
+				[
+					[
+						"Gain",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				144000,
+				[
+					[
+						"Gain",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				144002.604166667,
+				[
+					[
+						"Image Flash",
+						"vineboom",
+						"0.2"
+					]
+				]
+			],
+			[
+				168000,
+				[
+					[
+						"Gain",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				176000,
+				[
+					[
+						"Hide Hud",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				192937.5,
+				[
+					[
+						"Change Character",
+						"1",
+						"expunged_new"
+					]
+				]
+			],
+			[
+				193000,
+				[
+					[
+						"Image Flash",
+						"vineboom2",
+						"10"
+					]
+				]
+			],
+			[
+				196000,
+				[
+					[
+						"Game Message with crash",
+						"(1) Message from Bambi",
+						"SCREW YOU! YOU BROKE MY PHONE, NOW I CRASH YOU GAME!!!!!!!!!!!"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"showPsychEngineMark": null,
+		"addScrewYouText": true,
+		"validScore": false,
+		"screwYou": "Screw You! (Scrapped V1 Song)",
+		"engineName": "Bambi Engine",
+		"gfVersion": "nogf",
+		"bpm": 240,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "pissed"
+	}
+}

@@ -3,7 +3,7 @@
 		"speed": 3.5,
 		"stage": "nightbambi",
 		"player1": "jammer-small",
-		"player2": "bambi-splitathon",
+		"player2": "bambi-new",
 		"player3": null,
 		"events": [
 			[
@@ -23,6 +23,16 @@
 						"shakey arrows WHAT",
 						"10",
 						"20"
+					]
+				]
+			],
+			[
+				6.25,
+				[
+					[
+						"noteskinchangeBF",
+						"NOTE_blue",
+						""
 					]
 				]
 			],
@@ -47,12 +57,22 @@
 				]
 			],
 			[
+				177606.25,
+				[
+					[
+						"noteskinchangeOPPT",
+						"NOTE_blue",
+						""
+					]
+				]
+			],
+			[
 				182400,
 				[
 					[
 						"Change Character",
 						"1",
-						"bambi-splitathon"
+						"bambi-new"
 					]
 				]
 			],
@@ -63,6 +83,16 @@
 						"Image Flash",
 						"vineboom",
 						"0.2"
+					]
+				]
+			],
+			[
+				182406.25,
+				[
+					[
+						"noteskinchangeOPPT",
+						"NOTE_green",
+						""
 					]
 				]
 			],
@@ -87,12 +117,22 @@
 				]
 			],
 			[
+				196806.25,
+				[
+					[
+						"noteskinchangeOPPT",
+						"NOTE_blue",
+						""
+					]
+				]
+			],
+			[
 				198000,
 				[
 					[
 						"Change Character",
 						"1",
-						"bambi-splitathon"
+						"bambi-new"
 					]
 				]
 			],
@@ -103,6 +143,16 @@
 						"Image Flash",
 						"vineboom",
 						"0.2"
+					]
+				]
+			],
+			[
+				198006.25,
+				[
+					[
+						"noteskinchangeOPPT",
+						"NOTE_green",
+						""
 					]
 				]
 			],
@@ -127,12 +177,22 @@
 				]
 			],
 			[
+				199206.25,
+				[
+					[
+						"noteskinchangeOPPT",
+						"NOTE_blue",
+						""
+					]
+				]
+			],
+			[
 				200400,
 				[
 					[
 						"Change Character",
 						"1",
-						"bambi-splitathon"
+						"bambi-new"
 					]
 				]
 			],
@@ -143,6 +203,16 @@
 						"Image Flash",
 						"vineboom",
 						"0.2"
+					]
+				]
+			],
+			[
+				200406.25,
+				[
+					[
+						"noteskinchangeOPPT",
+						"NOTE_green",
+						""
 					]
 				]
 			],
@@ -167,12 +237,22 @@
 				]
 			],
 			[
+				206406.25,
+				[
+					[
+						"noteskinchangeOPPT",
+						"NOTE_blue",
+						""
+					]
+				]
+			],
+			[
 				207600,
 				[
 					[
 						"Change Character",
 						"1",
-						"bambi-splitathon"
+						"bambi-new"
 					]
 				]
 			],
@@ -183,6 +263,16 @@
 						"Image Flash",
 						"vineboom",
 						"0.2"
+					]
+				]
+			],
+			[
+				207606.25,
+				[
+					[
+						"noteskinchangeOPPT",
+						"NOTE_green",
+						""
 					]
 				]
 			],
@@ -207,12 +297,22 @@
 				]
 			],
 			[
+				208806.25,
+				[
+					[
+						"noteskinchangeOPPT",
+						"NOTE_blue",
+						""
+					]
+				]
+			],
+			[
 				210000,
 				[
 					[
 						"Change Character",
 						"1",
-						"bambi-splitathon"
+						"bambi-new"
 					]
 				]
 			],
@@ -223,6 +323,16 @@
 						"Image Flash",
 						"vineboom",
 						"0.2"
+					]
+				]
+			],
+			[
+				210006.25,
+				[
+					[
+						"noteskinchangeOPPT",
+						"NOTE_green",
+						""
 					]
 				]
 			],
@@ -247,12 +357,22 @@
 				]
 			],
 			[
+				216006.25,
+				[
+					[
+						"noteskinchangeOPPT",
+						"NOTE_blue",
+						""
+					]
+				]
+			],
+			[
 				220800,
 				[
 					[
 						"Change Character",
 						"1",
-						"bambi-splitathon"
+						"bambi-new"
 					]
 				]
 			],
@@ -263,6 +383,16 @@
 						"Image Flash",
 						"vineboom",
 						"0.2"
+					]
+				]
+			],
+			[
+				220806.25,
+				[
+					[
+						"noteskinchangeOPPT",
+						"NOTE_green",
+						""
 					]
 				]
 			],
@@ -287,12 +417,22 @@
 				]
 			],
 			[
+				235206.25,
+				[
+					[
+						"noteskinchangeOPPT",
+						"NOTE_blue",
+						""
+					]
+				]
+			],
+			[
 				236400,
 				[
 					[
 						"Change Character",
 						"1",
-						"bambi-splitathon"
+						"bambi-new"
 					]
 				]
 			],
@@ -303,6 +443,16 @@
 						"Image Flash",
 						"vineboom",
 						"0.2"
+					]
+				]
+			],
+			[
+				236406.25,
+				[
+					[
+						"noteskinchangeOPPT",
+						"NOTE_green",
+						""
 					]
 				]
 			],
@@ -327,12 +477,22 @@
 				]
 			],
 			[
+				237606.25,
+				[
+					[
+						"noteskinchangeOPPT",
+						"NOTE_blue",
+						""
+					]
+				]
+			],
+			[
 				238800,
 				[
 					[
 						"Change Character",
 						"1",
-						"bambi-splitathon"
+						"bambi-new"
 					]
 				]
 			],
@@ -343,6 +503,16 @@
 						"Image Flash",
 						"vineboom",
 						"0.2"
+					]
+				]
+			],
+			[
+				238806.25,
+				[
+					[
+						"noteskinchangeOPPT",
+						"NOTE_green",
+						""
 					]
 				]
 			],
@@ -367,12 +537,22 @@
 				]
 			],
 			[
+				244806.25,
+				[
+					[
+						"noteskinchangeOPPT",
+						"NOTE_blue",
+						""
+					]
+				]
+			],
+			[
 				246000,
 				[
 					[
 						"Change Character",
 						"1",
-						"bambi-splitathon"
+						"bambi-new"
 					]
 				]
 			],
@@ -383,6 +563,16 @@
 						"Image Flash",
 						"vineboom",
 						"0.2"
+					]
+				]
+			],
+			[
+				246006.25,
+				[
+					[
+						"noteskinchangeOPPT",
+						"NOTE_green",
+						""
 					]
 				]
 			],
@@ -407,12 +597,22 @@
 				]
 			],
 			[
+				247206.25,
+				[
+					[
+						"noteskinchangeOPPT",
+						"NOTE_blue",
+						""
+					]
+				]
+			],
+			[
 				248400,
 				[
 					[
 						"Change Character",
 						"1",
-						"bambi-angey"
+						"bambi-angey-new"
 					]
 				]
 			],
@@ -423,6 +623,16 @@
 						"Image Flash",
 						"vineboom",
 						"0.2"
+					]
+				]
+			],
+			[
+				248406.25,
+				[
+					[
+						"noteskinchangeOPPT",
+						"NOTE_green",
+						""
 					]
 				]
 			],
@@ -446,7 +656,7 @@
 		"engineName": "Bambi Engine ",
 		"gfVersion": "nogf",
 		"bpm": 200,
-		"arrowSkin": "",
+		"arrowSkin": "NOTE_green",
 		"needsVoices": true,
 		"song": "long-showdown"
 	}

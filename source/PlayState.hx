@@ -560,10 +560,10 @@ class PlayState extends MusicBeatState
 				bg.shader = testshader.shader;
 				curbg = bg;
 
-			case 'j1407b':
-				curStage = 'j1407b';
+			case 'space':
+				curStage = 'space';
 		
-				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('j1407b'));
+				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('space'));
 				bg.active = true;
 		
 				add(bg);

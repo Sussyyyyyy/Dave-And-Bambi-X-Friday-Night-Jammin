@@ -3,7 +3,7 @@
 		"speed": 2.9,
 		"stage": "bambi",
 		"player1": "jammer-small",
-		"player2": "bambi",
+		"player2": "bambi-new",
 		"player3": null,
 		"events": [
 			[
@@ -15,6 +15,16 @@
 						"3"
 					]
 				]
+			],
+			[
+				5.43478260869565,
+				[
+					[
+						"noteskinchangeBF",
+						"NOTE_blue",
+						""
+					]
+				]
 			]
 		],
 		"notes": [],
@@ -22,11 +32,11 @@
 		"showPsychEngineMark": true,
 		"addScrewYouText": true,
 		"validScore": false,
-		"screwYou": "Song by Womo",
+		"screwYou": "Song by Womo, Bambi Chromatic by ChillSpace and Chart by valenxyss",
 		"engineName": "Bambi Engine ",
 		"gfVersion": "nogf",
 		"bpm": 115,
-		"arrowSkin": "",
+		"arrowSkin": "NOTE_green",
 		"needsVoices": true,
 		"song": "stealing-suspicious"
 	}

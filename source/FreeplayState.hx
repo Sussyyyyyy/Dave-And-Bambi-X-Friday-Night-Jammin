@@ -204,8 +204,6 @@ class FreeplayState extends MusicBeatState
 			addSong('Long-Showdown', 1, 'uhhh', FlxColor.fromRGB(0, 215, 0));
 			addSong('Midnight', 2, 'dave', FlxColor.fromRGB(0, 0, 200));
 			addSong('Second-Round', 2, 'daventristan', FlxColor.fromRGB(0, 0, 200));
-			addSong('Newbie', 2, 'tristan', FlxColor.fromRGB(200, 0, 0));
-			addSong('Unsurprising', 2, 'bambi', FlxColor.fromRGB(0, 180, 0));
 			addSong('Marathon', 2, 'marathon', FlxColor.fromRGB(100, 100, 100));
 			addSong('Kabuki', 3, 'exbungo', FlxColor.fromRGB(95, 0, 0));
 			addSong('Habunda', 3, 'exbungo', FlxColor.fromRGB(80, 0, 0));
@@ -231,7 +229,6 @@ class FreeplayState extends MusicBeatState
 			addSong('opposed', 0, 'oppoexpunged', FlxColor.fromRGB(180, 180, 180));
 			addSong('diamond-armor', 0, 'diamond', FlxColor.fromRGB(0, 255, 255));
 			addSong('Tridimensional-V2-B-Side', 0, 'bside3ddave', FlxColor.fromRGB(128, 0, 128));
-			addSong('Undaunted-Precaution', 0, 'undaunted', FlxColor.fromRGB(255, 255, 0));
 		}
 
 		if (category == 'Joke')
@@ -240,7 +237,6 @@ class FreeplayState extends MusicBeatState
 			addSong('Vs-Dave-July', 0, 'sexo', FlxColor.fromRGB(100, 255, 0));
 			addSong('Vs-Dave-easter-3', 0, 'sexo', FlxColor.fromRGB(0, 0, 153));
 			addSong('Tridimensional-V1-B-Side', 0, 'old3ddavebside', FlxColor.fromRGB(69, 42, 137));
-			addSong('Tridimensional-V1-D-Side', 0, 'old3ddavedside', FlxColor.fromRGB(69, 42, 137));
 		}
 
 		if (category == 'Covers')
@@ -248,8 +244,6 @@ class FreeplayState extends MusicBeatState
 			addSong('Mealie', 0, 'bambi', FlxColor.fromRGB(0, 195, 0));
 			addSong('Monarchy', 0, 'unfairbambi', FlxColor.fromRGB(255, 0, 0));
 			addSong('Ready-Loud', 0, 'sexo', FlxColor.fromRGB(0, 195, 0));
-			addSong('Ingratiating', 0, 'ingratiating', FlxColor.fromRGB(128, 255, 128));
-			addSong('Omission', 0, 'dan', FlxColor.fromRGB(0, 0, 0));
 		}
 
 		if (category == 'Secret')
@@ -258,7 +252,6 @@ class FreeplayState extends MusicBeatState
 			addSong('probabilities', 0, 'theoretical', FlxColor.fromRGB(128, 0, 128));
 			addSong('Perma-Ban', 0, 'redacted', FlxColor.fromRGB(255, 255, 255));
 			addSong('spacial', 0, 'spaci', FlxColor.fromRGB(60, 60, 60));
-			addSong('undeserved', 0, 'why', FlxColor.fromRGB(0, 0, 0));
 		}
 
 		if (category == 'OC')

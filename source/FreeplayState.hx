@@ -209,7 +209,6 @@ class FreeplayState extends MusicBeatState
 			addSong('Habunda', 3, 'exbungo', FlxColor.fromRGB(80, 0, 0));
 			addSong('sternocleido', 3, 'exbungo', FlxColor.fromRGB(80, 0, 0));
 			addSong('gatetrader', 4, '3d', FlxColor.fromRGB(100, 100, 100));
-			addSong('injury', 4, '3d', FlxColor.fromRGB(95, 0, 0));
 			addSong('resistant', 4, 'unfairbambi', FlxColor.fromRGB(80, 0, 0));
 			addSong('harmon', 4, 'expungedlol', FlxColor.fromRGB(80, 0, 0));
 			addSong('minion', 4, 'bambi-minion', FlxColor.fromRGB(120, 0, 120));

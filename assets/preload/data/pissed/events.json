@@ -27,6 +27,16 @@
 				]
 			],
 			[
+				2000,
+				[
+					[
+						"noteskinchangeBF",
+						"NOTE_blue",
+						""
+					]
+				]
+			],
+			[
 				4000,
 				[
 					[
@@ -286,7 +296,7 @@
 		"engineName": "Bambi Engine",
 		"gfVersion": "nogf",
 		"bpm": 240,
-		"arrowSkin": "",
+		"arrowSkin": "NOTE_green",
 		"needsVoices": true,
 		"song": "pissed"
 	}

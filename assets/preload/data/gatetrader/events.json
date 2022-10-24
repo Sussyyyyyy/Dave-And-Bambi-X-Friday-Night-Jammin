@@ -1,0 +1,53 @@
+{
+	"song": {
+		"speed": 3.5,
+		"stage": "cheater",
+		"player1": "jammer-medium-scared",
+		"player2": "3dbambi",
+		"player3": null,
+		"events": [
+			[
+				0,
+				[
+					[
+						"Image Flash",
+						"hard",
+						"3"
+					]
+				]
+			],
+			[
+				85333.3333333333,
+				[
+					[
+						"Image Flash",
+						"normal",
+						"3"
+					]
+				]
+			],
+			[
+				142222.222222222,
+				[
+					[
+						"Hide Hud",
+						"1",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"showPsychEngineMark": true,
+		"addScrewYouText": true,
+		"validScore": false,
+		"screwYou": "Who are you",
+		"engineName": "Bambi Engine ",
+		"gfVersion": "nightshades-small",
+		"bpm": 135,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "gatetrader"
+	}
+}

@@ -1945,7 +1945,7 @@ class PlayState extends MusicBeatState
 			case 'sternocleido':
 			s = '?';
 			case 'gatetrader':
-			s = 'valenxyss';
+			s = 'shizel';
 			case 'injury':
 			s = 'valenxyss';
 			case 'resistant':

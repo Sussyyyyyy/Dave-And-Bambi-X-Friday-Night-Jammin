@@ -1,0 +1,22 @@
+{
+	"song": {
+		"speed": 1,
+		"stage": "unfair",
+		"player1": "jammer-medium-scared",
+		"player2": "brothatsunfair",
+		"player3": null,
+		"events": [],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"showPsychEngineMark": true,
+		"addScrewYouText": true,
+		"validScore": false,
+		"screwYou": "",
+		"engineName": "B4mB1 Eng!ne",
+		"gfVersion": "gf",
+		"bpm": 145,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "resistant"
+	}
+}

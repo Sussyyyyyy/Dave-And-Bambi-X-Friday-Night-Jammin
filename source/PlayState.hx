@@ -1949,7 +1949,7 @@ class PlayState extends MusicBeatState
 			case 'resistant':
 			s = 'shizel';
 			case 'harmon':
-			s = 'valenxyss';
+			s = 'shizel';
 			case 'minion':
 			s = 'valenxyss';
 			case 'multiple':
@@ -1968,8 +1968,6 @@ class PlayState extends MusicBeatState
 			s = '?';
 			case 'spacial':
 			s = '?';
-			case 'undeserved':
-			s = '...';
 			case 'recolored':
 			s = 'Womo';
 			case 'trijam':
@@ -1982,12 +1980,14 @@ class PlayState extends MusicBeatState
 			s = 'valenxyss';
 			case 'tridimensional-v2-b-side':
 			s = 'valenxyss';
-			case 'undaunted-precaution':
+			case 'undaunted-precaution': // if someone's reading this, i wanted to add this but it ended up getting scrapped, but if you want you can make a mid effort of this, also worst fate best 1 hour song
 			s = 'valenxyss';
 			case 'vs-dave-easter':
 			s = 'ValenciaBall';
 			case 'vs-dave-july':
 			s = 'ValenciaBall';
+			case 'vs-dave-easter-2.5':
+			s = 'shizel';
 			case 'vs-dave-easter-3':
 			s = 'valenxyss';
 			case 'tridimensional-v1-b-side':

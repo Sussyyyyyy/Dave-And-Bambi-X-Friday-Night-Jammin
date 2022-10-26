@@ -1,23 +1,13 @@
 {
 	"song": {
-		"speed": 3.5,
-		"stage": "cheater",
+		"speed": 4.5,
+		"stage": "expungedhell",
 		"player1": "jammer-medium-scared",
-		"player2": "3dbambi",
+		"player2": "expunged_new",
 		"player3": null,
 		"events": [
 			[
 				0,
-				[
-					[
-						"Image Flash",
-						"hard",
-						"3"
-					]
-				]
-			],
-			[
-				13.8888888888889,
 				[
 					[
 						"noteskinchangeOPPT",
@@ -27,21 +17,31 @@
 				]
 			],
 			[
-				27.7777777777778,
-				[
-					[
-						"shakey arrows complex",
-						"20",
-						"20"
-					]
-				]
-			],
-			[
-				142222.222222222,
+				88.2352941176471,
 				[
 					[
 						"Hide Hud",
 						"1",
+						""
+					]
+				]
+			],
+			[
+				9882.35294117647,
+				[
+					[
+						"shakey arrows WHAT",
+						"100",
+						"100"
+					]
+				]
+			],
+			[
+				10588.2352941176,
+				[
+					[
+						"Hide Hud",
+						"2",
 						""
 					]
 				]
@@ -52,12 +52,12 @@
 		"showPsychEngineMark": true,
 		"addScrewYouText": true,
 		"validScore": false,
-		"screwYou": "Who are you!",
-		"engineName": "Bambi...? Engine ",
-		"gfVersion": "nightshades-small",
-		"bpm": 135,
+		"screwYou": "You won't survive this, JAMMER.",
+		"engineName": "MY Engine ",
+		"gfVersion": "nogf",
+		"bpm": 170,
 		"arrowSkin": "",
 		"needsVoices": true,
-		"song": "gatetrader"
+		"song": "harmon"
 	}
 }

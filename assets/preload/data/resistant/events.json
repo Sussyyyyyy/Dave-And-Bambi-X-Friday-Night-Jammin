@@ -1,19 +1,130 @@
 {
 	"song": {
-		"speed": 1,
+		"speed": 3.6,
 		"stage": "unfair",
 		"player1": "jammer-medium-scared",
 		"player2": "brothatsunfair",
 		"player3": null,
-		"events": [],
+		"events": [
+			[
+				0,
+				[
+					[
+						"Image Flash",
+						"vineboom2",
+						"18"
+					]
+				]
+			],
+			[
+				103.448275862069,
+				[
+					[
+						"Hide Hud",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				9931.03448275862,
+				[
+					[
+						"noteskinchangeOPPT",
+						"NOTE_assets_3D",
+						""
+					]
+				]
+			],
+			[
+				11586.2068965517,
+				[
+					[
+						"Gain",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				24827.5862068966,
+				[
+					[
+						"Hide Hud",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				26482.7586206897,
+				[
+					[
+						"Image Flash",
+						"insane",
+						"3"
+					]
+				]
+			],
+			[
+				52965.5172413793,
+				[
+					[
+						"Change Scroll Speed",
+						"1.5",
+						"1"
+					]
+				]
+			],
+			[
+				79448.2758620689,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"1"
+					]
+				]
+			],
+			[
+				105931.034482759,
+				[
+					[
+						"Change Scroll Speed",
+						"1.5",
+						"1"
+					]
+				]
+			],
+			[
+				132413.793103448,
+				[
+					[
+						"Hide Hud",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				132517.24137931,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"1"
+					]
+				]
+			]
+		],
 		"notes": [],
 		"splashSkin": "noteSplashes",
 		"showPsychEngineMark": true,
 		"addScrewYouText": true,
 		"validScore": false,
-		"screwYou": "",
-		"engineName": "B4mB1 Eng!ne",
-		"gfVersion": "gf",
+		"screwYou": "I gonna destroy you!",
+		"engineName": "B4mB1 enG!N3 ",
+		"gfVersion": "nightshades-small",
 		"bpm": 145,
 		"arrowSkin": "",
 		"needsVoices": true,

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="true_expunged new.png">
+<SubTexture name="true_expunged new microphone0000" x="429" y="599" width="530" height="585" frameX="-249" frameY="-13" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new microphone0001" x="1200" y="0" width="534" height="585" frameX="-249" frameY="-13" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new microphone0002" x="429" y="599" width="530" height="585" frameX="-249" frameY="-13" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new microphone0003" x="1200" y="0" width="534" height="585" frameX="-249" frameY="-13" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new microphone0004" x="429" y="599" width="530" height="585" frameX="-249" frameY="-13" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new microphone0005" x="1200" y="0" width="534" height="585" frameX="-249" frameY="-13" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new microphone0006" x="429" y="599" width="530" height="585" frameX="-249" frameY="-13" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new microphone0007" x="1200" y="0" width="534" height="585" frameX="-249" frameY="-13" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new microphone0008" x="429" y="599" width="530" height="585" frameX="-249" frameY="-13" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new microphone0009" x="1200" y="0" width="534" height="585" frameX="-249" frameY="-13" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new microphone0010" x="429" y="599" width="530" height="585" frameX="-249" frameY="-13" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new microphone0011" x="1734" y="0" width="601" height="585" frameX="-249" frameY="-13" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new microphone0012" x="1734" y="585" width="537" height="585" frameX="-249" frameY="-13" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new microphone0013" x="1200" y="585" width="498" height="585" frameX="-249" frameY="-13" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new microphone0014" x="1200" y="585" width="498" height="585" frameX="-249" frameY="-13" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new microphone0015" x="1200" y="585" width="498" height="585" frameX="-249" frameY="-13" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new microphone0016" x="1200" y="585" width="498" height="585" frameX="-249" frameY="-13" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new microphone0017" x="1200" y="585" width="498" height="585" frameX="-249" frameY="-13" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new idle0000" x="0" y="2326" width="498" height="481" frameX="-113" frameY="-76" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new idle0001" x="2809" y="0" width="490" height="529" frameX="-120" frameY="-25" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new idle0002" x="1394" y="1767" width="502" height="547" frameX="-118" frameY="-10" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new idle0003" x="441" y="1767" width="501" height="555" frameX="-114" frameY="-3" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new idle0004" x="441" y="1767" width="501" height="555" frameX="-114" frameY="-3" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new idle0005" x="441" y="1767" width="501" height="555" frameX="-114" frameY="-3" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new idle0006" x="441" y="1767" width="501" height="555" frameX="-114" frameY="-3" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new idle0007" x="441" y="1767" width="501" height="555" frameX="-114" frameY="-3" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new idle0008" x="441" y="1767" width="501" height="555" frameX="-114" frameY="-3" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new idle0009" x="441" y="1767" width="501" height="555" frameX="-114" frameY="-3" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new down0000" x="2809" y="1500" width="435" height="449" frameX="-107" frameY="-118" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new down0001" x="2809" y="1030" width="427" height="470" frameX="-111" frameY="-100" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new down0002" x="2809" y="529" width="407" height="501" frameX="-112" frameY="-70" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new down0003" x="1896" y="1767" width="423" height="539" frameX="-113" frameY="-41" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new left0000" x="1204" y="1189" width="471" height="563" frameX="-66" frameY="-29" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new left0001" x="376" y="1189" width="447" height="577" frameX="-108" frameY="-16" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new left0002" x="0" y="599" width="429" height="590" frameX="-156" frameY="-7" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new left0003" x="0" y="0" width="456" height="599" frameX="-180" frameY="0" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new right0000" x="2335" y="0" width="474" height="538" frameX="-123" frameY="-28" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new right0001" x="942" y="1767" width="452" height="555" frameX="-97" frameY="-14" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new right0002" x="1675" y="1189" width="454" height="559" frameX="-82" frameY="-14" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new right0003" x="0" y="1767" width="441" height="559" frameX="-85" frameY="-12" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new up0000" x="456" y="0" width="371" height="599" frameX="-154" frameY="0" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new up0001" x="827" y="0" width="373" height="594" frameX="-154" frameY="-3" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new up0002" x="0" y="1189" width="376" height="578" frameX="-166" frameY="-17" frameWidth="862" frameHeight="599" />
+<SubTexture name="true_expunged new up0003" x="823" y="1189" width="381" height="569" frameX="-166" frameY="-21" frameWidth="862" frameHeight="599" />
+</TextureAtlas>

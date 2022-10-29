@@ -1,0 +1,30 @@
+{
+	"storyName": "OH GOD NO OH GOD NO OH GOD NO OH GOD NO OH GOD NO OH GOD NO OH GOD NO OH GOD NO OH GOD NO OH GOD NO OH GOD NO OH GOD NO ",
+	"hideFreeplay": true,
+	"weekBackground": "ohno",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "week6",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"anosognosia",
+			"helphelphelphelphelphelphelphelphelphelphelphelphelphelphelphelphelphelp",
+			[
+				0,
+				0,
+				0
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "ANOSOGNOSIA"
+}

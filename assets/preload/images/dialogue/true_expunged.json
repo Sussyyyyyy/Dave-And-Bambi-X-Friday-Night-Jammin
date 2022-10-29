@@ -1,0 +1,24 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		0,
+		20
+	],
+	"scale": 1.8,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				-81
+			],
+			"idle_offsets": [
+				0,
+				-81
+			],
+			"loop_name": "true_expunged new idle",
+			"idle_name": "true_expunged new idle"
+		}
+	],
+	"image": "true_expunged_new"
+}

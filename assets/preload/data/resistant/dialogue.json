@@ -1,0 +1,52 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.01,
+			"portrait": "rambi",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "WHy YOU BEAT MY SONG??? I THOUGHT IT WAS IMPOSSIBLE!!!!!!!!"
+		},
+		{
+			"sound": "",
+			"speed": 0.02,
+			"portrait": "jammer-scared",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "WOAH CALM DOWN"
+		},
+		{
+			"sound": "",
+			"speed": 0.015,
+			"portrait": "jammer-scared",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "NOT EVERYTHING IS IMPOSSIBLE BRO JUST CALM DOWN"
+		},
+		{
+			"sound": "",
+			"speed": 0.02,
+			"portrait": "rambi",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "me want rematch"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer-scared",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "(I think I f*cked up)"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer-scared",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Alright I guess?"
+		}
+	]
+}

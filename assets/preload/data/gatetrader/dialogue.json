@@ -1,0 +1,84 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.25,
+			"portrait": "jammer-scared",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "..."
+		},
+		{
+			"sound": "",
+			"speed": 0.08,
+			"portrait": "bambi-3d",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "helo? u awake?"
+		},
+		{
+			"sound": "",
+			"speed": 0.15,
+			"portrait": "jammer-scared",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "...hello?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bambi-3d",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "thank god ur awake, had to save you from that exbungo kid"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer-scared",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "...Thanks I guess?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer-scared",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I now owe you whatever you want..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bambi-3d",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "could we rap battle"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer-scared",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Ok, I guess..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bambi-3d",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "ok"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bambi-3d",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "(wait whats his name again)"
+		}
+	]
+}

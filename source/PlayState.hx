@@ -2728,7 +2728,7 @@ class PlayState extends MusicBeatState
 	//  && (curSong.toLowerCase() != 'probabilities' && (curSong.toLowerCase() != 'perma-ban')
 		
 		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() != 'cheater-mayhem')) {
-			PlayState.SONG = Song.loadFromJson("cheater-mayhem", "cheater-mayhem"); //does the same fucking thing
+			PlayState.SONG = Song.loadFromJson("cheater-mayhem", "cheater-mayhem");
 				FlxG.switchState(new PlayState());
 				trace("bruh");
 		}

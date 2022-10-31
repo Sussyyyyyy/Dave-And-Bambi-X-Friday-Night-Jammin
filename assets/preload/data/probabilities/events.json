@@ -1,0 +1,22 @@
+{
+	"song": {
+		"speed": 2.8,
+		"stage": "theoretical",
+		"player1": "jammer-medium-scared",
+		"player2": "teorico",
+		"player3": null,
+		"events": [],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"showPsychEngineMark": true,
+		"addScrewYouText": true,
+		"validScore": false,
+		"screwYou": "STOP CHEATING YOU FUCKING BASTARD>",
+		"engineName": "Dave Engine ",
+		"gfVersion": "nogf",
+		"bpm": 150,
+		"arrowSkin": "NOTE_assets",
+		"needsVoices": true,
+		"song": "probabilities"
+	}
+}

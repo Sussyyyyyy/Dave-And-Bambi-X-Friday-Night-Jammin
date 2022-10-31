@@ -2725,11 +2725,24 @@ class PlayState extends MusicBeatState
 
 	override public function update(elapsed:Float)
 	{
-	
-		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() != 'cheater-mayhem') && (curSong.toLowerCase() != 'probabilities' && (curSong.toLowerCase() != 'perma-ban'))) {
+	//  && (curSong.toLowerCase() != 'probabilities' && (curSong.toLowerCase() != 'perma-ban')
+		
+		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() != 'cheater-mayhem')) {
 			PlayState.SONG = Song.loadFromJson("cheater-mayhem", "cheater-mayhem"); //does the same fucking thing
 				FlxG.switchState(new PlayState());
 				trace("bruh");
+		}
+
+		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() == 'cheater-mayhem')) {
+			PlayState.SONG = Song.loadFromJson("probabilities", "probabilities"); //does the same fucking thing
+				FlxG.switchState(new PlayState());
+				trace("stop");
+		}
+
+		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() == 'probabilities')) {
+			PlayState.SONG = Song.loadFromJson("perma-ban", "perma-ban"); //does the same fucking thing
+				FlxG.switchState(new PlayState());
+				trace("fuck you");
 		}
 
 		/*if (FlxG.keys.justPressed.NINE)

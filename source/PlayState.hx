@@ -2745,7 +2745,7 @@ class PlayState extends MusicBeatState
 	{
 	//  && (curSong.toLowerCase() != 'probabilities' && (curSong.toLowerCase() != 'perma-ban')
 		
-		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() != 'cheater-mayhem')) {
+		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() != 'cheater-mayhem' && (curSong.toLowerCase() != 'perma-ban'))) {
 			PlayState.SONG = Song.loadFromJson("cheater-mayhem", "cheater-mayhem");
 				FlxG.switchState(new PlayState());
 				trace("bruh");
@@ -2761,6 +2761,10 @@ class PlayState extends MusicBeatState
 			PlayState.SONG = Song.loadFromJson("perma-ban", "perma-ban"); //does the same fucking thing
 				FlxG.switchState(new PlayState());
 				trace("fuck you");
+		}
+
+		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() == 'perma-ban')) {
+			trace("get fucked have this video about you aka a cheater");
 		}
 
 		/*if (FlxG.keys.justPressed.NINE)

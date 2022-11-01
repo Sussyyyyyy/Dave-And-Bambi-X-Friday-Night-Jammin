@@ -657,6 +657,7 @@ class PlayState extends MusicBeatState
 				bg.active = true;
 		
 				add(bg);
+				bg.scale.set(3, 3);
 			
 				var testshader:Shaders.GlitchEffect = new Shaders.GlitchEffect();
 				testshader.waveAmplitude = 0.1;
@@ -1960,11 +1961,11 @@ class PlayState extends MusicBeatState
 			case 'sternocleido':
 			s = '?';
 			case 'gatetrader':
-			s = 'shizel';
+			s = 'sylenlean';
 			case 'resistant':
-			s = 'shizel';
+			s = 'sylenlean';
 			case 'harmon':
-			s = 'shizel';
+			s = 'sylenlean';
 			case 'minion':
 			s = 'valenxyss';
 			case 'multiple':
@@ -1975,6 +1976,8 @@ class PlayState extends MusicBeatState
 			s = 'a lot of people';
 			case 'reconciliation':
 			s = 'valenxyss';
+			case 'anosogosnia':
+			s = 'sylenlean';
 			case 'cheater-mayhem':
 			s = 'valenxyss';
 			case 'probabilities':
@@ -1984,7 +1987,7 @@ class PlayState extends MusicBeatState
 			case 'spacial':
 			s = '?';
 			case 'recolored':
-			s = 'Womo';
+			s = '?';
 			case 'trijam':
 			s = 'Womo';
 			case 'hablise':
@@ -2002,7 +2005,7 @@ class PlayState extends MusicBeatState
 			case 'vs-dave-july':
 			s = 'ValenciaBall';
 			case 'vs-dave-easter-2.5':
-			s = 'shizel';
+			s = 'sylenlean';
 			case 'vs-dave-easter-3':
 			s = 'valenxyss';
 			case 'tridimensional-v1-b-side':
@@ -2015,8 +2018,6 @@ class PlayState extends MusicBeatState
 			s = 'LORENXX-10';
 			case 'ready-loud':
 			s = 'MoldyGH';
-			case 'recolored':
-			s = 'Womo';
 			case 'cyanophobia':
 			s = '?';
 			case 'mustardware':
@@ -2025,6 +2026,8 @@ class PlayState extends MusicBeatState
 			s = 'valenxyss';
 			case 'epicness':
 			s = 'valenxyss';
+			case 'transcend':
+			s = 'sylenlean';
 		}
     	songCreator.text = "By: " + s;
     	songCreator.scrollFactor.set();

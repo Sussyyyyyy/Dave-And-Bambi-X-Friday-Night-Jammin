@@ -260,6 +260,7 @@ class FreeplayState extends MusicBeatState
 			addSong('mustardware', 0, 'mustardware', FlxColor.fromRGB(255, 82, 127));
 			addSong('sleepy', 0, 'hrambi', FlxColor.fromRGB(139, 69, 19));
 			addSong('epicness', 0, 'epibambi', FlxColor.fromRGB(139, 69, 19));
+			addSong('transcend', 0, 'mevile', FlxColor.fromRGB(56, 147, 24));
 		}
 
 		Main.freeplaything == '';

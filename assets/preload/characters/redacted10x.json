@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				200
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Redacted_expunged idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				200,
+				200
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Redacted_expunged left"
+		},
+		{
+			"offsets": [
+				0,
+				100
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Redacted_expunged down"
+		},
+		{
+			"offsets": [
+				-200,
+				200
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Redacted_expunged right"
+		},
+		{
+			"offsets": [
+				0,
+				300
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Redacted_expunged up"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Redacted_expunged",
+	"position": [
+		-600,
+		800
+	],
+	"healthicon": "redacted",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		-3800,
+		-4800
+	],
+	"sing_duration": 6.1,
+	"scale": 9.99999999999998
+}

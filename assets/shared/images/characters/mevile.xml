@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="mevile.png">
+<SubTexture name="mevile idle00000000" x="0" y="0" width="763" height="1717" frameX="-71" frameY="-11" frameWidth="915" frameHeight="1818" />
+<SubTexture name="mevile left00000000" x="0" y="0" width="763" height="1717" frameX="-71" frameY="-11" frameWidth="915" frameHeight="1818" />
+<SubTexture name="mevile down00000000" x="0" y="0" width="763" height="1717" frameX="-71" frameY="-11" frameWidth="915" frameHeight="1818" />
+<SubTexture name="mevile up00000000" x="0" y="0" width="763" height="1717" frameX="-71" frameY="-11" frameWidth="915" frameHeight="1818" />
+<SubTexture name="mevile right00000000" x="0" y="0" width="763" height="1717" frameX="-71" frameY="-11" frameWidth="915" frameHeight="1818" />
+</TextureAtlas>

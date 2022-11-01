@@ -1,6 +1,6 @@
 {
 	"song": {
-		"speed": 4.5,
+		"speed": 2.5,
 		"stage": "expungedhell",
 		"player1": "jammer-medium-scared",
 		"player2": "expunged_new",
@@ -37,12 +37,162 @@
 				]
 			],
 			[
+				10235.2941176471,
+				[
+					[
+						"camera bounce",
+						"",
+						""
+					]
+				]
+			],
+			[
 				10588.2352941176,
 				[
 					[
 						"Hide Hud",
 						"2",
 						""
+					]
+				]
+			],
+			[
+				33882.3529411765,
+				[
+					[
+						"shakey arrows WHAT",
+						"200",
+						"100"
+					]
+				]
+			],
+			[
+				33970.5882352941,
+				[
+					[
+						"Change Scroll Speed",
+						"2",
+						"1"
+					]
+				]
+			],
+			[
+				56470.5882352941,
+				[
+					[
+						"shakey arrows WHAT",
+						"100",
+						"100"
+					]
+				]
+			],
+			[
+				56558.8235294117,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"1"
+					]
+				]
+			],
+			[
+				79058.8235294117,
+				[
+					[
+						"shakey arrows WHAT",
+						"200",
+						"200"
+					]
+				]
+			],
+			[
+				79147.0588235293,
+				[
+					[
+						"Change Scroll Speed",
+						"3",
+						"1"
+					]
+				]
+			],
+			[
+				101647.058823529,
+				[
+					[
+						"Hide Hud",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				118588.235294117,
+				[
+					[
+						"Game Message",
+						"EXPUNGED",
+						"I'M STILL NOT DONE WITH YOU"
+					]
+				]
+			],
+			[
+				120000,
+				[
+					[
+						"Game Message",
+						"EXPUNGED",
+						"..."
+					]
+				]
+			],
+			[
+				121411.764705882,
+				[
+					[
+						"Game Message",
+						"EXPUNGED",
+						"We'll meet again, Jammer."
+					]
+				]
+			],
+			[
+				122823.529411764,
+				[
+					[
+						"Game Message",
+						"EXPUNGED",
+						"And next time."
+					]
+				]
+			],
+			[
+				124235.294117647,
+				[
+					[
+						"Game Message",
+						"EXPUNGED",
+						"I WILL BRING AN ARMY OF PEOPLE."
+					]
+				]
+			],
+			[
+				125647.058823529,
+				[
+					[
+						"Game Message",
+						"EXPUNGED",
+						"HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA"
+					]
+				]
+			],
+			[
+				128823.529411764,
+				[
+					[
+						"Game Message",
+						"EXPUNGED",
+						"SEE YA LATER."
 					]
 				]
 			]

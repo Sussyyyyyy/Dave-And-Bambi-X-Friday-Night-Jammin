@@ -563,7 +563,7 @@ class PlayState extends MusicBeatState
 			case 'space':
 				curStage = 'space';
 		
-				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('space'));
+				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('dave/space'));
 				bg.active = true;
 		
 				add(bg);
@@ -649,7 +649,22 @@ class PlayState extends MusicBeatState
 				testshader.waveSpeed = 2;
 				bg.shader = testshader.shader;
 				curbg = bg;
-					
+			
+			case 'mevile-bg':
+				curStage = 'mevile-bg';
+	
+				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('mevile-bg'));
+				bg.active = true;
+		
+				add(bg);
+			
+				var testshader:Shaders.GlitchEffect = new Shaders.GlitchEffect();
+				testshader.waveAmplitude = 0.1;
+				testshader.waveFrequency = 5;
+				testshader.waveSpeed = 2;
+				bg.shader = testshader.shader;
+				curbg = bg;
+				
 			case 'bambi':
 				{
 					defaultCamZoom = 0.9;

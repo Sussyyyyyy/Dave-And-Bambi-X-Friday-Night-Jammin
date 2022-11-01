@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-160,
+				79
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "mevile idle0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-160,
+				79
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "mevile left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-160,
+				79
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "mevile down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-160,
+				79
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "mevile up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-160,
+				79
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "mevile right0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mevile",
+	"position": [
+		-890,
+		-430
+	],
+	"healthicon": "mevile",
+	"flip_x": false,
+	"healthbar_colors": [
+		66,
+		90,
+		49
+	],
+	"camera_position": [
+		-190,
+		-2290
+	],
+	"sing_duration": 6.1,
+	"scale": 2.6
+}

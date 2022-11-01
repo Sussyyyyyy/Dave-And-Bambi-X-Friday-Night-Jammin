@@ -1,0 +1,63 @@
+{
+	"song": {
+		"speed": 3.4,
+		"stage": "mevile-bg",
+		"player1": "jammer-medium-scared",
+		"player2": "mevile",
+		"player3": null,
+		"events": [
+			[
+				0,
+				[
+					[
+						"Hide Hud",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				26.978417266187,
+				[
+					[
+						"camera bounce",
+						"",
+						""
+					]
+				]
+			],
+			[
+				3453.23741007194,
+				[
+					[
+						"noteskinchangeOPPT",
+						"NOTE_assets_3D",
+						""
+					]
+				]
+			],
+			[
+				26762.5899280576,
+				[
+					[
+						"Hide Hud",
+						"2",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"showPsychEngineMark": true,
+		"addScrewYouText": true,
+		"validScore": false,
+		"screwYou": "hehehehehehehehe funi spam (OC by Sylen)",
+		"engineName": "Mevile Engine ",
+		"gfVersion": "nightshades-small",
+		"bpm": 139,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "transcend"
+	}
+}

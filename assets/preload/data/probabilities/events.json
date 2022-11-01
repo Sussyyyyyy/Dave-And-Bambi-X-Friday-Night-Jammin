@@ -1,21 +1,82 @@
 {
 	"song": {
-		"speed": 2.8,
+		"speed": 3.4,
 		"stage": "theoretical",
 		"player1": "jammer-medium-scared",
 		"player2": "teorico",
 		"player3": null,
-		"events": [],
+		"events": [
+			[
+				0,
+				[
+					[
+						"Hide Hud",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				62.5,
+				[
+					[
+						"Image Flash",
+						"insane",
+						"3"
+					]
+				]
+			],
+			[
+				1000,
+				[
+					[
+						"Gain",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				1062.5,
+				[
+					[
+						"noteskinchangeOPPT",
+						"INVIS_NOTE_assets",
+						""
+					]
+				]
+			],
+			[
+				3000,
+				[
+					[
+						"shakey arrows bruh",
+						"70",
+						"40"
+					]
+				]
+			],
+			[
+				28000,
+				[
+					[
+						"Hide Hud",
+						"2",
+						""
+					]
+				]
+			]
+		],
 		"notes": [],
 		"splashSkin": "noteSplashes",
-		"showPsychEngineMark": true,
+		"showPsychEngineMark": false,
 		"addScrewYouText": true,
 		"validScore": false,
-		"screwYou": "STOP CHEATING YOU FUCKING BASTARD>",
-		"engineName": "Dave Engine ",
+		"screwYou": "STOP CHEATING YOU FUCKING BASTARD. (again, sprites by MrCornStealer)",
+		"engineName": "*&&#$@*(@%#!&$!%$@*&^#!@&($*)(@#!*&$%&*#!@$*&%)&&!&@&&&&)&*%&*I%#!@$&*($@!#$)@#*&!%$&*%@#!*&$^#@&(!$^&)@#%!$*^%@#)!$&*()",
 		"gfVersion": "nogf",
-		"bpm": 150,
-		"arrowSkin": "NOTE_assets",
+		"bpm": 240,
+		"arrowSkin": "NOTE_blue",
 		"needsVoices": true,
 		"song": "probabilities"
 	}

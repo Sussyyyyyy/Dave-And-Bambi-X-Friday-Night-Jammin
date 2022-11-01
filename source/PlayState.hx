@@ -3500,6 +3500,10 @@ class PlayState extends MusicBeatState
 			case 'Game Message with crash':
 				Application.current.window.alert(value2, value1);
 				Sys.exit(0);
+			
+			case 'Toast Notification':
+				FlxG.autoPause = false;
+				PopupShit.sendToast(value1, value2);
 
 			case 'Trigger BG Ghouls':
 				if(curStage == 'schoolEvil' && !ClientPrefs.lowQuality) {

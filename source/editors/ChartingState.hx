@@ -89,6 +89,7 @@ class ChartingState extends MusicBeatState
 		['Game Crash', 'Crashes the game'],
 		['Game Message', 'Shows a pop-up with a custom message\n \nValue 1: Pop-up Window Title\nValue 2: Custom message'],
 		['Game Message with crash', 'Shows a pop-up with a custom message, once you\n accept it, the game should crash\n \nValue 1: Pop-up Window Title\nValue 2: Custom message'],
+		['Toast Notification', "Show a toast notification with a custom message\nONLY WORKS IN WINDOWS!\n \nCode by Furret, used in Dying Slowly v2\nValue 1: Title\n Value 2: Custom message"],
 		['Smooth cam zoom', 'better version of the camarea zoom (exepting the hud)\n\nValue 1:zoom\n\nValue 2: if blank, it will smoothly zoom regularly\n\nif u put a number,it will do an instant zoom'],
 		['WindowMove', 'Like onslaught windows mode ):)\n\nValue 1: x value\nvalue 2: y value'],
 	];

@@ -1932,6 +1932,8 @@ class PlayState extends MusicBeatState
 		var s:String = '';
 		switch(curSong)
 		{
+			case 'beginning':
+			s = 'sylenlean';
 			case 'groovy-house':
 			s = 'valenxyss';
 			case 'insano':

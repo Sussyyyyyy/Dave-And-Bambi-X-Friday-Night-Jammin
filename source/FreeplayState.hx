@@ -196,6 +196,7 @@ class FreeplayState extends MusicBeatState
 
 		if (category == 'Main Weeks')
 		{
+			addSong('beginning', 0, 'dave', FlxColor.fromRGB(0, 0, 255));	
 			addSong('Groovy-House', 0, 'dave', FlxColor.fromRGB(0, 0, 255));
 			addSong('Insano', 0, 'dave', FlxColor.fromRGB(0, 0, 255));
 			addSong('Tridimensional', 0, 'dave-furiosity', FlxColor.fromRGB(175, 0, 135));
@@ -213,9 +214,12 @@ class FreeplayState extends MusicBeatState
 			addSong('harmon', 4, 'expungedlol', FlxColor.fromRGB(80, 0, 0));
 			addSong('minion', 4, 'bambi-minion', FlxColor.fromRGB(120, 0, 120));
 			addSong('multiple', 4, 'bambi-minion', FlxColor.fromRGB(100, 0, 100));
-			addSong('chaotic', 4, 'bambi-minion', FlxColor.fromRGB(80, 0, 80));
 			addSong('final-push', 4, 'everyone', FlxColor.fromRGB(0, 0, 0));
 			addSong('reconciliation', 4, 'kaiju', FlxColor.fromRGB(0, 0, 190));
+			if(FlxG.save.data.anosognosiaFound)
+				{
+					addSong('anosognosia', 0, 'ohgodno', FlxColor.fromRGB(0, 0, 0));
+				}
 		}
 
 		if (category == 'Extras')
@@ -247,9 +251,21 @@ class FreeplayState extends MusicBeatState
 
 		if (category == 'Secret')
 		{
-			addSong('Cheater-Mayhem', 0, 'expungedlol', FlxColor.fromRGB(60, 0, 0));
-			addSong('probabilities', 0, 'theoretical', FlxColor.fromRGB(128, 0, 128));
-			addSong('Perma-Ban', 0, 'redacted', FlxColor.fromRGB(255, 255, 255));
+			if(FlxG.save.data.cheaterMayhemFound)
+				{
+					addSong('Cheater-Mayhem', 0, 'expungedlol', FlxColor.fromRGB(60, 0, 0));
+				}
+			if(FlxG.save.data.probabilitiesFound)
+				{
+					addSong('probabilities', 0, 'theoretical', FlxColor.fromRGB(128, 0, 128));
+				}
+			if(FlxG.save.data.permaBanFound)
+				{
+					addSong('Perma-Ban', 0, 'redacted', FlxColor.fromRGB(255, 255, 255));
+				}
+		//	addSong('Cheater-Mayhem', 0, 'expungedlol', FlxColor.fromRGB(60, 0, 0));
+		//	addSong('probabilities', 0, 'theoretical', FlxColor.fromRGB(128, 0, 128));
+		//	addSong('Perma-Ban', 0, 'redacted', FlxColor.fromRGB(255, 255, 255));
 			addSong('spacial', 0, 'spaci', FlxColor.fromRGB(60, 60, 60));
 		}
 

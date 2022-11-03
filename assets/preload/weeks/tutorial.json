@@ -1,7 +1,7 @@
 {
-	"storyName": "lwyetrhyigewrnuwrgyhwgtruawykkhygsexohbywetrghyogewtrhyhwg",
+	"storyName": "Learn how to rap with Dave!",
 	"hideFreeplay": true,
-	"weekBackground": "sex",
+	"weekBackground": "warmup",
 	"weekBefore": "tutorial",
 	"startUnlocked": false,
 	"weekCharacters": [
@@ -11,16 +11,16 @@
 	],
 	"songs": [
 		[
-			"Tutorial",
-			"bambi-angey",
+			"Beginning",
+			"dave",
 			[
 				0,
 				0,
-				0
+				255
 			]
 		]
 	],
-	"hideStoryMode": true,
-	"hiddenUntilUnlocked": true,
+	"hideStoryMode": false,
+	"hiddenUntilUnlocked": false,
 	"weekName": "Tutorial"
 }

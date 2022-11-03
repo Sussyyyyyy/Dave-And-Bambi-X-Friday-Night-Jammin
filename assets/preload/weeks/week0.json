@@ -2,13 +2,14 @@
 	"storyName": "OH GOD NO OH GOD NO OH GOD NO OH GOD NO OH GOD NO OH GOD NO OH GOD NO OH GOD NO OH GOD NO OH GOD NO OH GOD NO OH GOD NO ",
 	"hideFreeplay": true,
 	"weekBackground": "ohno",
+	"weekBefore": "finale",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"weekBefore": "week6",
-	"startUnlocked": true,
+	"startUnlocked": false,
+	"hideStoryMode": false,
 	"weekCharacters": [
 		"",
 		"",
@@ -25,6 +26,6 @@
 			]
 		]
 	],
-	"hideStoryMode": false,
+	"hiddenUntilUnlocked": true,
 	"weekName": "ANOSOGNOSIA"
 }

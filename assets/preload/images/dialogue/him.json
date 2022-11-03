@@ -17,8 +17,8 @@
 				0
 			],
 			"anim": "talk",
-			"idle_name": "idle",
-			"loop_name": "idle"
+			"idle_name": "scopomania-eye idle",
+			"loop_name": "scopomania-eye idle"
 		},
 		{
 			"idle_offsets": [

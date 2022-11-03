@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-160,
+				79
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "extracellularbi idle0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-160,
+				79
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "extracellularbi left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-160,
+				79
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "extracellularbi down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-160,
+				79
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "extracellularbi up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-160,
+				79
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "extracellularbi right0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/extracellularbi",
+	"position": [
+		-1300,
+		-480
+	],
+	"healthicon": "extracellularbi",
+	"flip_x": false,
+	"healthbar_colors": [
+		33,
+		25,
+		33
+	],
+	"camera_position": [
+		-860,
+		-2660
+	],
+	"sing_duration": 6.1,
+	"scale": 5
+}

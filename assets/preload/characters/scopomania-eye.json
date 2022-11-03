@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-89,
+				-308
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "scopomania-eye idle0",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-89,
+				-308
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "scopomania-eye down0",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-89,
+				-308
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "scopomania-eye up0",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-89,
+				-308
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "scopomania-eye right0",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-89,
+				-308
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "scopomania-eye left0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/scopomania-eye",
+	"position": [
+		-2090,
+		-1150
+	],
+	"healthicon": "scopomania-eye",
+	"flip_x": false,
+	"healthbar_colors": [
+		85,
+		0,
+		0
+	],
+	"camera_position": [
+		-960,
+		-1040
+	],
+	"sing_duration": 6.1,
+	"scale": 5.2
+}

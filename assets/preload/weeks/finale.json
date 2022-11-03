@@ -2,13 +2,14 @@
 	"storyName": "the end.",
 	"hideFreeplay": true,
 	"weekBackground": "finale",
+	"weekBefore": "week6",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"weekBefore": "week6",
-	"startUnlocked": true,
+	"startUnlocked": false,
+	"hideStoryMode": false,
 	"weekCharacters": [
 		"",
 		"",
@@ -34,6 +35,5 @@
 			]
 		]
 	],
-	"hideStoryMode": false,
 	"weekName": "Week 7"
 }

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="extracellularbi.png">
+<SubTexture name="extracellularbi idle00000000" x="0" y="0" width="727" height="1087" frameX="-220" frameY="-59" frameWidth="1226" frameHeight="1174" />
+<SubTexture name="extracellularbi left00000000" x="0" y="0" width="727" height="1087" frameX="-220" frameY="-59" frameWidth="1226" frameHeight="1174" />
+<SubTexture name="extracellularbi down00000000" x="0" y="0" width="727" height="1087" frameX="-220" frameY="-59" frameWidth="1226" frameHeight="1174" />
+<SubTexture name="extracellularbi up00000000" x="0" y="0" width="727" height="1087" frameX="-220" frameY="-59" frameWidth="1226" frameHeight="1174" />
+<SubTexture name="extracellularbi right00000000" x="0" y="0" width="727" height="1087" frameX="-220" frameY="-59" frameWidth="1226" frameHeight="1174" />
+</TextureAtlas>

@@ -16906,46 +16906,6 @@
 				]
 			],
 			[
-				11294.1176470588,
-				[
-					[
-						"Game Message",
-						"Error",
-						"Null Object Reference"
-					]
-				]
-			],
-			[
-				16941.1764705882,
-				[
-					[
-						"Game Message",
-						"Error",
-						"Null Object Reference"
-					]
-				]
-			],
-			[
-				22588.2352941176,
-				[
-					[
-						"Game Message",
-						"Error",
-						"Null Object Reference"
-					]
-				]
-			],
-			[
-				28235.2941176471,
-				[
-					[
-						"Game Message",
-						"Error",
-						"Null Object Reference"
-					]
-				]
-			],
-			[
 				33882.3529411765,
 				[
 					[
@@ -16966,66 +16926,6 @@
 				]
 			],
 			[
-				34058.8235294118,
-				[
-					[
-						"Toast Notification",
-						"HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA",
-						"HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA"
-					]
-				]
-			],
-			[
-				35294.1176470588,
-				[
-					[
-						"Game Message",
-						"Error",
-						"Null Object Reference"
-					]
-				]
-			],
-			[
-				38117.6470588235,
-				[
-					[
-						"Game Message",
-						"Error",
-						"Null Object Reference"
-					]
-				]
-			],
-			[
-				45176.4705882353,
-				[
-					[
-						"Toast Notification",
-						"HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA",
-						"HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA"
-					]
-				]
-			],
-			[
-				46588.2352941176,
-				[
-					[
-						"Game Message",
-						"Error",
-						"Null Object Reference"
-					]
-				]
-			],
-			[
-				49411.7647058823,
-				[
-					[
-						"Game Message",
-						"Error",
-						"Null Object Reference"
-					]
-				]
-			],
-			[
 				56470.5882352941,
 				[
 					[
@@ -17042,66 +16942,6 @@
 						"Change Scroll Speed",
 						"1",
 						"1"
-					]
-				]
-			],
-			[
-				56647.0588235294,
-				[
-					[
-						"Toast Notification",
-						"HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA",
-						"HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA"
-					]
-				]
-			],
-			[
-				58235.294117647,
-				[
-					[
-						"Game Message",
-						"Error",
-						"Null Object Reference"
-					]
-				]
-			],
-			[
-				62117.6470588235,
-				[
-					[
-						"Game Message",
-						"Error",
-						"Null Object Reference"
-					]
-				]
-			],
-			[
-				63529.4117647058,
-				[
-					[
-						"Game Message",
-						"Error",
-						"Null Object Reference"
-					]
-				]
-			],
-			[
-				69176.4705882352,
-				[
-					[
-						"Game Message",
-						"Error",
-						"Null Object Reference"
-					]
-				]
-			],
-			[
-				74823.5294117646,
-				[
-					[
-						"Game Message",
-						"Error",
-						"Null Object Reference"
 					]
 				]
 			],
@@ -17136,56 +16976,6 @@
 				]
 			],
 			[
-				80470.588235294,
-				[
-					[
-						"Game Message",
-						"Error",
-						"Null Object Reference"
-					]
-				]
-			],
-			[
-				81882.3529411764,
-				[
-					[
-						"Game Message",
-						"Error",
-						"Null Object Reference"
-					]
-				]
-			],
-			[
-				83294.1176470587,
-				[
-					[
-						"Game Message",
-						"Error",
-						"Null Object Reference"
-					]
-				]
-			],
-			[
-				84705.8823529411,
-				[
-					[
-						"Game Message",
-						"Error",
-						"Null Object Reference"
-					]
-				]
-			],
-			[
-				88941.1764705881,
-				[
-					[
-						"Game Message",
-						"Error",
-						"Null Object Reference"
-					]
-				]
-			],
-			[
 				90176.4705882352,
 				[
 					[
@@ -17206,26 +16996,6 @@
 				]
 			],
 			[
-				97411.7647058822,
-				[
-					[
-						"Game Message",
-						"Error",
-						"Null Object Reference"
-					]
-				]
-			],
-			[
-				101294.117647059,
-				[
-					[
-						"Game Message",
-						"Error",
-						"Null Object Reference"
-					]
-				]
-			],
-			[
 				101647.058823529,
 				[
 					[
@@ -17236,42 +17006,12 @@
 				]
 			],
 			[
-				103058.823529412,
-				[
-					[
-						"Toast Notification",
-						"YOU ARE LUCKY",
-						"YOU ARE LUCKY"
-					]
-				]
-			],
-			[
-				108705.882352941,
-				[
-					[
-						"Toast Notification",
-						"FOR NOW",
-						"HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA"
-					]
-				]
-			],
-			[
 				118588.235294117,
 				[
 					[
-						"Game Message",
-						"EXPUNGED",
+						"Toast Notification",
+						"Expunged has sent you a message.",
 						"I'M STILL NOT DONE WITH YOU"
-					]
-				]
-			],
-			[
-				120000,
-				[
-					[
-						"Game Message",
-						"EXPUNGED",
-						"..."
 					]
 				]
 			],
@@ -17280,7 +17020,7 @@
 				[
 					[
 						"Game Message",
-						"EXPUNGED",
+						"Expunged has sent you a message.",
 						"We'll meet again, Jammer."
 					]
 				]
@@ -17290,7 +17030,7 @@
 				[
 					[
 						"Game Message",
-						"EXPUNGED",
+						"Expunged has sent you a message.",
 						"And next time."
 					]
 				]
@@ -17300,7 +17040,7 @@
 				[
 					[
 						"Game Message",
-						"EXPUNGED",
+						"Expunged has sent you a message.",
 						"I WILL BRING AN ARMY OF PEOPLE."
 					]
 				]
@@ -17310,7 +17050,7 @@
 				[
 					[
 						"Game Message",
-						"EXPUNGED",
+						"Expunged has sent you a message.",
 						"HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA"
 					]
 				]
@@ -17320,7 +17060,7 @@
 				[
 					[
 						"Game Message",
-						"EXPUNGED",
+						"Expunged has sent you a message.",
 						"SEE YA LATER."
 					]
 				]

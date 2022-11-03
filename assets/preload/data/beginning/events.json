@@ -1,0 +1,43 @@
+{
+	"song": {
+		"speed": 2.2,
+		"stage": "dave",
+		"player1": "jammer-small",
+		"player2": "dave",
+		"player3": null,
+		"events": [
+			[
+				54857.1428571428,
+				[
+					[
+						"shakey arrows WHAT",
+						"0",
+						"10"
+					]
+				]
+			],
+			[
+				91428.5714285714,
+				[
+					[
+						"shakey arrows WHAT",
+						"0",
+						"0"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"showPsychEngineMark": true,
+		"addScrewYouText": false,
+		"validScore": false,
+		"screwYou": "",
+		"engineName": "Dave Engine ",
+		"gfVersion": "nogf",
+		"bpm": 105,
+		"arrowSkin": "NOTE_blue",
+		"needsVoices": true,
+		"song": "beginning"
+	}
+}

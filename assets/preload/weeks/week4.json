@@ -4,7 +4,8 @@
 	"hideFreeplay": false,
 	"weekBackground": "exbungo",
 	"weekBefore": "week3",
-	"startUnlocked": true,
+	"startUnlocked": false,
+	"hideStoryMode": false,
 	"weekCharacters": [
 		"",
 		"",
@@ -39,6 +40,5 @@
 			]
 		]
 	],
-	"hideStoryMode": false,
 	"weekName": "Week 4"
 }

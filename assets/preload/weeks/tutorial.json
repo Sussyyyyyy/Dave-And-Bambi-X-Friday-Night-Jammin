@@ -3,7 +3,7 @@
 	"hideFreeplay": true,
 	"weekBackground": "warmup",
 	"weekBefore": "tutorial",
-	"startUnlocked": false,
+	"startUnlocked": true,
 	"weekCharacters": [
 		"",
 		"",
@@ -21,6 +21,6 @@
 		]
 	],
 	"hideStoryMode": false,
-	"hiddenUntilUnlocked": false,
-	"weekName": "Tutorial"
+	"weekName": "Tutorial",
+	"hiddenUntilUnlocked": false
 }

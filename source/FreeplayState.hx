@@ -279,6 +279,12 @@ class FreeplayState extends MusicBeatState
 			addSong('transcend', 0, 'mevile', FlxColor.fromRGB(56, 147, 24));
 		}
 
+		if (category == 'Old')
+		{
+			addSong('Old-pissed', 0, 'imsomadbro', FlxColor.fromRGB(0, 160, 0));
+		}
+
+
 		Main.freeplaything == '';
 
 		for (i in 0...songs.length)

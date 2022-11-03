@@ -69,14 +69,16 @@ class FreeplayCategorySelector extends MusicBeatState
                     case 0:
                     currentCategory = 'Main Weeks';
                     case 1:
-                    currentCategory = 'Covers';
+                    currentCategory = 'Extras';
                     case 2:
                     currentCategory = 'Joke';
                     case 3:
-                    currentCategory = 'Extras';
+                    currentCategory = 'Covers';
                     case 4:
                     currentCategory = 'OC';
                     case 5:
+                    currentCategory = 'Old';
+                    case 6:
                     currentCategory = 'Secret';
                 }
                 remove(category);
@@ -95,6 +97,8 @@ class FreeplayCategorySelector extends MusicBeatState
                     category.loadGraphic(Paths.image('OCsV2'));
                     case 'Secret':
                     category.loadGraphic(Paths.image('Secret'));
+                    case 'Old':
+                    category.loadGraphic(Paths.image('Old'));
                 }
                 category.antialiasing = ClientPrefs.globalAntialiasing;
                 category.scrollFactor.set(0, 0);
@@ -126,14 +130,16 @@ class FreeplayCategorySelector extends MusicBeatState
                     case 0:
                     currentCategory = 'Main Weeks';
                     case 1:
-                    currentCategory = 'Covers';
+                    currentCategory = 'Extras';
                     case 2:
                     currentCategory = 'Joke';
                     case 3:
-                    currentCategory = 'Extras';
+                    currentCategory = 'Covers';
                     case 4:
                     currentCategory = 'OC';
                     case 5:
+                    currentCategory = 'Old';
+                    case 6:
                     currentCategory = 'Secret';
                 }
                 remove(category);
@@ -152,6 +158,8 @@ class FreeplayCategorySelector extends MusicBeatState
                     category.loadGraphic(Paths.image('OCsV2'));
                     case 'Secret':
                     category.loadGraphic(Paths.image('Secret'));
+                    case 'Old':
+                    category.loadGraphic(Paths.image('Old'));
                 }
                 category.antialiasing = ClientPrefs.globalAntialiasing;
                 category.scrollFactor.set(0, 0);

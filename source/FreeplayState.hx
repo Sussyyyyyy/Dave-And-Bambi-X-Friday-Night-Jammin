@@ -240,6 +240,7 @@ class FreeplayState extends MusicBeatState
 			addSong('Vs-Dave-July', 0, 'sexo', FlxColor.fromRGB(100, 255, 0));
 			addSong('Vs-Dave-easter-3', 0, 'sexo', FlxColor.fromRGB(0, 0, 153));
 			addSong('Tridimensional-V1-B-Side', 0, 'old3ddavebside', FlxColor.fromRGB(69, 42, 137));
+			addSong('tredemensonl', 0, 'deb', FlxColor.fromRGB(0, 0, 150));
 		}
 
 		if (category == 'Covers')

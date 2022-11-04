@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-160,
+				79
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "jem idle0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-280,
+				79
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "jem left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-160,
+				29
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "jem down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-160,
+				119
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "jem up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-70,
+				79
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "jem right0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/jem",
+	"position": [
+		-180,
+		270
+	],
+	"healthicon": "jem",
+	"flip_x": true,
+	"healthbar_colors": [
+		88,
+		88,
+		88
+	],
+	"camera_position": [
+		200,
+		-100
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

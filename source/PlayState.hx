@@ -544,7 +544,23 @@ class PlayState extends MusicBeatState
 				testshader.waveSpeed = 2;
 				bg.shader = testshader.shader;
 				curbg = bg;
-
+			
+			case 'tri':
+				curStage = 'tri';
+	
+				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('dave/tri'));
+				bg.active = true;
+	
+				add(bg);
+				bg.scale.set(2, 2);
+				
+				var testshader:Shaders.GlitchEffect = new Shaders.GlitchEffect();
+				testshader.waveAmplitude = 0.1;
+				testshader.waveFrequency = 5;
+				testshader.waveSpeed = 2;
+				bg.shader = testshader.shader;
+				curbg = bg;
+	
 			case 'cheater':
 				curStage = 'cheater';
 	

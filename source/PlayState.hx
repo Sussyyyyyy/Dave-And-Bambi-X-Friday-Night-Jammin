@@ -2016,6 +2016,10 @@ class PlayState extends MusicBeatState
 			s = 'valenxyss';
 			case 'tridimensional-v2-b-side':
 			s = 'valenxyss';
+			case 'pissed':
+			s = 'sylenlean';
+			case 'opposed':
+			s = 'sylenlean';
 			case 'undaunted-precaution': // if someone's reading this, i wanted to add this but it ended up getting scrapped, but if you want you can make a mid effort of this, also worst fate best 1 hour song
 			s = 'valenxyss';
 			case 'vs-dave-easter':
@@ -2026,6 +2030,8 @@ class PlayState extends MusicBeatState
 			s = 'sylenlean';
 			case 'vs-dave-easter-3':
 			s = 'valenxyss';
+			case 'tredemensonl':
+			s = 'sylenlean';
 			case 'tridimensional-v1-b-side':
 			s = 'Womo';
 			case 'tridimensional-v1-d-side':
@@ -2046,6 +2052,8 @@ class PlayState extends MusicBeatState
 			s = 'valenxyss';
 			case 'transcend':
 			s = 'sylenlean';
+			case 'old-pissed':
+			s = 'valenxyss';
 		}
     	songCreator.text = "By: " + s;
     	songCreator.scrollFactor.set();

@@ -576,20 +576,21 @@ class PlayState extends MusicBeatState
 				bg.shader = testshader.shader;
 				curbg = bg;
 
-			case 'space':
-				curStage = 'space';
+			case 'universe':
+				curStage = 'universe';
 		
-				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('dave/space'));
+				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('universe'));
 				bg.active = true;
 		
 				add(bg);
-		
-				var testshader:Shaders.GlitchEffect = new Shaders.GlitchEffect();
-				testshader.waveAmplitude = 0.1;
-				testshader.waveFrequency = 5;
-				testshader.waveSpeed = 2;
-				bg.shader = testshader.shader;
-				curbg = bg;
+				bg.scale.set(2, 2);
+				
+				//var testshader:Shaders.GlitchEffect = new Shaders.GlitchEffect();
+				//testshader.waveAmplitude = 0.1;
+				//testshader.waveFrequency = 5;
+				//testshader.waveSpeed = 2;
+				//bg.shader = testshader.shader;
+				//curbg = bg;
 
 			case 'tridimensionalv1':
 				curStage = 'tridimensionalv1';
@@ -2002,8 +2003,8 @@ class PlayState extends MusicBeatState
 			s = 'valenxyss';
 			case 'perma-ban':
 			s = '?';
-			case 'spacial':
-			s = '?';
+			case 'Multiversal':
+			s = 'sylenlean';
 			case 'recolored':
 			s = '?';
 			case 'trijam':

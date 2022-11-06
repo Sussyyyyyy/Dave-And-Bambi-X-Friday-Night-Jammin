@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-160,
+				79
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "3d-dave2 idle0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-170,
+				89
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "3d-dave2 left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-160,
+				59
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "3d-dave2 down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-164,
+				89
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "3d-dave2 up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-430,
+				86
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "3d-dave2 right0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/3d-dave2",
+	"position": [
+		-480,
+		90
+	],
+	"healthicon": "3d-dave2",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		180,
+		-190
+	],
+	"sing_duration": 6.1,
+	"scale": 1.35
+}

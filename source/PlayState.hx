@@ -640,13 +640,29 @@ class PlayState extends MusicBeatState
 				add(bg);
 				bg.scale.set(2, 2);
 				
-				//var testshader:Shaders.GlitchEffect = new Shaders.GlitchEffect();
-				//testshader.waveAmplitude = 0.1;
-				//testshader.waveFrequency = 5;
-				//testshader.waveSpeed = 2;
-				//bg.shader = testshader.shader;
-				//curbg = bg;
+				var testshader:Shaders.GlitchEffect = new Shaders.GlitchEffect();
+				testshader.waveAmplitude = 0.1;
+				testshader.waveFrequency = 5;
+				testshader.waveSpeed = 2;
+				bg.shader = testshader.shader;
+				curbg = bg;
 
+			case 'champ':
+				curStage = 'champ';
+			
+				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('champ'));
+				bg.active = true;
+			
+				add(bg);
+				bg.scale.set(2, 2);
+					
+				var testshader:Shaders.GlitchEffect = new Shaders.GlitchEffect();
+				testshader.waveAmplitude = 0.1;
+				testshader.waveFrequency = 5;
+				testshader.waveSpeed = 2;
+				bg.shader = testshader.shader;
+				curbg = bg;
+	
 			case 'tridimensionalv1':
 				curStage = 'tridimensionalv1';
 
@@ -1533,21 +1549,25 @@ class PlayState extends MusicBeatState
 		timeTxt.cameras = [camHUD];
 		doof.cameras = [camHUD];
 
-		var directory:Array<String> = FileSystem.readDirectory("assets/data/" + curSong.toLowerCase()); //FURRET ENGINE HSCRIPT SUPPORT, This was added by Furret (that's why this was added), if someone is reading this, YOU ARE NOT ALLOWED TO USE THIS FOR ANY MOD
-		for (i in directory)
-		{
-			if (directory[check].endsWith(".hx"))
+		if (FileSystem.exists("assets/data/" + curSong.toLowerCase()))
 			{
-				trace("Script detected! " + "assets/data/" + curSong.toLowerCase() + "/" + directory[check]);
+				var directory:Array<String> = FileSystem.readDirectory("assets/data/" + curSong.toLowerCase()); //FURRET ENGINE HSCRIPT SUPPORT, This was added by Furret (that's why this was added), if someone is reading this, YOU ARE NOT ALLOWED TO USE THIS FOR ANY MOD
+				for (i in directory)
+				{
+					if (directory[check].endsWith(".hx"))
+					{
+						trace("Script detected! " + "assets/data/" + curSong.toLowerCase() + "/" + directory[check]);
+					}
+					else
+					{
+						// do nothing
+					}
+					loadHScript = true;
+					check++;
+				}
+				check = 0;
 			}
-			else
-			{
-				// do nothing
-			}
-			loadHScript = true;
-			check++;
-		}
-		check = 0;
+		
 
 		// if (SONG.song == 'South')
 		// FlxG.camera.alpha = 0.7;

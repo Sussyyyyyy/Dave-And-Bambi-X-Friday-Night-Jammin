@@ -196,7 +196,6 @@ class FreeplayState extends MusicBeatState
 
 		if (category == 'Main Weeks')
 		{
-			addSong('beginning', 0, 'dave', FlxColor.fromRGB(0, 0, 255));	
 			addSong('Groovy-House', 0, 'dave', FlxColor.fromRGB(0, 0, 255));
 			addSong('Insano', 0, 'dave', FlxColor.fromRGB(0, 0, 255));
 			addSong('Tridimensional', 0, 'dave-furiosity', FlxColor.fromRGB(175, 0, 135));
@@ -231,7 +230,6 @@ class FreeplayState extends MusicBeatState
 			addSong('Pissed', 0, 'imsomadbro', FlxColor.fromRGB(0, 160, 0));
 			addSong('opposed', 0, 'oppoexpunged', FlxColor.fromRGB(180, 180, 180));
 			addSong('diamond-armor', 0, 'diamond', FlxColor.fromRGB(0, 255, 255));
-			addSong('Tridimensional-V2-B-Side', 0, 'bside3ddave', FlxColor.fromRGB(128, 0, 128));
 		}
 
 		if (category == 'Joke')
@@ -278,6 +276,7 @@ class FreeplayState extends MusicBeatState
 			addSong('sleepy', 0, 'hrambi', FlxColor.fromRGB(139, 69, 19));
 			addSong('epicness', 0, 'epibambi', FlxColor.fromRGB(139, 69, 19));
 			addSong('transcend', 0, 'mevile', FlxColor.fromRGB(56, 147, 24));
+			addSong('champagne', 0, 'spikebi', FlxColor.fromRGB(58, 49, 28));
 		}
 
 		if (category == 'Old')

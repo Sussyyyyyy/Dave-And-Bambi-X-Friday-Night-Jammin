@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="spikebi.png">
+<SubTexture name="spikebi idle0000" x="0" y="0" width="303" height="534" frameX="-249" frameY="-4" frameWidth="773" frameHeight="538" />
+</TextureAtlas>

@@ -59,7 +59,11 @@ import FunkinLua;
 import DialogueBoxPsych;
 #if sys
 import sys.FileSystem;
+import sys.io.File;
 #end
+
+import hscript.Interp;
+import hscript.Parser;
 
 using StringTools;
 
@@ -133,6 +137,8 @@ class PlayState extends MusicBeatState
 	public var unspawnNotes:Array<Note> = [];
 	public var eventNotes:Array<EventNote> = [];
 
+	var interp = new hscript.Interp();
+
 	var xx:Int = 520;
 	var yy:Int = 600;
 	var xx2:Int = 820;
@@ -158,7 +164,13 @@ class PlayState extends MusicBeatState
 
 	public static var kadeEngineWatermark:FlxText;
 
+	var loadHScript:Bool = false;
+
 	public static var screwYouText:FlxText;
+
+	var check:Int = 0;
+
+	var doNotExecute:Bool = false;
 
 	public var camZooming:Bool = false;
 	private var curSong:String = "";
@@ -197,6 +209,8 @@ class PlayState extends MusicBeatState
 	var rtr:FlxTween;
 	var rir:FlxTween;
 	var ryr:FlxTween;
+
+	var dave:Character;
 	
 	private var generatedMusic:Bool = false;
 	public var endingSong:Bool = false;
@@ -308,11 +322,52 @@ class PlayState extends MusicBeatState
 	
 	// Less laggy controls
 	private var keysArray:Array<Dynamic>;
+
+	var hscriptStates:Map<String, Interp> = [];
+
+	function callAllHScript(func_name:String, args:Array<Dynamic>) {
+		for (key in hscriptStates.keys()) {
+			callHscript(func_name, args, key);
+		}
+	}
+
+	function callHscript(func_name:String, args:Array<Dynamic>, usehaxe:String) {
+		// if function doesn't exist
+		if (!hscriptStates.get(usehaxe).variables.exists(func_name)) {
+			//trace("Function doesn't exist, silently skipping..."); //i don't want the console getting flooded with traces
+			return;
+		}
+		var method = hscriptStates.get(usehaxe).variables.get(func_name);
+		switch(args.length) {
+			case 0:
+				method();
+			case 1:
+				method(args[0]);
+		}
+	}
+
+	function setHaxeVar(name:String, value:Dynamic, usehaxe:String) {
+		hscriptStates.get(usehaxe).variables.set(name,value);
+	}
+	function getHaxeVar(name:String, usehaxe:String):Dynamic {
+		return hscriptStates.get(usehaxe).variables.get(name);
+	}
+	function setAllHaxeVar(name:String, value:Dynamic) {
+		for (key in hscriptStates.keys())
+			setHaxeVar(name, value, key);
+	}
 		
 
 	override public function create()
 	{
 		Paths.clearStoredMemory();
+
+		if (loadHScript)
+		{
+			setAllHaxeVar('camZooming', camZooming);
+			setAllHaxeVar('gfSpeed', gfSpeed);
+			setAllHaxeVar('health', health);
+		}
 
 		// for lua
 		instance = this;
@@ -1182,6 +1237,12 @@ class PlayState extends MusicBeatState
 		startCharacterPos(boyfriend);
 		boyfriendGroup.add(boyfriend);
 		startCharacterLua(boyfriend.curCharacter);
+
+		dave = new Character(dad.x - 80, dad.y, "dave-splitathon");
+		if (curSong.toLowerCase() == "long-showdown")
+		{
+			add(dave);
+		}
 		
 		var camPos:FlxPoint = new FlxPoint(girlfriendCameraOffset[0], girlfriendCameraOffset[1]);
 		if(gf != null)
@@ -1471,6 +1532,22 @@ class PlayState extends MusicBeatState
 		timeBarBG.cameras = [camHUD];
 		timeTxt.cameras = [camHUD];
 		doof.cameras = [camHUD];
+
+		var directory:Array<String> = FileSystem.readDirectory("assets/data/" + curSong.toLowerCase()); //FURRET ENGINE HSCRIPT SUPPORT, This was added by Furret (that's why this was added), if someone is reading this, YOU ARE NOT ALLOWED TO USE THIS FOR ANY MOD
+		for (i in directory)
+		{
+			if (directory[check].endsWith(".hx"))
+			{
+				trace("Script detected! " + "assets/data/" + curSong.toLowerCase() + "/" + directory[check]);
+			}
+			else
+			{
+				// do nothing
+			}
+			loadHScript = true;
+			check++;
+		}
+		check = 0;
 
 		// if (SONG.song == 'South')
 		// FlxG.camera.alpha = 0.7;
@@ -2089,6 +2166,280 @@ class PlayState extends MusicBeatState
 
 	public function startCountdown():Void
 	{
+		var bf = boyfriend;
+		if (loadHScript)
+		{
+			interp.variables.set("endSong", function() {
+				endSong();
+			});
+			interp.variables.set("defaultCamZoom", defaultCamZoom);
+			interp.variables.set("Conductor", Conductor);
+			interp.variables.set("curBPM", Conductor.bpm);
+			interp.variables.set("bpm", SONG.bpm);
+			interp.variables.set("FlxAtlasFrames", FlxAtlasFrames);
+			interp.variables.set("scrollSpeed", SONG.speed);
+			interp.variables.set("crochet", Conductor.crochet);
+			interp.variables.set("stepCrochet", Conductor.stepCrochet);
+			interp.variables.set("songLength", FlxG.sound.music.length);
+			interp.variables.set("isStoryMode", PlayState.isStoryMode);
+			interp.variables.set("storyDifficulty", PlayState.storyDifficulty);
+			interp.variables.set("CoolUtil", CoolUtil);
+			interp.variables.set("downscroll", FlxG.save.data.downscroll);
+			interp.variables.set("ghostTapping", FlxG.save.data.newInput);
+			interp.variables.set("hitsounds", FlxG.save.data.hitsoundspog);
+			interp.variables.set("judgement", FlxG.save.data.judgement);
+			interp.variables.set("middlescroll", FlxG.save.data.middlescroll);
+			interp.variables.set("noteSplash", FlxG.save.data.noteSplashON);
+			interp.variables.set("FlxSprite", FlxSprite);
+			interp.variables.set("FlxSound", FlxSound);
+			interp.variables.set("FlxGroup", flixel.group.FlxGroup);
+			interp.variables.set("FlxAngle", flixel.math.FlxAngle);
+			interp.variables.set("Paths", Paths);
+			interp.variables.set("Sound", flash.media.Sound);
+			interp.variables.set("Math", Math);
+			interp.variables.set("FlxMath", flixel.math.FlxMath);
+			interp.variables.set("FlxPoint", flixel.math.FlxPoint);
+			interp.variables.set("Point", flixel.math.FlxPoint);
+			interp.variables.set("FlxRect", flixel.math.FlxRect);
+			interp.variables.set("Rect", flixel.math.FlxRect);
+			interp.variables.set("StringTools", StringTools);
+			interp.variables.set("SHADOW", FlxTextBorderStyle.SHADOW);
+			interp.variables.set("OUTLINE", FlxTextBorderStyle.OUTLINE);
+			interp.variables.set("OUTLINE_FAST", FlxTextBorderStyle.OUTLINE_FAST);
+			interp.variables.set("NONE", FlxTextBorderStyle.NONE);
+			interp.variables.set("CENTER", FlxTextAlign.CENTER);
+			interp.variables.set("JUSTIFY", FlxTextAlign.JUSTIFY);
+			interp.variables.set("LEFT", FlxTextAlign.LEFT);
+			interp.variables.set("RIGHT", FlxTextAlign.RIGHT);
+			interp.variables.set("SONG", SONG);
+			interp.variables.set("camFollow", camFollow);
+			interp.variables.set("Sys", Sys);
+			#if sys
+			interp.variables.set("FileSystem", sys.FileSystem); //i shouldn't be doing this, people can do a lot of bad things with this
+			interp.variables.set("File", sys.io.File);
+			#end
+			interp.variables.set("JSON", haxe.Json); //this isn't too bad isn't it?
+			interp.variables.set("playerStrums", playerStrums);
+			interp.variables.set("strumLineNotes", strumLineNotes);
+			interp.variables.set("scoreTxt", scoreTxt);
+			interp.variables.set("start", function (song) {});
+			interp.variables.set("beatHit", function (beat) {});
+			interp.variables.set("update", function (elapsed) {});
+			interp.variables.set("stepHit", function(step) {});
+			interp.variables.set("killPlayer", function() {
+				health = health - 404;
+			});
+			interp.variables.set("camHUD", camHUD);
+			interp.variables.set("camGame", camGame);
+			interp.variables.set("healthBarBG", healthBarBG);
+			interp.variables.set("healthBar", healthBar);
+			interp.variables.set("scoreTxt", scoreTxt);
+			interp.variables.set("TitleState", TitleState);
+			interp.variables.set("makeRangeArray", CoolUtil.numberArray);
+			interp.variables.set("FlxG", flixel.FlxG);
+			interp.variables.set("FlxTimer", flixel.util.FlxTimer);
+			interp.variables.set("FlxTween", flixel.tweens.FlxTween);
+			interp.variables.set("Std", Std);
+			interp.variables.set("iconP1", iconP1);
+			interp.variables.set("iconP2", iconP2);
+			interp.variables.set("BLACK", FlxColor.BLACK);
+			interp.variables.set("BLUE", FlxColor.BLUE);
+			interp.variables.set("BROWN", FlxColor.BROWN);
+			interp.variables.set("CYAN", FlxColor.CYAN);
+			interp.variables.set("GRAY", FlxColor.GRAY);
+			interp.variables.set("GREEN", FlxColor.GREEN);
+			interp.variables.set("LIME", FlxColor.LIME);
+			interp.variables.set("MAGENTA", FlxColor.MAGENTA);
+			interp.variables.set("ORANGE", FlxColor.ORANGE);
+			interp.variables.set("PINK", FlxColor.PINK);
+			interp.variables.set("PURPLE", FlxColor.PURPLE);
+			interp.variables.set("RED", FlxColor.RED);
+			interp.variables.set("TRANSPARENT", FlxColor.TRANSPARENT);
+			interp.variables.set("WHITE", FlxColor.WHITE);
+			interp.variables.set("YELLOW", FlxColor.YELLOW);
+			interp.variables.set("addHaxeLibrary", function(nameReference:String, library:String){
+				try{
+					setAllHaxeVar(nameReference, Type.resolveClass(library));
+				}
+				catch(e:Dynamic)
+				{
+					Application.current.window.alert('[!] An error has occurred!' + "\n" + e.message, 'Furret Engine');
+				}
+			});
+			interp.variables.set("StringTools", StringTools);
+			interp.variables.set("FlxTrail", FlxTrail);
+			interp.variables.set("FlxEase", FlxEase);
+			interp.variables.set("Reflect", Reflect);
+			interp.variables.set("health", 0);
+			interp.variables.set("curStep", 0);
+			interp.variables.set("curBeat", 0);
+			interp.variables.set("curSong", SONG.song);
+			interp.variables.set("FlxText", FlxText);
+			interp.variables.set("preloadImage", function(daThingToPreload:String) { //mandatory if you want to add an image to hscript
+				var preload = new FlxSprite(1000,-1000).loadGraphic(Paths.image(daThingToPreload));
+				add(preload);
+				remove(preload);
+			});
+			interp.variables.set("SONG", SONG);
+			interp.variables.set("Boyfriend", Boyfriend);
+			interp.variables.set("boyfriend", bf);
+			interp.variables.set("dad", dad);
+			interp.variables.set("gf", gf);
+			interp.variables.set("setDiscordPresence", function(daPresence:String) {
+				#if windows
+				DiscordClient.changePresence(daPresence, null);
+				#else
+				trace("[!] Ignoring discord presence change as we are not on Windows");
+				#end
+			});
+			interp.variables.set("changeCharacter", function(characterToReplace:String, characterThatWillBeReplaced, X:Int = 999999, Y:Int = 999999) {
+				if (characterThatWillBeReplaced == 'dad')
+				{
+					remove(dad);
+					if (X == 999999 || Y == 999999 || X & Y == 999999)
+					{
+						dad = new Character(dad.x, dad.y, characterToReplace);
+						trace("[!] Haxe script: No X or Y or both specified");
+					}
+					else
+					{
+						dad = new Character(X, Y, characterToReplace);
+					}
+					add(dad);
+					SONG.player2 = characterToReplace;
+					remove(iconP2);
+					iconP2 = new HealthIcon(SONG.player2, false);
+					iconP2.y = healthBar.y - (iconP2.height / 2);
+					iconP2.cameras = [camHUD];
+					add(iconP2);
+				}
+				else if (characterThatWillBeReplaced == 'bf' || characterThatWillBeReplaced == 'boyfriend')
+				{
+					remove(boyfriend);
+					if (X == 999999 || Y == 999999 || X & Y == 999999)
+					{
+						boyfriend = new Boyfriend(dad.x, dad.y, characterToReplace);
+						trace("[!] Haxe script: No X or Y or both specified");
+					}
+					else
+					{
+						boyfriend = new Boyfriend(X, Y, characterToReplace);
+					}
+					add(boyfriend);
+				}
+				else if (characterThatWillBeReplaced == 'dad')
+				{
+					remove(boyfriend);
+					if (X == 999999 || Y == 999999 || X & Y == 999999)
+					{
+						boyfriend = new Boyfriend(dad.x, dad.y, characterToReplace);
+						trace("[!] Haxe script: No X or Y or both specified");
+					}
+					else
+					{
+						boyfriend = new Boyfriend(X, Y, characterToReplace);
+					}
+					add(boyfriend);
+					SONG.player1 = characterToReplace;
+					remove(iconP1);
+					iconP1 = new HealthIcon(SONG.player1, false);
+					iconP1.y = healthBar.y - (iconP1.height / 2);
+					iconP1.cameras = [camHUD];
+					add(iconP1);
+				}
+			});
+			interp.variables.set("Character", Character);
+			interp.variables.set("PlayState", PlayState);
+			interp.variables.set("FlxG", FlxG);
+			interp.variables.set("ease", FlxEase);
+			interp.variables.set("camHUD", camHUD);
+			interp.variables.set("remove", function(something)
+			{
+				remove(something);
+			});
+			interp.variables.set("add", function(something)
+			{
+				add(something);
+			});
+			interp.variables.set("getFullscreen", function()
+			{
+				return FlxG.fullscreen;
+			});
+			interp.variables.set("setFullscreen", function(tf:Bool)
+			{
+				return FlxG.fullscreen = tf;
+			});
+			interp.variables.set("justPressed", FlxG.keys.justPressed);
+			interp.variables.set("pressed", FlxG.keys.pressed);
+			interp.variables.set("justReleased", FlxG.keys.justReleased);
+			interp.variables.set("resizeGame", function (Width:Int, Height:Int) {
+				return FlxG.resizeGame(Width, Height);
+			});
+			interp.variables.set("resizeWindow", function (Width:Int, Height:Int) {
+				return FlxG.resizeWindow(Width, Height);
+			});
+			interp.variables.set("openURL", function(url:String) {
+				return FlxG.openURL(url);
+			});
+			var directory:Array<String> = FileSystem.readDirectory("assets/data/" + PlayState.SONG.song.toLowerCase());
+			hscriptStates.set("interp", interp);
+			for (i in directory) //I DID IT, I FUCKING DID IT, LMAO, TAKE THAT PSYCH ENGINE CODERS
+			{
+				if (directory[check].endsWith(".hx"))
+				{
+					@:privateAccess
+					var getScript = File.getContent("assets/data/" + PlayState.SONG.song.toLowerCase() + "/" + directory[check]);
+					var daScript:String = getScript;
+					var daScriptParser = new hscript.Parser();
+					daScriptParser.allowTypes = true;
+					var script:Dynamic = 'metete tu "Local variable script used without being initialized" por el fondo del ano';
+					try {
+						script = daScriptParser.parseString(daScript);
+					}
+					catch(e) {
+						Application.current.window.alert('[!] Invalid script!\n' + e.message, 'Furret Engine');
+						doNotExecute = true;
+					}
+					if (!doNotExecute)
+					{
+						try {
+							interp.execute(script);
+						}
+						catch(e) {
+							Application.current.window.alert('[!] Invalid script!\n' + e.message, 'Furret Engine');
+							#if sys
+							Sys.println("[!] Invalid script");
+							#end
+						}
+						doNotExecute = false;
+					}
+					else
+					{
+						#if sys
+						Sys.println("[!] Invalid script");
+						#end
+					}
+		
+					try {
+						callHscript("start", [SONG.song], 'interp');
+					}
+					catch(e) {
+						Application.current.window.alert('[!] Invalid script!\n' + e.message, 'Furret Engine');
+						#if sys
+						Sys.println("[!] Invalid script");
+						#end
+					}
+					trace("[OK] A haxe state has been executed");
+				}
+				else
+				{
+					// do nothing
+				}
+				check++;
+			}
+			check = 0;
+		}
+
 		if(startedCountdown) {
 			callOnLuas('onStartCountdown', []);
 			return;
@@ -2807,6 +3158,11 @@ class PlayState extends MusicBeatState
 				shad.uTime.value[0] += elapsed;
 			}
 		}
+
+		if (loadHScript)
+		{
+			callAllHScript('update', [elapsed]);
+		}	
 
 		#if debug
 		//do nothing
@@ -4524,6 +4880,8 @@ class PlayState extends MusicBeatState
 
 		callOnLuas('opponentNoteHit', [notes.members.indexOf(note), Math.abs(note.noteData), note.noteType, note.isSustainNote]);
 
+		callAllHScript('opponentNoteHit', [Math.abs(note.noteData)]);
+
 		if (!note.isSustainNote)
 		{
 			note.kill();
@@ -4632,6 +4990,8 @@ class PlayState extends MusicBeatState
 			var leData:Int = Math.round(Math.abs(note.noteData));
 			var leType:String = note.noteType;
 			callOnLuas('goodNoteHit', [notes.members.indexOf(note), leData, leType, isSus]);
+
+			callAllHScript('goodNoteHit', [note.noteData]);
 
 			if (!note.isSustainNote)
 			{
@@ -4873,6 +5233,10 @@ class PlayState extends MusicBeatState
 	override function stepHit()
 	{
 		super.stepHit();
+		if (loadHScript)
+		{
+			callAllHScript("stepHit", [curStep]);
+		}
 		if (Math.abs(FlxG.sound.music.time - (Conductor.songPosition - Conductor.offset)) > 20
 			|| (SONG.needsVoices && Math.abs(vocals.time - (Conductor.songPosition - Conductor.offset)) > 20))
 		{
@@ -4916,6 +5280,12 @@ class PlayState extends MusicBeatState
 	override function beatHit()
 	{
 		super.beatHit();
+
+		if (loadHScript)
+		{
+			setAllHaxeVar('curBeat', curBeat);
+			callAllHScript('beatHit', [curBeat]);
+		}
 
 		//health icon bounce but epic
 		if (curBeat % gfSpeed == 0) {

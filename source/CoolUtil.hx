@@ -5,6 +5,9 @@ import openfl.utils.Assets;
 import lime.utils.Assets as LimeAssets;
 import lime.utils.AssetLibrary;
 import lime.utils.AssetManifest;
+import flash.display.BitmapData;
+import flash.media.Sound;
+import lime.app.Application;
 #if sys
 import sys.io.File;
 import sys.FileSystem;
@@ -24,6 +27,37 @@ class CoolUtil
 	public static var defaultDifficulty:String = 'Normal'; //The chart that has no suffix and starting difficulty on Freeplay/Story Mode
 
 	public static var difficulties:Array<String> = [];
+
+	public static function getSound(path:String) 
+	{
+		#if android
+		path = getPath() + path;
+		#end
+		#if sys
+		if(!FileSystem.exists(path)){
+			Application.current.window.alert('[!] Missing file: "'+path+'"');
+		}
+		#end
+		var sound:Sound = Sound.fromFile(path);
+		return sound;
+	}
+
+	public static function getBitmap(file:String):BitmapData{
+		#if android
+		file = getPath() + file;
+		#end
+		#if sys
+		if(!FileSystem.exists(file)){
+			Application.current.window.alert('[!] Missing file: "'+file+'"');
+		}
+		#end
+		return BitmapData.fromFile(file);
+	}
+
+	public static function getContent(file:String):String{
+		var getContentThing = File.getContent(file); //made so older scripts work in fe 1.8
+		return getContentThing;
+	}
 
 	public static function getDifficultyFilePath(num:Null<Int> = null)
 	{

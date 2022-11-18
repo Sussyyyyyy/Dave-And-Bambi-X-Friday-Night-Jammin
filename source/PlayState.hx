@@ -2077,13 +2077,9 @@ class PlayState extends MusicBeatState
 			case 'long-showdown':
 			s = 'valenxyss';
 			case 'midnight':
-			s = 'LORENXX-10';
+			s = 'sylenlean';
 			case 'second-round':
 			s = 'valenxyss';
-			case 'newbie':
-			s = 'valenxyss';
-			case 'unsurprising':
-			s = 'Womo';
 			case 'marathon':
 			s = 'Bren & Womo';
 			case 'kabuki':
@@ -2136,6 +2132,8 @@ class PlayState extends MusicBeatState
 			s = 'sylenlean';
 			case 'undaunted-precaution': // if someone's reading this, i wanted to add this but it ended up getting scrapped, but if you want you can make a mid effort of this, also worst fate best 1 hour song
 			s = 'valenxyss';
+			case 'farming':
+			s = 'sylenlean';
 			case 'vs-dave-easter':
 			s = 'ValenciaBall';
 			case 'vs-dave-july':
@@ -2170,6 +2168,8 @@ class PlayState extends MusicBeatState
 			s = 'sylenlean';
 			case 'old-pissed':
 			s = 'valenxyss';
+			case 'old-midnight':
+			s = 'LORENXX-10';
 		}
     	songCreator.text = "By: " + s;
     	songCreator.scrollFactor.set();
@@ -3168,19 +3168,25 @@ class PlayState extends MusicBeatState
 		}
 
 		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() == 'cheater-mayhem')) {
-			PlayState.SONG = Song.loadFromJson("probabilities", "probabilities"); //does the same fucking thing
+			PlayState.SONG = Song.loadFromJson("probabilities", "probabilities"); //cheater mayhem exclusive
 				FlxG.switchState(new PlayState());
 				trace("stop");
 		}
 
 		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() == 'probabilities')) {
-			PlayState.SONG = Song.loadFromJson("perma-ban", "perma-ban"); //does the same fucking thing
+			PlayState.SONG = Song.loadFromJson("perma-ban", "perma-ban"); //probabilities exclusive
 				FlxG.switchState(new PlayState());
 				trace("fuck you");
 		}
 
 		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() == 'perma-ban')) {
-			trace("get fucked have this video about you aka a cheater");
+			trace("get fucked have this video about you aka a cheater"); //redacted exclusive
+		}
+
+		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() == 'tridimensional')) {
+			PlayState.SONG = Song.loadFromJson("multiversal", "multiversal"); //tridimensional exclusive
+				FlxG.switchState(new PlayState());
+				trace("fuck you");
 		}
 
 		/*if (FlxG.keys.justPressed.NINE)

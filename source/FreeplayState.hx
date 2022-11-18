@@ -211,10 +211,10 @@ class FreeplayState extends MusicBeatState
 			addSong('gatetrader', 4, '3d', FlxColor.fromRGB(100, 100, 100));
 			addSong('resistant', 4, 'unfairbambi', FlxColor.fromRGB(80, 0, 0));
 			addSong('harmon', 4, 'expungedlol', FlxColor.fromRGB(80, 0, 0));
-			addSong('minion', 4, 'bambi-minion', FlxColor.fromRGB(120, 0, 120));
-			addSong('multiple', 4, 'bambi-minion', FlxColor.fromRGB(100, 0, 100));
-			addSong('final-push', 4, 'everyone', FlxColor.fromRGB(0, 0, 0));
-			addSong('reconciliation', 4, 'kaiju', FlxColor.fromRGB(0, 0, 190));
+			addSong('minion', 5, 'bambi-minion', FlxColor.fromRGB(120, 0, 120));
+			addSong('multiple', 5, 'bambi-minion', FlxColor.fromRGB(100, 0, 100));
+			addSong('final-push', 6, 'everyone', FlxColor.fromRGB(0, 0, 0));
+			addSong('reconciliation', 6, 'kaiju', FlxColor.fromRGB(0, 0, 190));
 			if(FlxG.save.data.anosognosiaFound)
 				{
 					addSong('anosognosia', 0, 'ohgodno', FlxColor.fromRGB(0, 0, 0));
@@ -262,10 +262,11 @@ class FreeplayState extends MusicBeatState
 				{
 					addSong('Perma-Ban', 0, 'redacted', FlxColor.fromRGB(255, 255, 255));
 				}
-		//	addSong('Cheater-Mayhem', 0, 'expungedlol', FlxColor.fromRGB(60, 0, 0));
-		//	addSong('probabilities', 0, 'theoretical', FlxColor.fromRGB(128, 0, 128));
-		//	addSong('Perma-Ban', 0, 'redacted', FlxColor.fromRGB(255, 255, 255));
-			addSong('multiversal', 0, '3d-dave2', FlxColor.fromRGB(255, 255, 255));
+			if(FlxG.save.data.multiversalFound)
+				{
+					addSong('multiversal', 0, '3d-dave2', FlxColor.fromRGB(255, 255, 255));
+				}
+			addSong('yoylossinconsola', 0, 'zzzzz', FlxColor.fromRGB(255, 255, 255));
 		}
 
 		if (category == 'OC')
@@ -282,6 +283,7 @@ class FreeplayState extends MusicBeatState
 		if (category == 'Old')
 		{
 			addSong('Old-pissed', 0, 'imsomadbro', FlxColor.fromRGB(0, 160, 0));
+			addSong('old-midnight', 2, 'dave', FlxColor.fromRGB(0, 0, 200));
 		}
 
 

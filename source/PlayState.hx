@@ -769,6 +769,14 @@ class PlayState extends MusicBeatState
 				testshader.waveSpeed = 2;
 				bg.shader = testshader.shader;
 				curbg = bg;
+			
+			case 'baldisfarm':
+				curStage = 'baldisfarm';
+		
+				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('baldi-farm'));
+				bg.active = true;
+			
+				add(bg);
 				
 			case 'bambi':
 				{

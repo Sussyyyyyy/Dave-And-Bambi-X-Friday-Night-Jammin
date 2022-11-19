@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-300
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "letsgofarming Idle"
+		},
+		{
+			"offsets": [
+				0,
+				-260
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "letsgofarming Down"
+		},
+		{
+			"offsets": [
+				0,
+				330
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "letsgofarming up"
+		},
+		{
+			"offsets": [
+				-230,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": true,
+			"name": "letsgofarming right"
+		},
+		{
+			"offsets": [
+				500,
+				10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": true,
+			"name": "letsgofarming left"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/letsgofarming",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "baldi",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		161,
+		0
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 2
+}

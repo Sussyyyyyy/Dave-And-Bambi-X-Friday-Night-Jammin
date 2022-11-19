@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="letsgofarming.png">
+<SubTexture name="letsgofarming Idle0000" x="514" y="293" width="69" height="236" frameX="-92" frameY="-11" frameWidth="256" frameHeight="256" />
+<SubTexture name="letsgofarming Idle0001" x="138" y="315" width="69" height="56" frameX="-92" frameY="-198" frameWidth="256" frameHeight="256" />
+<SubTexture name="letsgofarming Idle0002" x="401" y="306" width="69" height="141" frameX="-92" frameY="-110" frameWidth="256" frameHeight="256" />
+<SubTexture name="letsgofarming Idle0003" x="514" y="293" width="69" height="236" frameX="-92" frameY="-11" frameWidth="256" frameHeight="256" />
+<SubTexture name="letsgofarming Down0000" x="401" y="447" width="69" height="48" frameX="-92" frameY="-206" frameWidth="256" frameHeight="256" />
+<SubTexture name="letsgofarming Down0001" x="207" y="497" width="69" height="21" frameX="-92" frameY="-234" frameWidth="256" frameHeight="256" />
+<SubTexture name="letsgofarming Down0002" x="514" y="529" width="69" height="9" frameX="-92" frameY="-247" frameWidth="256" frameHeight="256" />
+<SubTexture name="letsgofarming left0000" x="583" y="293" width="196" height="232" frameX="-208" frameY="-196" frameWidth="415" frameHeight="429" />
+<SubTexture name="letsgofarming left0001" x="0" y="538" width="254" height="250" frameX="-145" frameY="-161" frameWidth="415" frameHeight="429" />
+<SubTexture name="letsgofarming left0002" x="207" y="0" width="307" height="306" frameX="-95" frameY="-110" frameWidth="415" frameHeight="429" />
+<SubTexture name="letsgofarming right0000" x="207" y="306" width="194" height="191" frameX="-10" frameY="-227" frameWidth="415" frameHeight="429" />
+<SubTexture name="letsgofarming right0001" x="254" y="538" width="236" height="235" frameX="-8" frameY="-182" frameWidth="415" frameHeight="429" />
+<SubTexture name="letsgofarming right0002" x="514" y="0" width="297" height="293" frameX="-9" frameY="-128" frameWidth="415" frameHeight="429" />
+<SubTexture name="letsgofarming up0000" x="138" y="0" width="69" height="315" frameX="-92" frameY="-262" frameWidth="256" frameHeight="588" />
+<SubTexture name="letsgofarming up0001" x="69" y="0" width="69" height="407" frameX="-92" frameY="-167" frameWidth="256" frameHeight="588" />
+<SubTexture name="letsgofarming up0002" x="0" y="0" width="69" height="538" frameX="-92" frameY="-32" frameWidth="256" frameHeight="588" />
+</TextureAtlas>

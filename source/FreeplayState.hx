@@ -228,6 +228,7 @@ class FreeplayState extends MusicBeatState
 			addSong('introvert', 0, 'kaiju', FlxColor.fromRGB(0, 0, 153));
 			addSong('hilarious-testing', 0, 'balls', FlxColor.fromRGB(0, 0, 153));
 			addSong('Pissed', 0, 'imsomadbro', FlxColor.fromRGB(0, 160, 0));
+			addSong('farming', 0, 'baldi', FlxColor.fromRGB(0, 161, 0));
 			addSong('opposed', 0, 'oppoexpunged', FlxColor.fromRGB(180, 180, 180));
 			addSong('diamond-armor', 0, 'diamond', FlxColor.fromRGB(0, 255, 255));
 		}
@@ -283,7 +284,8 @@ class FreeplayState extends MusicBeatState
 		if (category == 'Old')
 		{
 			addSong('Old-pissed', 0, 'imsomadbro', FlxColor.fromRGB(0, 160, 0));
-			addSong('old-midnight', 2, 'dave', FlxColor.fromRGB(0, 0, 200));
+			addSong('old-midnight', 0, 'dave', FlxColor.fromRGB(0, 0, 200));
+			addSong('finis-mundi', 0, 'scopomania-eye', FlxColor.fromRGB(0, 0, 0));
 		}
 
 

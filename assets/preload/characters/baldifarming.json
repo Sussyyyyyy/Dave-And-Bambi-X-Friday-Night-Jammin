@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				-300
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "idle",
-			"loop": false,
-			"name": "letsgofarming Idle"
+			"fps": 24,
+			"name": "letsgofarming Idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				-260
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "letsgofarming Down"
+			"fps": 24,
+			"name": "letsgofarming Down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				330
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
-			"name": "letsgofarming up"
+			"fps": 24,
+			"name": "letsgofarming up",
+			"indices": []
 		},
 		{
+			"loop": true,
 			"offsets": [
 				-230,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": true,
-			"name": "letsgofarming right"
+			"fps": 24,
+			"name": "letsgofarming right",
+			"indices": []
 		},
 		{
+			"loop": true,
 			"offsets": [
 				500,
 				10
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singLEFT",
-			"loop": true,
-			"name": "letsgofarming left"
+			"fps": 24,
+			"name": "letsgofarming left",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -70,8 +70,8 @@
 		0
 	],
 	"camera_position": [
-		0,
-		0
+		-100,
+		100
 	],
 	"sing_duration": 6.1,
 	"scale": 2

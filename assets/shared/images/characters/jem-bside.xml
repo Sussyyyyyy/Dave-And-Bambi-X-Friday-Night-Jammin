@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="jem-bside.png">
+<SubTexture name="jem-bside idle00000000" x="597" y="309" width="331" height="93" frameX="-79" frameY="-478" frameWidth="469" frameHeight="574" />
+<SubTexture name="jem-bside idle00010000" x="0" y="0" width="331" height="527" frameX="-79" frameY="-27" frameWidth="469" frameHeight="574" />
+<SubTexture name="jem-bside right00000000" x="331" y="0" width="266" height="332" frameX="-96" frameY="-123" frameWidth="469" frameHeight="574" />
+<SubTexture name="jem-bside down00000000" x="597" y="402" width="330" height="90" frameX="-80" frameY="-369" frameWidth="469" frameHeight="574" />
+<SubTexture name="jem-bside up00000000" x="0" y="527" width="382" height="215" frameX="-60" frameY="-118" frameWidth="469" frameHeight="574" />
+<SubTexture name="jem-bside left00000000" x="597" y="0" width="376" height="309" frameX="-25" frameY="-142" frameWidth="469" frameHeight="574" />
+</TextureAtlas>

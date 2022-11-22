@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-160,
+				79
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "deb-bside idle0"
+		},
+		{
+			"offsets": [
+				-80,
+				79
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "deb-bside left0"
+		},
+		{
+			"offsets": [
+				-160,
+				59
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "deb-bside down0"
+		},
+		{
+			"offsets": [
+				-160,
+				19
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "deb-bside up0"
+		},
+		{
+			"offsets": [
+				-180,
+				79
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "deb-bside right0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/deb-bside",
+	"position": [
+		-180,
+		270
+	],
+	"healthicon": "deb-bside",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		39,
+		255
+	],
+	"camera_position": [
+		-170,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

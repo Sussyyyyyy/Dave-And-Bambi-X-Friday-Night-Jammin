@@ -79,6 +79,8 @@ class FreeplayCategorySelector extends MusicBeatState
                     case 5:
                     currentCategory = 'Old';
                     case 6:
+                    currentCategory = 'Tridimensional Parodies';
+                    case 7:
                     currentCategory = 'Secret';
                 }
                 remove(category);
@@ -99,6 +101,8 @@ class FreeplayCategorySelector extends MusicBeatState
                     category.loadGraphic(Paths.image('Secret'));
                     case 'Old':
                     category.loadGraphic(Paths.image('Old'));
+                    case 'Tridimensional Parodies':
+                    category.loadGraphic(Paths.image('tresdimensionanales'));
                 }
                 category.antialiasing = ClientPrefs.globalAntialiasing;
                 category.scrollFactor.set(0, 0);
@@ -119,7 +123,7 @@ class FreeplayCategorySelector extends MusicBeatState
                 if (currentCategory == 'Main Weeks')
                 {
                     currentCategory = 'Secret';
-                    currentInt = 5;
+                    currentInt = 7;
                 }
                 else
                 {
@@ -140,7 +144,7 @@ class FreeplayCategorySelector extends MusicBeatState
                     case 5:
                     currentCategory = 'Old';
                     case 6:
-                    currentCategory = 'Secret';
+                    currentCategory = 'Tridimensional Parodies';
                 }
                 remove(category);
                 category = new FlxSprite(-1000, category.y); //ok so, x parameter is set to 1000, flxtween changes it to 325 ! !
@@ -160,6 +164,8 @@ class FreeplayCategorySelector extends MusicBeatState
                     category.loadGraphic(Paths.image('Secret'));
                     case 'Old':
                     category.loadGraphic(Paths.image('Old'));
+                    case 'Tridimensional Parodies':
+                    category.loadGraphic(Paths.image('tresdimensionanales'));
                 }
                 category.antialiasing = ClientPrefs.globalAntialiasing;
                 category.scrollFactor.set(0, 0);

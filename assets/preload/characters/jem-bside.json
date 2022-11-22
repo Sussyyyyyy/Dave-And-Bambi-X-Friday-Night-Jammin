@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-160,
+				79
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "jem-bside idle0"
+		},
+		{
+			"offsets": [
+				-280,
+				79
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "jem-bside left0"
+		},
+		{
+			"offsets": [
+				-160,
+				29
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "jem-bside down0"
+		},
+		{
+			"offsets": [
+				-160,
+				119
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "jem-bside up0"
+		},
+		{
+			"offsets": [
+				-70,
+				79
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "jem-bside right0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/jem-bside",
+	"position": [
+		-180,
+		270
+	],
+	"healthicon": "jem-bside",
+	"flip_x": true,
+	"healthbar_colors": [
+		86,
+		61,
+		84
+	],
+	"camera_position": [
+		-170,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

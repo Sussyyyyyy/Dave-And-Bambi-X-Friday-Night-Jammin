@@ -615,7 +615,23 @@ class PlayState extends MusicBeatState
 				testshader.waveSpeed = 2;
 				bg.shader = testshader.shader;
 				curbg = bg;
-	
+
+			case 'tri-bside':
+				curStage = 'tri-bside';
+		
+				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('dave/tri-bside'));
+				bg.active = true;
+		
+				add(bg);
+				bg.scale.set(2, 2);
+					
+				var testshader:Shaders.GlitchEffect = new Shaders.GlitchEffect();
+				testshader.waveAmplitude = 0.1;
+				testshader.waveFrequency = 5;
+				testshader.waveSpeed = 2;
+				bg.shader = testshader.shader;
+				curbg = bg;
+		
 			case 'cheater':
 				curStage = 'cheater';
 	
@@ -2148,8 +2164,6 @@ class PlayState extends MusicBeatState
 			s = 'valenxyss';
 			case 'hilarious-testing':
 			s = 'valenxyss';
-			case 'tridimensional-v2-b-side':
-			s = 'valenxyss';
 			case 'pissed':
 			s = 'sylenlean';
 			case 'opposed':
@@ -2167,6 +2181,8 @@ class PlayState extends MusicBeatState
 			case 'vs-dave-easter-3':
 			s = 'valenxyss';
 			case 'tredemensonl':
+			s = 'sylenlean';
+			case 'tredemensonl-b-side':
 			s = 'sylenlean';
 			case 'tridimensional-v1-b-side':
 			s = 'Womo';

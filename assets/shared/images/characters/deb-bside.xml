@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="deb-bside.png">
+<SubTexture name="deb-bside idle00000000" x="636" y="446" width="356" height="156" frameX="-47" frameY="-352" frameWidth="418" frameHeight="523" />
+<SubTexture name="deb-bside idle00010000" x="0" y="0" width="356" height="446" frameX="-47" frameY="-32" frameWidth="418" frameHeight="523" />
+<SubTexture name="deb-bside left00000000" x="689" y="0" width="337" height="289" frameX="-18" frameY="-145" frameWidth="418" frameHeight="523" />
+<SubTexture name="deb-bside down00000000" x="0" y="446" width="293" height="259" frameX="-32" frameY="-257" frameWidth="418" frameHeight="523" />
+<SubTexture name="deb-bside up00000000" x="293" y="446" width="343" height="187" frameX="-47" frameY="-13" frameWidth="418" frameHeight="523" />
+<SubTexture name="deb-bside right00000000" x="356" y="0" width="333" height="386" frameX="-82" frameY="-54" frameWidth="418" frameHeight="523" />
+</TextureAtlas>

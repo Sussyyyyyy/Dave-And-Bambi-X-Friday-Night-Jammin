@@ -213,8 +213,8 @@ class FreeplayState extends MusicBeatState
 			addSong('harmon', 4, 'expungedlol', FlxColor.fromRGB(80, 0, 0));
 			addSong('minion', 5, 'bambi-minion', FlxColor.fromRGB(120, 0, 120));
 			addSong('multiple', 5, 'bambi-minion', FlxColor.fromRGB(100, 0, 100));
-			addSong('final-push', 6, 'everyone', FlxColor.fromRGB(0, 0, 0));
-			addSong('reconciliation', 6, 'kaiju', FlxColor.fromRGB(0, 0, 190));
+			addSong('final-push', 0, 'everyone', FlxColor.fromRGB(0, 0, 0));
+			addSong('reconciliation', 0, 'kaiju', FlxColor.fromRGB(0, 0, 190));
 			if(FlxG.save.data.anosognosiaFound)
 				{
 					addSong('anosognosia', 0, 'ohgodno', FlxColor.fromRGB(0, 0, 0));

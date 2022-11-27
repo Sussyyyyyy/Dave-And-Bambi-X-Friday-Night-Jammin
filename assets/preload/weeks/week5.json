@@ -3,7 +3,7 @@
 	"hideFreeplay": false,
 	"weekBackground": "expunged",
 	"weekBefore": "week4",
-	"startUnlocked": false,
+	"startUnlocked": true,
 	"weekCharacters": [
 		"",
 		"",

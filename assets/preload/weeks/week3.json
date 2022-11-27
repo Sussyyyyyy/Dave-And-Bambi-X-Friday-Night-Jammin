@@ -4,7 +4,7 @@
 	"hideFreeplay": false,
 	"weekBackground": "daveround2",
 	"weekBefore": "week2",
-	"startUnlocked": false,
+	"startUnlocked": true,
 	"hideStoryMode": false,
 	"weekCharacters": [
 		"",

@@ -238,14 +238,12 @@ class FreeplayState extends MusicBeatState
 		{
 			addSong('Vs-Dave-Easter', 0, 'bambi-joke', FlxColor.fromRGB(0, 255, 0));
 			addSong('Vs-Dave-July', 0, 'sexo', FlxColor.fromRGB(100, 255, 0));
-			addSong('Vs-Dave-easter-3', 0, 'sexo', FlxColor.fromRGB(0, 0, 153));
 		}
 
 		if (category == 'Covers')
 		{
 			addSong('Mealie', 0, 'bambi', FlxColor.fromRGB(0, 195, 0));
 			addSong('Monarchy', 0, 'unfairbambi', FlxColor.fromRGB(255, 0, 0));
-			addSong('Ready-Loud', 0, 'sexo', FlxColor.fromRGB(0, 195, 0));
 		}
 
 		if (category == 'Secret')

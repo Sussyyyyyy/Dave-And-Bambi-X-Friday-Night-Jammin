@@ -3,7 +3,7 @@
 	"hideFreeplay": true,
 	"weekBackground": "minion",
 	"weekBefore": "week5",
-	"startUnlocked": false,
+	"startUnlocked": true,
 	"weekCharacters": [
 		"",
 		"",

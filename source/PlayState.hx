@@ -817,6 +817,38 @@ class PlayState extends MusicBeatState
 				testshader.waveSpeed = 2;
 				bg.shader = testshader.shader;
 				curbg = bg;
+			
+			case 'blandury':
+				curStage = 'blandury';
+				
+				var bg:FlxSprite = new FlxSprite(0, 150).loadGraphic(Paths.image('blandury-bg'));
+				bg.active = true;
+					
+				add(bg);
+				bg.scale.set(3, 3);
+						
+				var testshader:Shaders.GlitchEffect = new Shaders.GlitchEffect();
+				testshader.waveAmplitude = 0.1;
+				testshader.waveFrequency = 5;
+				testshader.waveSpeed = 2;
+				bg.shader = testshader.shader;
+				curbg = bg;
+					
+			case '404':
+				curStage = '404';
+				
+				var bg:FlxSprite = new FlxSprite(0, 150).loadGraphic(Paths.image('quantumerbg'));
+				bg.active = true;
+					
+				add(bg);
+				bg.scale.set(3, 3);
+						
+				var testshader:Shaders.GlitchEffect = new Shaders.GlitchEffect();
+				testshader.waveAmplitude = 0.1;
+				testshader.waveFrequency = 5;
+				testshader.waveSpeed = 2;
+				bg.shader = testshader.shader;
+				curbg = bg;
 					
 			case 'baldisfarm':
 				curStage = 'baldisfarm';

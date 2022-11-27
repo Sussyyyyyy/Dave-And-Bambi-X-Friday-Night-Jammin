@@ -1,66 +1,66 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
-				0,
-				0
+				40,
+				140
 			],
+			"indices": [],
+			"fps": 12,
 			"anim": "idle",
-			"fps": 24,
-			"name": "opposition-expunged new idle",
-			"indices": []
+			"loop": false,
+			"name": "opposition-expunged new idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				0,
-				0
+				-51,
+				195
 			],
+			"indices": [],
+			"fps": 12,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "opposition-expunged new left",
-			"indices": []
+			"loop": false,
+			"name": "opposition-expunged new left"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				0,
-				0
+				-282,
+				-5
 			],
-			"anim": "singDOWN",
-			"fps": 24,
-			"name": "opposition-expunged new down",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				0
-			],
-			"anim": "singUP",
-			"fps": 24,
-			"name": "opposition-expunged new up",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				0
-			],
+			"indices": [],
+			"fps": 12,
 			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "opposition-expunged new right",
-			"indices": []
+			"loop": false,
+			"name": "opposition-expunged new right"
+		},
+		{
+			"offsets": [
+				-150,
+				-38
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "opposition-expunged new down"
+		},
+		{
+			"offsets": [
+				51,
+				265
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singUP",
+			"loop": false,
+			"name": "opposition-expunged new up"
 		}
 	],
-	"no_antialiasing": false,
+	"no_antialiasing": true,
 	"image": "characters/opposition-expunged_new",
 	"position": [
-		0,
-		100
+		-70,
+		110
 	],
 	"healthicon": "oppoexpunged",
 	"flip_x": false,
@@ -70,9 +70,9 @@
 		255
 	],
 	"camera_position": [
-		0,
-		0
+		-490,
+		-430
 	],
-	"sing_duration": 6.1,
-	"scale": 1.5
+	"sing_duration": 4,
+	"scale": 1.8
 }

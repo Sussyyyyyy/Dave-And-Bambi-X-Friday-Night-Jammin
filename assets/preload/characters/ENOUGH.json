@@ -7,72 +7,72 @@
 				0
 			],
 			"anim": "idle",
-			"fps": 24,
-			"name": "opposition-expunged new idle",
+			"fps": 10,
+			"name": "ENOUGH idle",
 			"indices": []
 		},
 		{
-			"loop": false,
+			"loop": true,
 			"offsets": [
 				0,
 				0
 			],
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "opposition-expunged new left",
+			"fps": 15,
+			"name": "ENOUGH left",
 			"indices": []
 		},
 		{
-			"loop": false,
+			"loop": true,
 			"offsets": [
 				0,
 				0
 			],
 			"anim": "singDOWN",
-			"fps": 24,
-			"name": "opposition-expunged new down",
+			"fps": 15,
+			"name": "ENOUGH down",
 			"indices": []
 		},
 		{
-			"loop": false,
+			"loop": true,
 			"offsets": [
 				0,
 				0
 			],
 			"anim": "singUP",
-			"fps": 24,
-			"name": "opposition-expunged new up",
+			"fps": 15,
+			"name": "ENOUGH up",
 			"indices": []
 		},
 		{
-			"loop": false,
+			"loop": true,
 			"offsets": [
 				0,
 				0
 			],
 			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "opposition-expunged new right",
+			"fps": 15,
+			"name": "ENOUGH right",
 			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/opposition-expunged_new",
+	"image": "characters/ENOUGH",
 	"position": [
-		0,
-		-250
+		-300,
+		100
 	],
-	"healthicon": "oppoexpunged",
+	"healthicon": "enough",
 	"flip_x": false,
 	"healthbar_colors": [
 		255,
-		255,
-		255
+		0,
+		0
 	],
 	"camera_position": [
-		-500,
-		-500
+		-200,
+		-300
 	],
 	"sing_duration": 6.1,
-	"scale": 3
+	"scale": 2
 }

@@ -229,6 +229,7 @@ class FreeplayState extends MusicBeatState
 			addSong('hilarious-testing', 0, 'balls', FlxColor.fromRGB(0, 0, 153));
 			addSong('Pissed', 0, 'imsomadbro', FlxColor.fromRGB(0, 160, 0));
 			addSong('farming', 0, 'baldi', FlxColor.fromRGB(0, 161, 0));
+			addSong('done', 0, 'enough', FlxColor.fromRGB(128, 0, 0));
 			addSong('opposed', 0, 'oppoexpunged', FlxColor.fromRGB(180, 180, 180));
 			addSong('diamond-armor', 0, 'diamond', FlxColor.fromRGB(0, 255, 255));
 		}

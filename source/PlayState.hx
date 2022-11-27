@@ -801,7 +801,23 @@ class PlayState extends MusicBeatState
 				testshader.waveSpeed = 2;
 				bg.shader = testshader.shader;
 				curbg = bg;
+			
+			case 'enough':
+				curStage = 'enough';
+			
+				var bg:FlxSprite = new FlxSprite(0, 150).loadGraphic(Paths.image('enough'));
+				bg.active = true;
 				
+				add(bg);
+				bg.scale.set(3, 3);
+					
+				var testshader:Shaders.GlitchEffect = new Shaders.GlitchEffect();
+				testshader.waveAmplitude = 0.1;
+				testshader.waveFrequency = 5;
+				testshader.waveSpeed = 2;
+				bg.shader = testshader.shader;
+				curbg = bg;
+					
 			case 'baldisfarm':
 				curStage = 'baldisfarm';
 		
@@ -2113,7 +2129,7 @@ class PlayState extends MusicBeatState
 			case 'stealing-suspicious':
 			s = 'Womo';
 			case 'milho':
-			s = 'valenxyss';
+			s = 'SylenLean';
 			case 'long-showdown':
 			s = 'valenxyss';
 			case 'midnight':

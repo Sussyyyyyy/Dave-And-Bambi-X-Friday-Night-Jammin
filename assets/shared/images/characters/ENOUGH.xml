@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="ENOUGH.png">
+<SubTexture name="ENOUGH idle0000" x="363" y="833" width="194" height="321" frameX="-302" frameY="-119" frameWidth="800" frameHeight="600" />
+<SubTexture name="ENOUGH idle0001" x="0" y="0" width="299" height="474" frameX="-180" frameY="-33" frameWidth="800" frameHeight="600" />
+<SubTexture name="ENOUGH idle0002" x="299" y="0" width="232" height="376" frameX="-265" frameY="-86" frameWidth="800" frameHeight="600" />
+<SubTexture name="ENOUGH idle0003" x="363" y="833" width="194" height="321" frameX="-302" frameY="-119" frameWidth="800" frameHeight="600" />
+<SubTexture name="ENOUGH down0000" x="1173" y="618" width="216" height="303" frameX="-321" frameY="-221" frameWidth="800" frameHeight="600" />
+<SubTexture name="ENOUGH down0001" x="1173" y="310" width="249" height="308" frameX="-286" frameY="-250" frameWidth="800" frameHeight="600" />
+<SubTexture name="ENOUGH down0002" x="0" y="1171" width="263" height="287" frameX="-271" frameY="-269" frameWidth="800" frameHeight="600" />
+<SubTexture name="ENOUGH left0000" x="531" y="0" width="309" height="360" frameX="-213" frameY="-107" frameWidth="800" frameHeight="600" />
+<SubTexture name="ENOUGH left0001" x="0" y="474" width="349" height="359" frameX="-149" frameY="-110" frameWidth="800" frameHeight="600" />
+<SubTexture name="ENOUGH left0002" x="0" y="833" width="363" height="338" frameX="-59" frameY="-114" frameWidth="800" frameHeight="600" />
+<SubTexture name="ENOUGH right0000" x="840" y="0" width="333" height="343" frameX="-313" frameY="-134" frameWidth="800" frameHeight="600" />
+<SubTexture name="ENOUGH right0001" x="1173" y="0" width="363" height="310" frameX="-308" frameY="-129" frameWidth="800" frameHeight="600" />
+<SubTexture name="ENOUGH right0002" x="557" y="833" width="374" height="313" frameX="-326" frameY="-131" frameWidth="800" frameHeight="600" />
+<SubTexture name="ENOUGH up0000" x="349" y="474" width="192" height="356" frameX="-291" frameY="-61" frameWidth="800" frameHeight="600" />
+<SubTexture name="ENOUGH up0001" x="840" y="343" width="195" height="339" frameX="-292" frameY="-19" frameWidth="800" frameHeight="600" />
+<SubTexture name="ENOUGH up0002" x="541" y="474" width="193" height="346" frameX="-294" frameY="-8" frameWidth="800" frameHeight="600" />
+</TextureAtlas>

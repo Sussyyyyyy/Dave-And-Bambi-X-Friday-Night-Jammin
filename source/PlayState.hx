@@ -849,6 +849,22 @@ class PlayState extends MusicBeatState
 				testshader.waveSpeed = 2;
 				bg.shader = testshader.shader;
 				curbg = bg;
+			
+			case 'hell':
+				curStage = 'hell';
+					
+				var bg:FlxSprite = new FlxSprite(0, 150).loadGraphic(Paths.image('hell'));
+				bg.active = true;
+						
+				add(bg);
+				bg.scale.set(3, 3);
+							
+				var testshader:Shaders.GlitchEffect = new Shaders.GlitchEffect();
+				testshader.waveAmplitude = 0.1;
+				testshader.waveFrequency = 5;
+				testshader.waveSpeed = 2;
+				bg.shader = testshader.shader;
+				curbg = bg;
 					
 			case 'baldisfarm':
 				curStage = 'baldisfarm';
@@ -3249,22 +3265,34 @@ class PlayState extends MusicBeatState
 	{
 	//  && (curSong.toLowerCase() != 'probabilities' && (curSong.toLowerCase() != 'perma-ban')
 		
-		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() != 'cheater-mayhem' && (curSong.toLowerCase() != 'perma-ban'))) {
-			PlayState.SONG = Song.loadFromJson("cheater-mayhem", "cheater-mayhem");
+		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() != 'disposed' && (curSong.toLowerCase() != 'perma-ban'))) {
+			PlayState.SONG = Song.loadFromJson("disposed", "disposed");
 				FlxG.switchState(new PlayState());
 				trace("bruh");
+		}
+
+		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() == 'disposed')) {
+			PlayState.SONG = Song.loadFromJson("infinity", "infinity"); //disposed exclusive
+				FlxG.switchState(new PlayState());
+				trace("stop");
+		}
+
+		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() == 'infinity')) {
+			PlayState.SONG = Song.loadFromJson("cheater-mayhem", "cheater-mayhem"); //infinity exclusive
+				FlxG.switchState(new PlayState());
+				trace("please stop");
 		}
 
 		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() == 'cheater-mayhem')) {
 			PlayState.SONG = Song.loadFromJson("probabilities", "probabilities"); //cheater mayhem exclusive
 				FlxG.switchState(new PlayState());
-				trace("stop");
+				trace("i swear you're getting on my nerves player");
 		}
 
 		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() == 'probabilities')) {
 			PlayState.SONG = Song.loadFromJson("perma-ban", "perma-ban"); //probabilities exclusive
 				FlxG.switchState(new PlayState());
-				trace("fuck you");
+				trace("you know what, fuck you");
 		}
 
 		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() == 'perma-ban')) {
@@ -3274,7 +3302,7 @@ class PlayState extends MusicBeatState
 		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() == 'tridimensional')) {
 			PlayState.SONG = Song.loadFromJson("multiversal", "multiversal"); //tridimensional exclusive
 				FlxG.switchState(new PlayState());
-				trace("fuck you");
+				trace("moyai");
 		}
 
 		/*if (FlxG.keys.justPressed.NINE)

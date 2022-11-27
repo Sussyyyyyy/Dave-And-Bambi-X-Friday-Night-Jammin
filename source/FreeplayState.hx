@@ -270,6 +270,7 @@ class FreeplayState extends MusicBeatState
 		if (category == 'OC')
 		{
 			addSong('Recolored', 0, 'quantumer', FlxColor.fromRGB(140, 0, 140));
+			addSong('Wandered', 0, 'raderat', FlxColor.fromRGB(70, 0, 70));
 			addSong('cyanophobia', 0, 'blandury', FlxColor.fromRGB(0, 0, 255));
 			addSong('mustardware', 0, 'mustardware', FlxColor.fromRGB(255, 82, 127));
 			addSong('sleepy', 0, 'hrambi', FlxColor.fromRGB(139, 69, 19));

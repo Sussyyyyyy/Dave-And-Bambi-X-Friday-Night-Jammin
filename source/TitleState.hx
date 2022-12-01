@@ -619,38 +619,48 @@ class TitleState extends MusicBeatState
 				case 11:
 					deleteCoolText();
                 case 12:
-	                createCoolText(["v2 is finally here"], -40);
+	                createCoolText(["finally"], -40);
 				case 13:	
 					addMoreText("oh my god", -40);
 				case 14:
 					deleteCoolText();
 				case 15:
-					createCoolText(["join our discord"], -40);
+					createCoolText(["sorry if its"], -40);
+					addMoreText("quantity over quality", -40);     
 				case 16:	
-					addMoreText("please", -40);     
+					addMoreText("i just wanted to", -40);   
+					addMoreText("finish this entire mod", -40);     
 				case 17:
 					deleteCoolText();
 				case 18:
                     createCoolText(["i love manny edition"], -40);
 					addMoreText("deku and bombi", -40); //sanity loss, unsetting adoration and shaped chaos best songs
 					addMoreText("quartz edition", -40);
-					addMoreText("and bambisona mayhem", -40);
+					addMoreText("and bambisona mayhem", -40); //WHY IS THERE A SONG NAMED JAMMER
 				case 19:
 					addMoreText("dont ask why we love", -40);
 					addMoreText("a lot of mods", -40);
 				case 20:
 					deleteCoolText();
 				case 21:
-					createCoolText(["beat cheater mayhem"], -40); //asdasdfsafdedg
+					createCoolText(["50 percent normal"], -40); //asdasdfsafdedg
 				case 22:
-					addMoreText("i dare you", -40);
+					addMoreText("50 percent spam", -40);
 				case 23:
 					deleteCoolText();
 				case 24:
-					createCoolText(["jammer is better"], -40);
-					addMoreText("than nightcrawler", -40);
-				case 25:
-					addMoreText("fight me", -40);
+					createCoolText(["Constitucion de 1812"], -40);
+				case 25: //marcada por el sello napoleonico.
+					addMoreText("La Constitución de Cadiz", -40);
+					addMoreText("aprobada el 19 de marzo de 1812", -40);
+					addMoreText("festividad de San Jose", -40);
+					addMoreText("conocida por eso como la Pepa", -40);
+					addMoreText("es la primera Constitucion", -40);
+					addMoreText("propiamente espanola", -40);
+					addMoreText("ya que el Estatuto de Bayona de 1808", -40);
+					addMoreText("no dejo de ser", -40);
+					addMoreText("una carta otorgada", -40);
+					addMoreText("marcada por el sello napoleonico.", -40);
 				case 26:
 					deleteCoolText();
 				case 27:

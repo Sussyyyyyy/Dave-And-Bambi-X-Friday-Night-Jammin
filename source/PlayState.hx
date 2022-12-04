@@ -889,7 +889,39 @@ class PlayState extends MusicBeatState
 				bg.active = true;
 			
 				add(bg);
+			
+			case 'outside':
+				curStage = 'outside';
+			
+				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('outside'));
+				bg.active = true;
 				
+				add(bg);
+
+			case 'outsidered':
+				curStage = 'outsidered';
+				
+				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('outsidered'));
+				bg.active = true;
+					
+				add(bg);
+				
+			case 'inside':
+				curStage = 'inside';
+				
+				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('inside'));
+				bg.active = true;
+					
+				add(bg);
+			
+			case 'insidered':
+				curStage = 'insidered';
+					
+				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('insidered'));
+				bg.active = true;
+						
+				add(bg);
+					
 			case 'bambi':
 				{
 					defaultCamZoom = 0.9;
@@ -3345,9 +3377,8 @@ class PlayState extends MusicBeatState
 		#else
 		if (cpuControlled)
 		{	
-			cpuControlled = false;
 			botplayTxt.visible = true;
-			botplayTxt.text = "I diagnose you with SEVERE skill issue";
+			botplayTxt.text = "nawwwww";
 		}
 
 		if (practiceMode)

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				100,
+				250
+			],
+			"indices": [],
+			"fps": 15,
+			"anim": "singUP",
+			"loop": false,
+			"name": "item planet up"
+		},
+		{
+			"offsets": [
+				200,
+				0
+			],
+			"indices": [],
+			"fps": 15,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "item planet right"
+		},
+		{
+			"offsets": [
+				50,
+				0
+			],
+			"indices": [],
+			"fps": 15,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "item planet left"
+		},
+		{
+			"offsets": [
+				80,
+				0
+			],
+			"indices": [],
+			"fps": 15,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "item planet Down"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 15,
+			"anim": "idle",
+			"loop": false,
+			"name": "item planet idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/item_planet",
+	"position": [
+		250,
+		350
+	],
+	"healthicon": "planet",
+	"flip_x": false,
+	"healthbar_colors": [
+		93,
+		45,
+		6
+	],
+	"camera_position": [
+		-200,
+		-100
+	],
+	"sing_duration": 6.1,
+	"scale": 2
+}

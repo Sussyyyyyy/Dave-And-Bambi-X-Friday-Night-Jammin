@@ -2229,7 +2229,9 @@ class PlayState extends MusicBeatState
 			case 'long-showdown':
 			s = 'valenxyss';
 			case 'midnight':
-			s = 'sylenlean';
+			s = 'Lorenxx10';
+			case 'extra-song':
+			s = 'SylenLean';
 			case 'second-round':
 			s = 'valenxyss';
 			case 'marathon':
@@ -2253,6 +2255,8 @@ class PlayState extends MusicBeatState
 			case 'chaotic':
 			s = 'valenxyss';
 			case 'final-push':
+			s = 'SylenLean';
+			case 'house-adventure':
 			s = 'a lot of people';
 			case 'reconciliation':
 			s = 'Womo';

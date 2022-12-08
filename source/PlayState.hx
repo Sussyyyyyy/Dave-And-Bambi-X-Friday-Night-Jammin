@@ -802,6 +802,22 @@ class PlayState extends MusicBeatState
 				bg.shader = testshader.shader;
 				curbg = bg;
 			
+			case 'metazoom':
+				curStage = 'metazoom';
+			
+				var bg:FlxSprite = new FlxSprite(0, 150).loadGraphic(Paths.image('metascoop'));
+				bg.active = true;
+			
+				add(bg);
+				bg.scale.set(5, 5);
+					
+				var testshader:Shaders.GlitchEffect = new Shaders.GlitchEffect();
+				testshader.waveAmplitude = 0.1;
+				testshader.waveFrequency = 5;
+				testshader.waveSpeed = 2;
+				bg.shader = testshader.shader;
+				curbg = bg;
+				
 			case 'enough':
 				curStage = 'enough';
 			
@@ -2256,8 +2272,6 @@ class PlayState extends MusicBeatState
 			s = 'valenxyss';
 			case 'final-push':
 			s = 'SylenLean';
-			case 'house-adventure':
-			s = 'a lot of people';
 			case 'reconciliation':
 			s = 'Womo';
 			case 'anosogosnia':

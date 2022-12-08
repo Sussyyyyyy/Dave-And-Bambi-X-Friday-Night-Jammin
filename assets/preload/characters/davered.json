@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				20
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "DaveAngry idle dance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				-20
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "DaveAngry Sing Note DOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				10
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "DaveAngry Sing Note LEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-30,
+				50
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "DaveAngry Sing Note UP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				40
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "DaveAngry Sing Note RIGHT",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/dave_redboy",
+	"position": [
+		200,
+		30
+	],
+	"healthicon": "daveoldfuriosity",
+	"flip_x": false,
+	"healthbar_colors": [
+		195,
+		138,
+		161
+	],
+	"camera_position": [
+		0,
+		100
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

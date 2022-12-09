@@ -1,0 +1,108 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.5,
+			"portrait": "true_expunged",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "..."
+		},
+		{
+			"sound": "",
+			"speed": 0.35,
+			"portrait": "true_expunged",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "You're done."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jammer-scared",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "(wait did I make him mad or something)"
+		},
+		{
+			"sound": "",
+			"speed": 0.2,
+			"portrait": "true_expunged",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I want ONE. FINAL. REMATCH."
+		},
+		{
+			"sound": "",
+			"speed": 0.1,
+			"portrait": "true_expunged",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "If you win, you and Nightshade are free to leave."
+		},
+		{
+			"sound": "",
+			"speed": 0.1,
+			"portrait": "true_expunged",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "If I win..."
+		},
+		{
+			"sound": "",
+			"speed": 0.3,
+			"portrait": "true_expunged",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "YOU WILL SUFFER THE WRATH OF DATA EXPUNGED (aka me)"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "true_expunged",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "So, Jammer.dat, do you accept? Or are you a stupid little baby?"
+		},
+		{
+			"sound": "",
+			"speed": 0.5,
+			"portrait": "jammer-scared",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "..."
+		},
+		{
+			"sound": "",
+			"speed": 0.0999999999999999,
+			"portrait": "jammer-scared",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Bring it on."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "true_expunged",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Ok then, prepare to see yourself fail over."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "true_expunged",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "and over."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "true_expunged",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "and over again."
+		}
+	]
+}

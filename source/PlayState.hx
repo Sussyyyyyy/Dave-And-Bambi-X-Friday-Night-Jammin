@@ -2256,6 +2256,8 @@ class PlayState extends MusicBeatState
 			case 'stealing-suspicious':
 			s = 'Womo';
 			case 'milho':
+			s = 'valenxyss';
+			case 'old-milho':
 			s = 'SylenLean';
 			case 'long-showdown':
 			s = 'valenxyss';
@@ -2278,12 +2280,12 @@ class PlayState extends MusicBeatState
 			case 'resistant':
 			s = 'sylenlean';
 			case 'harmon':
+			s = 'valenxyss';
+			case 'old-harmon':
 			s = 'sylenlean';
 			case 'minion':
 			s = 'valenxyss';
 			case 'multiple':
-			s = 'valenxyss';
-			case 'chaotic':
 			s = 'valenxyss';
 			case 'final-push':
 			s = 'SylenLean';

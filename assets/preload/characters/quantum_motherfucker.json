@@ -1,66 +1,66 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				200,
 				100
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "quantum_motherfucker idle"
+			"fps": 24,
+			"name": "quantum_motherfucker idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				206,
 				100
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "quantum_motherfucker left"
+			"fps": 24,
+			"name": "quantum_motherfucker left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				204,
 				107
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "quantum_motherfucker down"
+			"fps": 24,
+			"name": "quantum_motherfucker down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				200,
 				100
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "quantum_motherfucker up"
+			"fps": 24,
+			"name": "quantum_motherfucker up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				200,
 				100
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "quantum_motherfucker right"
+			"fps": 24,
+			"name": "quantum_motherfucker right",
+			"indices": []
 		}
 	],
 	"no_antialiasing": true,
 	"image": "characters/quantum_motherfucker",
 	"position": [
 		0,
-		0
+		20
 	],
 	"healthicon": "quantumer",
 	"flip_x": false,
@@ -71,8 +71,8 @@
 	],
 	"camera_position": [
 		10,
-		300
+		180
 	],
 	"sing_duration": 6.1,
-	"scale": 0.5
+	"scale": 0.7
 }

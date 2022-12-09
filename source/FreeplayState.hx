@@ -205,7 +205,7 @@ class FreeplayState extends MusicBeatState
 			addSong('Midnight', 2, 'dave', FlxColor.fromRGB(0, 0, 200));
 			addSong('Second-Round', 2, 'daventristan', FlxColor.fromRGB(0, 0, 200));
 			addSong('Marathon', 2, 'marathon', FlxColor.fromRGB(100, 100, 100));
-			addSong('Kabuki', 3, 'exbungo', FlxColor.fromRGB(95, 0, 0));
+			addSong('Kabungi', 3, 'exbungo', FlxColor.fromRGB(95, 0, 0));
 			addSong('Habunda', 3, 'exbungo', FlxColor.fromRGB(80, 0, 0));
 			addSong('sternocleido', 3, 'exbungo', FlxColor.fromRGB(80, 0, 0));
 			addSong('gatetrader', 4, '3d', FlxColor.fromRGB(100, 100, 100));
@@ -239,6 +239,7 @@ class FreeplayState extends MusicBeatState
 		{
 			addSong('Vs-Dave-Easter', 0, 'bambi-joke', FlxColor.fromRGB(0, 255, 0));
 			addSong('Vs-Dave-July', 0, 'sexo', FlxColor.fromRGB(100, 255, 0));
+			addSong('Fazbungi', 0, 'steve', FlxColor.fromRGB(255, 255, 255));
 		}
 
 		if (category == 'Covers')

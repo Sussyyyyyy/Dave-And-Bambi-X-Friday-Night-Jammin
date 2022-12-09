@@ -740,6 +740,21 @@ class PlayState extends MusicBeatState
 				bg.shader = testshader.shader;
 				curbg = bg;
 
+			case 'exbungo':
+				curStage = 'exbungo';
+	
+				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('Exbongo'));
+				bg.active = true;
+	
+				add(bg);
+		
+				var testshader:Shaders.GlitchEffect = new Shaders.GlitchEffect();
+				testshader.waveAmplitude = 0.1;
+				testshader.waveFrequency = 5;
+				testshader.waveSpeed = 2;
+				bg.shader = testshader.shader;
+				curbg = bg;
+	
 			case 'expungedhell':
 				curStage = 'expungedhell';
 	
@@ -2252,7 +2267,7 @@ class PlayState extends MusicBeatState
 			s = 'valenxyss';
 			case 'marathon':
 			s = 'Bren & Womo';
-			case 'kabuki':
+			case 'kabungi':
 			s = 'Womo';
 			case 'habunda':
 			s = 'valenxyss';
@@ -2274,8 +2289,10 @@ class PlayState extends MusicBeatState
 			s = 'SylenLean';
 			case 'reconciliation':
 			s = 'Womo';
-			case 'anosogosnia':
+			case 'anosognosia':
 			s = 'sylenlean';
+			case 'fazbungi':
+			s = 'freddy fazbear';
 			case 'cheater-mayhem':
 			s = 'valenxyss';
 			case 'probabilities':

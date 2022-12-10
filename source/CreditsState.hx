@@ -93,7 +93,6 @@ class CreditsState extends MusicBeatState
 			[''],		
 			['Special Thanks'],
 			["MoldyGH",             "moldy",            "Dave And Bambi Owner",                                            "https://www.youtube.com/c/MoldyGH",                             '444444'],
-			["ChillSpace",             "chill",            "Creator of the Chromatic used in Stealing Suspicious",                         "https://twitter.com/ChillSpaceMusic?t=tzQqFGEHymbiA9KXme1ZpA&s=09",                             '444444'],
 			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',							'https://twitter.com/Shadow_Mario_',	'444444'],

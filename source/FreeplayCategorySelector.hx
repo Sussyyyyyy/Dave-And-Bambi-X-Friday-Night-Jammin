@@ -79,8 +79,6 @@ class FreeplayCategorySelector extends MusicBeatState
                     case 5:
                     currentCategory = 'Old';
                     case 6:
-                    currentCategory = 'Tridimensional Parodies';
-                    case 7:
                     currentCategory = 'Secret';
                 }
                 remove(category);
@@ -101,8 +99,6 @@ class FreeplayCategorySelector extends MusicBeatState
                     category.loadGraphic(Paths.image('Secret'));
                     case 'Old':
                     category.loadGraphic(Paths.image('Old'));
-                    case 'Tridimensional Parodies':
-                    category.loadGraphic(Paths.image('tresdimensionanales'));
                 }
                 category.antialiasing = ClientPrefs.globalAntialiasing;
                 category.scrollFactor.set(0, 0);
@@ -143,8 +139,6 @@ class FreeplayCategorySelector extends MusicBeatState
                     currentCategory = 'OC';
                     case 5:
                     currentCategory = 'Old';
-                    case 6:
-                    currentCategory = 'Tridimensional Parodies';
                 }
                 remove(category);
                 category = new FlxSprite(-1000, category.y); //ok so, x parameter is set to 1000, flxtween changes it to 325 ! !
@@ -164,8 +158,6 @@ class FreeplayCategorySelector extends MusicBeatState
                     category.loadGraphic(Paths.image('Secret'));
                     case 'Old':
                     category.loadGraphic(Paths.image('Old'));
-                    case 'Tridimensional Parodies':
-                    category.loadGraphic(Paths.image('tresdimensionanales'));
                 }
                 category.antialiasing = ClientPrefs.globalAntialiasing;
                 category.scrollFactor.set(0, 0);

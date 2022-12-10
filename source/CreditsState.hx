@@ -86,7 +86,6 @@ class CreditsState extends MusicBeatState
 			["Furret",              "furret",           "Coder and Dev",                                                 "https://www.youtube.com/channel/UCWFMj6wWS1mpa0eahuaq6aw",      '444444'],
 			["SylenLean",           "sylen",        "Musician",                                          "https://www.youtube.com/channel/UC2Da4DGdub8TszWXzWWg8XA",                          '444444'],
 			["MrCornStealer",       "lambi",            "Sprite Creator",                                             "https://www.youtube.com/c/MrCornStealer",                       '444444'],
-			["Womo",                "womo",             "Musician",                                                      "https://www.youtube.com/c/Womoisreal/videos",                   '444444'],
 			["Bren",                "bren",             "Musician and Friday Night Jammin Creator",                      "https://www.youtube.com/c/Bren67987",                           '444444'],
 			["Neneboom",       		"neneboom",            "Musician",                                             "https://www.youtube.com/c/MrCornStealer",                       '444444'],
 			["lorenxx10",           "lorenxx",        "Musician",                                          "https://www.youtube.com/user/vdami74",                          '444444'],

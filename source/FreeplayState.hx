@@ -239,7 +239,8 @@ class FreeplayState extends MusicBeatState
 		{
 			addSong('Vs-Dave-Easter', 0, 'bambi-joke', FlxColor.fromRGB(0, 255, 0));
 			addSong('Vs-Dave-July', 0, 'sexo', FlxColor.fromRGB(100, 255, 0));
-			addSong('Fazbungi', 0, 'steve', FlxColor.fromRGB(255, 255, 255));
+			addSong('tredemensonl', 0, 'deb', FlxColor.fromRGB(0, 0, 150));
+			addSong('tredemensonl-b-side', 0, 'deb-bside', FlxColor.fromRGB(0, 0, 150));
 		}
 
 		if (category == 'Covers')
@@ -275,15 +276,6 @@ class FreeplayState extends MusicBeatState
 		{
 			addSong('Old-pissed', 0, 'imsomadbro', FlxColor.fromRGB(0, 160, 0));
 		}
-
-		if (category == 'Tridimensional Parodies')
-		{
-			addSong('Tridimensional-V1-B-Side', 0, 'old3ddavebside', FlxColor.fromRGB(69, 42, 137));
-			addSong('Tridimensional-V1-D-Side', 0, 'old3ddavedside', FlxColor.fromRGB(69, 42, 137));
-			addSong('tredemensonl', 0, 'deb', FlxColor.fromRGB(0, 0, 150));
-			addSong('tredemensonl-b-side', 0, 'deb-bside', FlxColor.fromRGB(0, 0, 150));
-		}
-
 
 		Main.freeplaything == '';
 

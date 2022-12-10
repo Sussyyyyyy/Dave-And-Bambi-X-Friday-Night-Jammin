@@ -2254,7 +2254,7 @@ class PlayState extends MusicBeatState
 			case 'tridimensional':
 			s = 'valenxyss';
 			case 'stealing-suspicious':
-			s = 'Womo';
+			s = 'valenxyss';
 			case 'milho':
 			s = 'valenxyss';
 			case 'old-milho':
@@ -2268,13 +2268,13 @@ class PlayState extends MusicBeatState
 			case 'second-round':
 			s = 'valenxyss';
 			case 'marathon':
-			s = 'Bren & Womo';
+			s = '???';
 			case 'kabungi':
-			s = 'Womo';
+			s = '???';
 			case 'habunda':
 			s = 'valenxyss';
 			case 'sternocleido':
-			s = '?';
+			s = '???';
 			case 'gatetrader':
 			s = 'sylenlean';
 			case 'resistant':
@@ -2290,7 +2290,7 @@ class PlayState extends MusicBeatState
 			case 'final-push':
 			s = 'SylenLean';
 			case 'reconciliation':
-			s = 'Womo';
+			s = '???';
 			case 'anosognosia':
 			s = 'sylenlean';
 			case 'fazbungi':
@@ -2300,13 +2300,11 @@ class PlayState extends MusicBeatState
 			case 'probabilities':
 			s = 'valenxyss';
 			case 'perma-ban':
-			s = '?';
+			s = '???';
 			case 'Multiversal':
 			s = 'sylenlean';
 			case 'recolored':
-			s = '?';
-			case 'trijam':
-			s = 'Womo';
+			s = '???';
 			case 'hablise':
 			s = 'valenxyss';
 			case 'introvert':
@@ -2333,10 +2331,6 @@ class PlayState extends MusicBeatState
 			s = 'sylenlean';
 			case 'tredemensonl-b-side':
 			s = 'sylenlean';
-			case 'tridimensional-v1-b-side':
-			s = 'Womo';
-			case 'tridimensional-v1-d-side':
-			s = 'Womo';
 			case 'mealie':
 			s = 'AlexanderCooper19';
 			case 'monarchy':

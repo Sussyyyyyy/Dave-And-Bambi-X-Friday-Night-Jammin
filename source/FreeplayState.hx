@@ -274,6 +274,7 @@ class FreeplayState extends MusicBeatState
 		if (category == 'Old')
 		{
 			addSong('Old-pissed', 0, 'imsomadbro', FlxColor.fromRGB(0, 160, 0));
+			addSong('Old-Harmon', 0, 'expungedlol', FlxColor.fromRGB(80, 0, 0));
 		}
 
 		Main.freeplaything == '';

@@ -732,6 +732,7 @@ class PlayState extends MusicBeatState
 				bg.active = true;
 
 				add(bg);
+				bg.scale.set(2, 2);
 	
 				var testshader:Shaders.GlitchEffect = new Shaders.GlitchEffect();
 				testshader.waveAmplitude = 0.1;
@@ -747,6 +748,7 @@ class PlayState extends MusicBeatState
 				bg.active = true;
 	
 				add(bg);
+				bg.scale.set(2, 2);
 		
 				var testshader:Shaders.GlitchEffect = new Shaders.GlitchEffect();
 				testshader.waveAmplitude = 0.1;
@@ -2269,8 +2271,8 @@ class PlayState extends MusicBeatState
 			s = 'valenxyss';
 			case 'marathon':
 			s = '???';
-			case 'kabungi':
-			s = '???';
+			case 'exbungi':
+			s = 'singulardud';
 			case 'habunda':
 			s = 'valenxyss';
 			case 'sternocleido':

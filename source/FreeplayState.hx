@@ -247,8 +247,6 @@ class FreeplayState extends MusicBeatState
 
 		if (category == 'Secret')
 		{
-			addSong('disposed', 0, 'disposition', FlxColor.fromRGB(60, 60, 60));
-			addSong('infinity', 0, 'upheaval', FlxColor.fromRGB(60, 60, 60));
 			addSong('Cheater-Mayhem', 0, 'expungedlol', FlxColor.fromRGB(60, 0, 0));
 			addSong('probabilities', 0, 'theoretical', FlxColor.fromRGB(128, 0, 128));
 			addSong('Perma-Ban', 0, 'redacted', FlxColor.fromRGB(255, 255, 255));
@@ -260,6 +258,7 @@ class FreeplayState extends MusicBeatState
 		{
 			addSong('Recolored', 0, 'quantumer', FlxColor.fromRGB(140, 0, 140));
 			addSong('Wandered', 0, 'raderat', FlxColor.fromRGB(70, 0, 70));
+			addSong('Gaming-Keyboard', 0, 'hermanos', FlxColor.fromRGB(255, 255, 255));
 			addSong('cyanophobia', 0, 'blandury', FlxColor.fromRGB(0, 0, 255));
 			addSong('mustardware', 0, 'mustardware', FlxColor.fromRGB(255, 82, 127));
 			addSong('epicness', 0, 'epibambi', FlxColor.fromRGB(139, 69, 19));

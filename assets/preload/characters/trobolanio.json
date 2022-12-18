@@ -4,75 +4,75 @@
 			"loop": false,
 			"offsets": [
 				0,
-				0
+				-330
 			],
 			"anim": "idle",
-			"fps": 12,
-			"name": "disposition-guy idle",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				140,
-				0
-			],
-			"anim": "singLEFT",
-			"fps": 12,
-			"name": "disposition-guy left",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				-110
-			],
-			"anim": "singDOWN",
-			"fps": 12,
-			"name": "disposition-guy down",
+			"fps": 24,
+			"name": "bambi idle",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
 				50,
-				70
+				-330
 			],
-			"anim": "singUP",
-			"fps": 12,
-			"name": "disposition-guy up",
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "bambi left",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-90,
-				0
+				0,
+				-370
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "bambi down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				50,
+				-300
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "bambi up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-330
 			],
 			"anim": "singRIGHT",
-			"fps": 12,
-			"name": "disposition-guy right",
+			"fps": 24,
+			"name": "bambi right",
 			"indices": []
 		}
 	],
-	"no_antialiasing": true,
-	"image": "characters/disposition-guy",
+	"no_antialiasing": false,
+	"image": "characters/trobolanio",
 	"position": [
-		-220,
-		0
+		150,
+		100
 	],
-	"healthicon": "disposition",
+	"healthicon": "trobolanio",
 	"flip_x": false,
 	"healthbar_colors": [
 		255,
-		255,
-		255
+		0,
+		0
 	],
 	"camera_position": [
-		-500,
-		-170
+		-20,
+		380
 	],
 	"sing_duration": 6.1,
-	"scale": 1.9
+	"scale": 1
 }

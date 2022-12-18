@@ -3346,22 +3346,10 @@ class PlayState extends MusicBeatState
 	{
 	//  && (curSong.toLowerCase() != 'probabilities' && (curSong.toLowerCase() != 'perma-ban')
 		
-		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() != 'disposed' && (curSong.toLowerCase() != 'perma-ban'))) {
-			PlayState.SONG = Song.loadFromJson("disposed", "disposed");
+		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() != 'cheater-mayhem' && (curSong.toLowerCase() != 'perma-ban'))) {
+			PlayState.SONG = Song.loadFromJson("cheater-mayhem", "cheater-mayhem");
 				FlxG.switchState(new PlayState());
 				trace("bruh");
-		}
-
-		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() == 'disposed')) {
-			PlayState.SONG = Song.loadFromJson("infinity", "infinity"); //disposed exclusive
-				FlxG.switchState(new PlayState());
-				trace("stop");
-		}
-
-		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() == 'infinity')) {
-			PlayState.SONG = Song.loadFromJson("cheater-mayhem", "cheater-mayhem"); //infinity exclusive
-				FlxG.switchState(new PlayState());
-				trace("please stop");
 		}
 
 		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() == 'cheater-mayhem')) {

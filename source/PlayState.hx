@@ -3381,6 +3381,12 @@ class PlayState extends MusicBeatState
 				trace("moyai");
 		}
 
+		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() == 'old-harmon')) {
+			PlayState.SONG = Song.loadFromJson("older-harmon", "older-harmon"); //old harmon exclusive
+				FlxG.switchState(new PlayState());
+				trace("welcome old referenc");
+		}
+
 		/*if (FlxG.keys.justPressed.NINE)
 		{
 			iconP1.swapOldIcon();

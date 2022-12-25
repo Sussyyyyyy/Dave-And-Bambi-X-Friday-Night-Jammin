@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="raderat aka swedish expunged.png">
+<SubTexture name="raderat aka swedish expunged WHYISHESTARINGATME0000" x="0" y="0" width="245" height="644" frameX="-68" frameY="-4" frameWidth="393" frameHeight="651" />
+</TextureAtlas>

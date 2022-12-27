@@ -2279,9 +2279,9 @@ class PlayState extends MusicBeatState
 			case 'marathon':
 			s = '???';
 			case 'exbungi':
-			s = 'singulardud';
+			s = 'womo';
 			case 'habunda':
-			s = 'valenxyss';
+			s = 'singulardud';
 			case 'sternocleido':
 			s = '???';
 			case 'gatetrader':

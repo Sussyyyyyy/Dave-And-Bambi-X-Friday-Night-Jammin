@@ -2257,25 +2257,25 @@ class PlayState extends MusicBeatState
 			case 'beginning':
 			s = 'sylenlean';
 			case 'groovy-house':
-			s = 'valenxyss';
+			s = 'BALDI!!!!!!';
 			case 'insano':
-			s = 'valenxyss';
+			s = 'BALDI!!!!!!';
 			case 'tridimensional':
-			s = 'valenxyss';
+			s = 'BALDI!!!!!!';
 			case 'stealing-suspicious':
-			s = 'valenxyss';
+			s = 'BALDI!!!!!!';
 			case 'milho':
-			s = 'valenxyss';
+			s = 'BALDI!!!!!!';
 			case 'old-milho':
 			s = 'SylenLean';
 			case 'long-showdown':
-			s = 'valenxyss';
+			s = 'BALDI!!!!!!';
 			case 'midnight':
 			s = 'Lorenxx10';
 			case 'extra-song':
 			s = 'SylenLean';
 			case 'second-round':
-			s = 'valenxyss';
+			s = 'BALDI!!!!!!';
 			case 'marathon':
 			s = '???';
 			case 'exbungi':
@@ -2289,13 +2289,13 @@ class PlayState extends MusicBeatState
 			case 'resistant':
 			s = 'sylenlean';
 			case 'harmon':
-			s = 'valenxyss';
+			s = 'SylenLean';
 			case 'old-harmon':
 			s = 'sylenlean';
 			case 'minion':
-			s = 'valenxyss';
+			s = '?';
 			case 'multiple':
-			s = 'valenxyss';
+			s = '?';
 			case 'final-push':
 			s = 'SylenLean';
 			case 'reconciliation':
@@ -2305,9 +2305,9 @@ class PlayState extends MusicBeatState
 			case 'fazbungi':
 			s = 'freddy fazbear';
 			case 'cheater-mayhem':
-			s = 'valenxyss';
+			s = 'BALDI!!!!!!';
 			case 'probabilities':
-			s = 'valenxyss';
+			s = 'BALDI!!!!!!';
 			case 'perma-ban':
 			s = '???';
 			case 'Multiversal':
@@ -2315,11 +2315,7 @@ class PlayState extends MusicBeatState
 			case 'recolored':
 			s = '???';
 			case 'hablise':
-			s = 'valenxyss';
-			case 'introvert':
-			s = 'valenxyss';
-			case 'hilarious-testing':
-			s = 'valenxyss';
+			s = '???';
 			case 'pissed':
 			s = 'sylenlean';
 			case 'opposed':
@@ -2332,10 +2328,6 @@ class PlayState extends MusicBeatState
 			s = 'ValenciaBall';
 			case 'vs-dave-july':
 			s = 'ValenciaBall';
-			case 'vs-dave-easter-2.5':
-			s = 'sylenlean';
-			case 'vs-dave-easter-3':
-			s = 'valenxyss';
 			case 'tredemensonl':
 			s = 'sylenlean';
 			case 'tredemensonl-b-side':
@@ -2344,24 +2336,14 @@ class PlayState extends MusicBeatState
 			s = 'AlexanderCooper19';
 			case 'monarchy':
 			s = 'LORENXX-10';
-			case 'ready-loud':
-			s = 'MoldyGH';
 			case 'cyanophobia':
 			s = '?';
-			case 'mustardware':
-			s = 'valenxyss';
-			case 'sleepy':
-			s = 'valenxyss';
 			case 'epicness':
-			s = 'valenxyss';
+			s = '?';
 			case 'transcend':
 			s = 'sylenlean';
 			case 'champagne':
 			s = 'sylenlean';
-			case 'old-pissed':
-			s = 'valenxyss';
-			case 'old-midnight':
-			s = 'LORENXX-10';
 		}
     	songCreator.text = "By: " + s;
     	songCreator.scrollFactor.set();

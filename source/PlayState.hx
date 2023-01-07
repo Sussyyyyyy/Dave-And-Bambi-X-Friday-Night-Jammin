@@ -2265,7 +2265,7 @@ class PlayState extends MusicBeatState
 			case 'stealing-suspicious':
 			s = 'BALDI!!!!!!';
 			case 'milho':
-			s = 'BALDI!!!!!!';
+			s = 'Neneboom';
 			case 'old-milho':
 			s = 'SylenLean';
 			case 'long-showdown':
@@ -2308,8 +2308,8 @@ class PlayState extends MusicBeatState
 			s = 'BALDI!!!!!!';
 			case 'probabilities':
 			s = 'BALDI!!!!!!';
-			case 'perma-ban':
-			s = '???';
+			case 'distression':
+			s = 'SylenLean';
 			case 'Multiversal':
 			s = 'sylenlean';
 			case 'recolored':
@@ -3333,9 +3333,8 @@ class PlayState extends MusicBeatState
 
 	override public function update(elapsed:Float)
 	{
-	//  && (curSong.toLowerCase() != 'probabilities' && (curSong.toLowerCase() != 'perma-ban')
 		
-		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() != 'cheater-mayhem' && (curSong.toLowerCase() != 'perma-ban'))) {
+		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() != 'cheater-mayhem' && (curSong.toLowerCase() != 'distression'))) {
 			PlayState.SONG = Song.loadFromJson("cheater-mayhem", "cheater-mayhem");
 				FlxG.switchState(new PlayState());
 				trace("bruh");
@@ -3348,12 +3347,12 @@ class PlayState extends MusicBeatState
 		}
 
 		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() == 'probabilities')) {
-			PlayState.SONG = Song.loadFromJson("perma-ban", "perma-ban"); //probabilities exclusive
+			PlayState.SONG = Song.loadFromJson("distression", "distression"); //probabilities exclusive
 				FlxG.switchState(new PlayState());
 				trace("you know what, fuck you");
 		}
 
-		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() == 'perma-ban')) {
+		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() == 'distression')) {
 			trace("get fucked have this video about you aka a cheater"); //redacted exclusive
 		}
 
@@ -3361,12 +3360,6 @@ class PlayState extends MusicBeatState
 			PlayState.SONG = Song.loadFromJson("multiversal", "multiversal"); //tridimensional exclusive
 				FlxG.switchState(new PlayState());
 				trace("moyai");
-		}
-
-		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() == 'old-harmon')) {
-			PlayState.SONG = Song.loadFromJson("older-harmon", "older-harmon"); //old harmon exclusive
-				FlxG.switchState(new PlayState());
-				trace("welcome old referenc");
 		}
 
 		/*if (FlxG.keys.justPressed.NINE)

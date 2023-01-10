@@ -249,7 +249,7 @@ class FreeplayState extends MusicBeatState
 		{
 			addSong('Cheater-Mayhem', 0, 'expungedlol', FlxColor.fromRGB(60, 0, 0));
 			addSong('probabilities', 0, 'theoretical', FlxColor.fromRGB(128, 0, 128));
-			addSong('Perma-Ban', 0, 'redacted', FlxColor.fromRGB(255, 255, 255));
+			addSong('Distression', 0, 'redacted', FlxColor.fromRGB(255, 255, 255));
 			addSong('multiversal', 0, '3d-dave2', FlxColor.fromRGB(255, 255, 255));
 			addSong('yoylossinconsola', 0, 'zzzzz', FlxColor.fromRGB(255, 255, 255));
 		}

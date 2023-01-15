@@ -2296,10 +2296,14 @@ class PlayState extends MusicBeatState
 			s = '???';
 			case 'exbungi':
 			s = 'womo';
+			case 'fazbungi':
+			s = 'womo';
 			case 'habunda':
 			s = 'singulardud';
 			case 'sternocleido':
 			s = '???';
+			case 'redirection':
+			s = 'MArco1';
 			case 'gatetrader':
 			s = 'sylenlean';
 			case 'resistant':
@@ -3374,6 +3378,18 @@ class PlayState extends MusicBeatState
 
 		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() == 'tridimensional')) {
 			PlayState.SONG = Song.loadFromJson("multiversal", "multiversal"); //tridimensional exclusive
+				FlxG.switchState(new PlayState());
+				trace("moyai");
+		}
+
+		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() == 'exbungi')) {
+			PlayState.SONG = Song.loadFromJson("fazbungi", "fazbungi"); //tridimensional exclusive
+				FlxG.switchState(new PlayState());
+				trace("moyai");
+		}
+
+		if(FlxG.keys.justPressed.SEVEN && (curSong.toLowerCase() == 'sternocleido')) {
+			PlayState.SONG = Song.loadFromJson("redirection", "redirection"); //sternocleido exclusive
 				FlxG.switchState(new PlayState());
 				trace("moyai");
 		}

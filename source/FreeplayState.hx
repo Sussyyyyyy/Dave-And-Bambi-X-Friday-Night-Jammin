@@ -237,6 +237,7 @@ class FreeplayState extends MusicBeatState
 			addSong('Vs-Dave-July', 0, 'sexo', FlxColor.fromRGB(100, 255, 0));
 			addSong('tredemensonl', 0, 'deb', FlxColor.fromRGB(0, 0, 150));
 			addSong('tredemensonl-b-side', 0, 'deb-bside', FlxColor.fromRGB(0, 0, 150));
+			addSong('Fazbungi', 0, 'steve', FlxColor.fromRGB(255, 0, 0));
 		}
 
 		if (category == 'Covers')
@@ -251,6 +252,7 @@ class FreeplayState extends MusicBeatState
 			addSong('probabilities', 0, 'theoretical', FlxColor.fromRGB(128, 0, 128));
 			addSong('Distression', 0, 'redacted', FlxColor.fromRGB(255, 255, 255));
 			addSong('multiversal', 0, '3d-dave2', FlxColor.fromRGB(255, 255, 255));
+			addSong('redirection', 0, 'exbungod', FlxColor.fromRGB(255, 255, 255));
 			addSong('yoylossinconsola', 0, 'zzzzz', FlxColor.fromRGB(255, 255, 255));
 		}
 

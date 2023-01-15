@@ -810,6 +810,22 @@ class PlayState extends MusicBeatState
 				bg.shader = testshader.shader;
 				curbg = bg;
 			
+			case 'office':
+				curStage = 'office';
+			
+				var bg:FlxSprite = new FlxSprite(0, 150).loadGraphic(Paths.image('office'));
+				bg.active = true;
+				
+				add(bg);
+				bg.scale.set(2, 2);
+					
+				var testshader:Shaders.GlitchEffect = new Shaders.GlitchEffect();
+				testshader.waveAmplitude = 0.1;
+				testshader.waveFrequency = 5;
+				testshader.waveSpeed = 2;
+				bg.shader = testshader.shader;
+				curbg = bg;
+				
 			case 'metazoom':
 				curStage = 'metazoom';
 			
@@ -2260,7 +2276,7 @@ class PlayState extends MusicBeatState
 			s = 'BALDI!!!!!!';
 			case 'insano':
 			s = 'BALDI!!!!!!';
-			case 'tridimensional':
+			case 'Tridimensional':
 			s = 'BALDI!!!!!!';
 			case 'stealing-suspicious':
 			s = 'BALDI!!!!!!';

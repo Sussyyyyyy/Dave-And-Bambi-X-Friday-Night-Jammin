@@ -582,7 +582,7 @@ class TitleState extends MusicBeatState
 			switch (sickBeats)
 			{
 				case 1:
-					createCoolText(['ValenciaBall', 'Valenxyss', 'Furret', 'and a lot of contributors']);
+					createCoolText(['ValenciaBall', 'Furret', 'and a lot of contributors']);
 				// credTextShit.visible = true;
 				case 3:
 					addMoreText('present');

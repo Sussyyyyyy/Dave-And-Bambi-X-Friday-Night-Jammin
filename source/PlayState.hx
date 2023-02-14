@@ -2306,10 +2306,10 @@ class PlayState extends MusicBeatState
 			s = 'Lorenxx10';
 			case 'extra-song':
 			s = 'SylenLean';
+			case 'zeroth':
+			s = 'Arko';
 			case 'second-round':
 			s = 'BALDI!!!!!!';
-			case 'marathon':
-			s = '???';
 			case 'exbungi':
 			s = 'womo';
 			case 'fazbungi':

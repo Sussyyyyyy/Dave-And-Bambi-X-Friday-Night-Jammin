@@ -203,8 +203,8 @@ class FreeplayState extends MusicBeatState
 			addSong('Milho', 1, 'bambi', FlxColor.fromRGB(0, 235, 0));
 			addSong('Long-Showdown', 1, 'uhhh', FlxColor.fromRGB(0, 215, 0));
 			addSong('Midnight', 2, 'dave', FlxColor.fromRGB(0, 0, 200));
-			addSong('Second-Round', 2, 'daventristan', FlxColor.fromRGB(0, 0, 200));
-			addSong('Marathon', 2, 'marathon', FlxColor.fromRGB(100, 100, 100));
+			addSong('Zeroth', 2, 'tristan', FlxColor.fromRGB(200, 0, 0));
+			addSong('Second-Round', 2, 'daventristan', FlxColor.fromRGB(200, 0, 200));
 			addSong('Exbungi', 3, 'exbungo', FlxColor.fromRGB(95, 0, 0));
 			addSong('Habunda', 3, 'exbungo', FlxColor.fromRGB(80, 0, 0));
 			addSong('sternocleido', 3, 'exbungo', FlxColor.fromRGB(80, 0, 0));
